@@ -1,0 +1,1 @@
+schedule function thorax:technical/clock/10s 10s

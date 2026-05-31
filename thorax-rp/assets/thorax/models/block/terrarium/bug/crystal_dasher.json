@@ -1,0 +1,7 @@
+{
+    "parent": "thorax:entity/bug/crystal_dasher",
+    "textures": {
+		"0": "thorax:block/terrarium/bug/crystal_dasher",
+		"particle": "thorax:block/terrarium/bug/crystal_dasher"
+	}
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "thorax:entity/bug/hawk_moth",
+    "textures": {
+		"0": "thorax:block/terrarium/bug/hawk_moth",
+		"particle": "thorax:block/terrarium/bug/hawk_moth"
+	}
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "thorax:block/terrarium/base/oak",
+    "textures": {
+        "0": "thorax:block/terrarium/base/dark_oak",
+        "particle": "block/dark_oak_planks"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "thorax:entity/bug/ladybug",
+    "textures": {
+		"0": "thorax:block/terrarium/bug/ladybug",
+		"particle": "thorax:block/terrarium/bug/ladybug"
+	}
+}

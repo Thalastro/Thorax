@@ -1,0 +1,7 @@
+{
+    "parent": "thorax:entity/bug/azure_damselfly",
+    "textures": {
+		"0": "thorax:block/terrarium/bug/azure_damselfly",
+		"particle": "thorax:block/terrarium/bug/azure_damselfly"
+	}
+}

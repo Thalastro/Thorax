@@ -1,0 +1,7 @@
+{
+    "parent": "thorax:entity/bug/walking_leaf",
+    "textures": {
+		"0": "thorax:block/terrarium/bug/walking_leaf",
+		"particle": "thorax:block/terrarium/bug/walking_leaf"
+	}
+}

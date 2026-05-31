@@ -1,0 +1,7 @@
+{
+    "parent": "thorax:entity/bug/red_maiden",
+    "textures": {
+		"0": "thorax:block/terrarium/bug/red_maiden",
+		"particle": "thorax:block/terrarium/bug/red_maiden"
+	}
+}

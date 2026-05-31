@@ -1,0 +1,85 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:item_name": {
+              "translate": "item.thorax.praying_mantis"
+            },
+            "minecraft:lore": [
+              [
+                {
+                  "text": "0 ",
+                  "color": "white",
+                  "font": "thorax:icon",
+                  "italic": false
+                },
+                {
+                  "translate": "ui.thorax.title",
+                  "color": "white",
+                  "font": "thorax:tooltip",
+                  "italic": false
+                }
+              ],
+              "",
+              [
+                {
+                  "translate": "item.thorax.bug.essence.harmony.symbol",
+                  "color": "white",
+                  "font": "thorax:essence",
+                  "italic": false
+                },
+                {
+                  "translate": "item.thorax.bug.essence.harmony.name",
+                  "color": "#93f75a",
+                  "font": "minecraft:default",
+                  "italic": false
+                }
+              ],
+              [
+                {
+                  "translate": "item.thorax.bug.diet.carnivore.symbol",
+                  "color": "white",
+                  "font": "thorax:diet",
+                  "italic": false
+                },
+                {
+                  "translate": "item.thorax.bug.diet.carnivore.name",
+                  "color": "#e9257a",
+                  "font": "minecraft:default",
+                  "italic": false
+                }
+              ]
+            ],
+            "minecraft:custom_data": {
+              "thorax": {
+                "id": "praying_mantis",
+                "bug": {
+                  "terrarium_loot_table": "thorax:items/bug/praying_mantis",
+                  "rarity": "common",
+                  "essence": "harmony",
+                  "diet": "carnivore"
+                }
+              }
+            },
+            "minecraft:item_model": "thorax:bug/praying_mantis",
+            "minecraft:tooltip_style": "thorax:thorax",
+            "minecraft:rarity": "common",
+            "!minecraft:consumable": {},
+            "!minecraft:food": {}
+          }
+        }
+      ]
+    }
+  ]
+}

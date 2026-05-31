@@ -1,0 +1,7 @@
+{
+    "parent": "thorax:entity/bug/agrias_butterfly",
+    "textures": {
+		"0": "thorax:block/terrarium/bug/agrias_butterfly",
+		"particle": "thorax:block/terrarium/bug/agrias_butterfly"
+	}
+}

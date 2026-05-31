@@ -1,0 +1,7 @@
+{
+    "parent": "thorax:block/terrarium/glass/normal",
+    "textures": {
+        "0": "thorax:block/terrarium/glass/yellow",
+        "particle": "block/yellow_stained_glass"
+    }
+}

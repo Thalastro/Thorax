@@ -1,0 +1,85 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:item_name": {
+              "translate": "item.thorax.rosy_maple_moth"
+            },
+            "minecraft:lore": [
+              [
+                {
+                  "text": "0 ",
+                  "color": "white",
+                  "font": "thorax:icon",
+                  "italic": false
+                },
+                {
+                  "translate": "ui.thorax.title",
+                  "color": "white",
+                  "font": "thorax:tooltip",
+                  "italic": false
+                }
+              ],
+              "",
+              [
+                {
+                  "translate": "item.thorax.bug.essence.radiance.symbol",
+                  "color": "white",
+                  "font": "thorax:essence",
+                  "italic": false
+                },
+                {
+                  "translate": "item.thorax.bug.essence.radiance.name",
+                  "color": "#ff9b44",
+                  "font": "minecraft:default",
+                  "italic": false
+                }
+              ],
+              [
+                {
+                  "translate": "item.thorax.bug.diet.herbivore.symbol",
+                  "color": "white",
+                  "font": "thorax:diet",
+                  "italic": false
+                },
+                {
+                  "translate": "item.thorax.bug.diet.herbivore.name",
+                  "color": "#3afa6a",
+                  "font": "minecraft:default",
+                  "italic": false
+                }
+              ]
+            ],
+            "minecraft:custom_data": {
+              "thorax": {
+                "id": "rosy_maple_moth",
+                "bug": {
+                  "terrarium_loot_table": "thorax:items/bug/rosy_maple_moth",
+                  "rarity": "uncommon",
+                  "essence": "radiance",
+                  "diet": "herbivore"
+                }
+              }
+            },
+            "minecraft:item_model": "thorax:bug/rosy_maple_moth",
+            "minecraft:tooltip_style": "thorax:thorax",
+            "minecraft:rarity": "uncommon",
+            "!minecraft:consumable": {},
+            "!minecraft:food": {}
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+    "model": {
+        "type": "select",
+        "property": "custom_model_data",
+        "cases": []
+    }
+}

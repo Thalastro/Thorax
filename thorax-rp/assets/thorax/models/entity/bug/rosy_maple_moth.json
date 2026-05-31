@@ -1,0 +1,7 @@
+{
+    "parent": "thorax:entity/bug/monarch_butterfly",
+    "textures": {
+		"0": "thorax:entity/bug/rosy_maple_moth",
+		"particle": "thorax:entity/bug/rosy_maple_moth"
+	}
+}

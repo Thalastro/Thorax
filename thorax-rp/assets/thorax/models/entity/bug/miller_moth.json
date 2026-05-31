@@ -1,0 +1,7 @@
+{
+    "parent": "thorax:entity/bug/cabbage_butterfly",
+    "textures": {
+		"0": "thorax:entity/bug/miller_moth",
+		"particle": "thorax:entity/bug/miller_moth"
+	}
+}

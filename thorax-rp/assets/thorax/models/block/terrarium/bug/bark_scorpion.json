@@ -1,0 +1,7 @@
+{
+    "parent": "thorax:entity/bug/bark_scorpion",
+    "textures": {
+		"0": "thorax:block/terrarium/bug/bark_scorpion",
+		"particle": "thorax:block/terrarium/bug/bark_scorpion"
+	}
+}

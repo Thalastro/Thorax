@@ -1,0 +1,7 @@
+{
+    "parent": "thorax:entity/bug/green_darner",
+    "textures": {
+        "0": "thorax:entity/bug/crystal_dasher",
+        "particle": "thorax:entity/bug/crystal_dasher"
+    }
+}

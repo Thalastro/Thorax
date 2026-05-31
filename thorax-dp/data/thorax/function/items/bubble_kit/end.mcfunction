@@ -1,0 +1,15 @@
+scoreboard players remove @s thorax.dummy 1
+execute if score @s thorax.dummy matches 1.. run return run advancement revoke @s only thorax:technical/using_item/bubble_kit/end
+scoreboard players reset @s thorax.dummy
+
+# Small Bubble
+execute anchored eyes if score @s thorax.bubble_meter matches 12..27 positioned ^ ^ ^-0.1 run function thorax:item/bubble_kit/summon/small
+
+# Medium Bubble
+execute anchored eyes if score @s thorax.bubble_meter matches 28..44 positioned ^ ^ ^-0.1 run function thorax:item/bubble_kit/summon/medium
+
+# Large Bubble
+execute anchored eyes if score @s thorax.bubble_meter matches 45.. positioned ^ ^ ^-0.1 run function thorax:item/bubble_kit/summon/large
+
+scoreboard players reset @s thorax.bubble_meter
+title @s times 0 0 0

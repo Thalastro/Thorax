@@ -1,0 +1,7 @@
+{
+    "parent": "thorax:entity/bug/luna_moth",
+    "textures": {
+		"0": "thorax:block/terrarium/bug/luna_moth",
+		"particle": "thorax:block/terrarium/bug/luna_moth"
+	}
+}

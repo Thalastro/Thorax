@@ -1,0 +1,7 @@
+{
+    "parent": "thorax:entity/bug/pond_skater",
+    "textures": {
+        "0": "thorax:entity/bug/sea_strider",
+        "particle": "thorax:entity/bug/sea_strider"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "thorax:entity/bug/arctic_apollo",
+    "textures": {
+		"0": "thorax:block/terrarium/bug/arctic_apollo",
+		"particle": "thorax:block/terrarium/bug/arctic_apollo"
+	}
+}

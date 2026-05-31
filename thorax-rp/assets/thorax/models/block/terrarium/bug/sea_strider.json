@@ -1,0 +1,7 @@
+{
+    "parent": "thorax:entity/bug/sea_strider",
+    "textures": {
+		"0": "thorax:block/terrarium/bug/sea_strider",
+		"particle": "thorax:block/terrarium/bug/sea_strider"
+	}
+}

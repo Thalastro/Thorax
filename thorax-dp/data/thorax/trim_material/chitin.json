@@ -1,0 +1,7 @@
+{
+  "asset_name": "chitin",
+  "description": {
+    "color": "#8f748c",
+    "translate": "thorax.trim_material.chitin"
+  }
+}

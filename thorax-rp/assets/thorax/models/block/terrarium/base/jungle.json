@@ -1,0 +1,7 @@
+{
+    "parent": "thorax:block/terrarium/base/oak",
+    "textures": {
+        "0": "thorax:block/terrarium/base/jungle",
+        "particle": "block/jungle_planks"
+    }
+}

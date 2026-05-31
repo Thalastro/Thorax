@@ -1,0 +1,7 @@
+{
+    "parent": "thorax:entity/bug/gilded_mantis",
+    "textures": {
+		"0": "thorax:block/terrarium/bug/gilded_mantis",
+		"particle": "thorax:block/terrarium/bug/gilded_mantis"
+	}
+}

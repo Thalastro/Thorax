@@ -1,0 +1,735 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "cases": [
+          {
+            "when": "oak",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/base/oak"
+            }
+          },
+          {
+            "when": "spruce",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/base/spruce"
+            }
+          },
+          {
+            "when": "birch",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/base/birch"
+            }
+          },
+          {
+            "when": "jungle",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/base/jungle"
+            }
+          },
+          {
+            "when": "dark_oak",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/base/dark_oak"
+            }
+          },
+          {
+            "when": "acacia",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/base/acacia"
+            }
+          },
+          {
+            "when": "mangrove",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/base/mangrove"
+            }
+          },
+          {
+            "when": "cherry",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/base/cherry"
+            }
+          },
+          {
+            "when": "bamboo",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/base/bamboo"
+            }
+          },
+          {
+            "when": "pale_oak",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/base/pale_oak"
+            }
+          },
+          {
+            "when": "crimson",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/base/crimson"
+            }
+          },
+          {
+            "when": "warped",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/base/warped"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:empty"
+        }
+      },
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 1,
+        "cases": [
+          {
+            "when": "glass",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/glass/glass"
+            }
+          },
+          {
+            "when": "tinted",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/glass/tinted"
+            }
+          },
+          {
+            "when": "red",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/glass/red"
+            }
+          },
+          {
+            "when": "orange",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/glass/orange"
+            }
+          },
+          {
+            "when": "yellow",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/glass/yellow"
+            }
+          },
+          {
+            "when": "lime",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/glass/lime"
+            }
+          },
+          {
+            "when": "green",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/glass/green"
+            }
+          },
+          {
+            "when": "light_blue",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/glass/light_blue"
+            }
+          },
+          {
+            "when": "cyan",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/glass/cyan"
+            }
+          },
+          {
+            "when": "blue",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/glass/blue"
+            }
+          },
+          {
+            "when": "pink",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/glass/pink"
+            }
+          },
+          {
+            "when": "magenta",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/glass/magenta"
+            }
+          },
+          {
+            "when": "purple",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/glass/purple"
+            }
+          },
+          {
+            "when": "brown",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/glass/brown"
+            }
+          },
+          {
+            "when": "white",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/glass/white"
+            }
+          },
+          {
+            "when": "light_gray",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/glass/light_gray"
+            }
+          },
+          {
+            "when": "gray",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/glass/gray"
+            }
+          },
+          {
+            "when": "black",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/glass/black"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:empty"
+        }
+      },
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 2,
+        "cases": [
+          {
+            "when": "cabbage_butterfly",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "thorax:block/terrarium/bug/cabbage_butterfly",
+                  "transformation": {
+                    "translation": [0,0.3,0],
+                    "left_rotation": [0,0,0,1],
+                    "right_rotation": [0,0,0,1],
+                    "scale": [1,1,1]
+                  }
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "thorax:block/terrarium/decor/perch"
+                }
+              ]
+            }
+          },
+          {
+            "when": "agrias_butterfly",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "thorax:block/terrarium/bug/agrias_butterfly",
+                  "transformation": {
+                    "translation": [0,0.3,0],
+                    "left_rotation": [0,0,0,1],
+                    "right_rotation": [0,0,0,1],
+                    "scale": [1,1,1]
+                  }
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "thorax:block/terrarium/decor/perch"
+                }
+              ]
+            }
+          },
+          {
+            "when": "monarch_butterfly",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "thorax:block/terrarium/bug/monarch_butterfly",
+                  "transformation": {
+                    "translation": [0,0.3,0],
+                    "left_rotation": [0,0,0,1],
+                    "right_rotation": [0,0,0,1],
+                    "scale": [1,1,1]
+                  }
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "thorax:block/terrarium/decor/perch"
+                }
+              ]
+            }
+          },
+          {
+            "when": "blazing_daggerwing",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "thorax:block/terrarium/bug/blazing_daggerwing",
+                  "transformation": {
+                    "translation": [0,0.3,0],
+                    "left_rotation": [0,0,0,1],
+                    "right_rotation": [0,0,0,1],
+                    "scale": [1,1,1]
+                  }
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "thorax:block/terrarium/decor/perch"
+                }
+              ]
+            }
+          },
+          {
+            "when": "arctic_apollo",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "thorax:block/terrarium/bug/arctic_apollo",
+                  "transformation": {
+                    "translation": [0,0.3,0],
+                    "left_rotation": [0,0,0,1],
+                    "right_rotation": [0,0,0,1],
+                    "scale": [1,1,1]
+                  }
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "thorax:block/terrarium/decor/perch"
+                }
+              ]
+            }
+          },
+          {
+            "when": "miller_moth",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "thorax:block/terrarium/bug/miller_moth",
+                  "transformation": {
+                    "translation": [0,0.3,0],
+                    "left_rotation": [0,0,0,1],
+                    "right_rotation": [0,0,0,1],
+                    "scale": [1,1,1]
+                  }
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "thorax:block/terrarium/decor/perch"
+                }
+              ]
+            }
+          },
+          {
+            "when": "hawk_moth",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "thorax:block/terrarium/bug/hawk_moth",
+                  "transformation": {
+                    "translation": [0,0.3,0],
+                    "left_rotation": [0,0,0,1],
+                    "right_rotation": [0,0,0,1],
+                    "scale": [1,1,1]
+                  }
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "thorax:block/terrarium/decor/perch"
+                }
+              ]
+            }
+          },
+          {
+            "when": "luna_moth",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "thorax:block/terrarium/bug/luna_moth",
+                  "transformation": {
+                    "translation": [0,0.3,0],
+                    "left_rotation": [0,0,0,1],
+                    "right_rotation": [0,0,0,1],
+                    "scale": [1,1,1]
+                  }
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "thorax:block/terrarium/decor/perch"
+                }
+              ]
+            }
+          },
+          {
+            "when": "rosy_maple_moth",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "thorax:block/terrarium/bug/rosy_maple_moth",
+                  "transformation": {
+                    "translation": [0,0.3,0],
+                    "left_rotation": [0,0,0,1],
+                    "right_rotation": [0,0,0,1],
+                    "scale": [1,1,1]
+                  }
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "thorax:block/terrarium/decor/perch"
+                }
+              ]
+            }
+          },
+          {
+            "when": "caccophomoth",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "thorax:block/terrarium/bug/caccophomoth",
+                  "transformation": {
+                    "translation": [0,0.3,0],
+                    "left_rotation": [0,0,0,1],
+                    "right_rotation": [0,0,0,1],
+                    "scale": [1,1,1]
+                  }
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "thorax:block/terrarium/decor/perch"
+                }
+              ]
+            }
+          },
+          {
+            "when": "praying_mantis",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/bug/praying_mantis",
+              "transformation": {
+                "translation": [0,0.15,0],
+                "left_rotation": [0,0,0,1],
+                "right_rotation": [0,0,0,1],
+                "scale": [1,1,1]
+              }
+            }
+          },
+          {
+            "when": "orchid_mantis",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/bug/orchid_mantis",
+              "transformation": {
+                "translation": [0,0.15,0],
+                "left_rotation": [0,0,0,1],
+                "right_rotation": [0,0,0,1],
+                "scale": [1,1,1]
+              }
+            }
+          },
+          {
+            "when": "gilded_mantis",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/bug/gilded_mantis",
+              "transformation": {
+                "translation": [0,0.15,0],
+                "left_rotation": [0,0,0,1],
+                "right_rotation": [0,0,0,1],
+                "scale": [1,1,1]
+              }
+            }
+          },
+          {
+            "when": "green_darner",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "thorax:block/terrarium/bug/green_darner",
+                  "transformation": {
+                    "translation": [0,0.3,0],
+                    "left_rotation": [0,0,0,1],
+                    "right_rotation": [0,0,0,1],
+                    "scale": [1,1,1]
+                  }
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "thorax:block/terrarium/decor/perch"
+                }
+              ]
+            }
+          },
+          {
+            "when": "azure_damselfly",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "thorax:block/terrarium/bug/azure_damselfly",
+                  "transformation": {
+                    "translation": [0,0.3,0],
+                    "left_rotation": [0,0,0,1],
+                    "right_rotation": [0,0,0,1],
+                    "scale": [1,1,1]
+                  }
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "thorax:block/terrarium/decor/perch"
+                }
+              ]
+            }
+          },
+          {
+            "when": "crystal_dasher",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "thorax:block/terrarium/bug/crystal_dasher",
+                  "transformation": {
+                    "translation": [0,0.3,0],
+                    "left_rotation": [0,0,0,1],
+                    "right_rotation": [0,0,0,1],
+                    "scale": [1,1,1]
+                  }
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "thorax:block/terrarium/decor/perch"
+                }
+              ]
+            }
+          },
+          {
+            "when": "walking_stick",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/bug/walking_stick",
+              "transformation": {
+                "translation": [0,0.15,0],
+                "left_rotation": [0,0,0,1],
+                "right_rotation": [0,0,0,1],
+                "scale": [1,1,1]
+              }
+            }
+          },
+          {
+            "when": "walking_leaf",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/bug/walking_leaf",
+              "transformation": {
+                "translation": [0,0.15,0],
+                "left_rotation": [0,0,0,1],
+                "right_rotation": [0,0,0,1],
+                "scale": [1,1,1]
+              }
+            }
+          },
+          {
+            "when": "ladybug",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/bug/ladybug",
+              "transformation": {
+                "translation": [0,0.15,0],
+                "left_rotation": [0,0,0,1],
+                "right_rotation": [0,0,0,1],
+                "scale": [1,1,1]
+              }
+            }
+          },
+          {
+            "when": "pond_skater",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/bug/pond_skater",
+              "transformation": {
+                "translation": [0,0.15,0],
+                "left_rotation": [0,0,0,1],
+                "right_rotation": [0,0,0,1],
+                "scale": [1,1,1]
+              }
+            }
+          },
+          {
+            "when": "sea_strider",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/bug/sea_strider",
+              "transformation": {
+                "translation": [0,0.15,0],
+                "left_rotation": [0,0,0,1],
+                "right_rotation": [0,0,0,1],
+                "scale": [1,1,1]
+              }
+            }
+          },
+          {
+            "when": "bark_scorpion",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/bug/bark_scorpion",
+              "transformation": {
+                "translation": [0,0.15,0],
+                "left_rotation": [0,0,0,1],
+                "right_rotation": [0,0,0,1],
+                "scale": [1,1,1]
+              }
+            }
+          },
+          {
+            "when": "cathode_scorpion",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/bug/cathode_scorpion",
+              "transformation": {
+                "translation": [0,0.15,0],
+                "left_rotation": [0,0,0,1],
+                "right_rotation": [0,0,0,1],
+                "scale": [1,1,1]
+              }
+            }
+          },
+          {
+            "when": "red_maiden",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/bug/red_maiden",
+              "transformation": {
+                "translation": [0,0.15,0],
+                "left_rotation": [0,0,0,1],
+                "right_rotation": [0,0,0,1],
+                "scale": [1,1,1]
+              }
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:empty"
+        }
+      },
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 3,
+        "cases": [
+          {
+            "when": "leaves",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/decor/leaves"
+            }
+          },
+          {
+            "when": "dried_leaves",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/decor/dried_leaves"
+            }
+          },
+          {
+            "when": "cherry_leaves",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/decor/cherry_leaves"
+            }
+          },
+          {
+            "when": "sand",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/decor/sand"
+            }
+          },
+          {
+            "when": "red_sand",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/decor/red_sand"
+            }
+          },
+          {
+            "when": "puddle",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/decor/puddle"
+            }
+          },
+          {
+            "when": "snow",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/decor/snow"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:empty"
+        }
+      }
+    ]
+  }
+}

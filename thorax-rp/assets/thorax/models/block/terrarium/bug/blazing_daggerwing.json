@@ -1,0 +1,7 @@
+{
+    "parent": "thorax:entity/bug/blazing_daggerwing",
+    "textures": {
+		"0": "thorax:block/terrarium/bug/blazing_daggerwing",
+		"particle": "thorax:block/terrarium/bug/blazing_daggerwing"
+	}
+}
