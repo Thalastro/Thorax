@@ -1,0 +1,30 @@
+{
+  "model": {
+  "type": "minecraft:select",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+        "cases": [
+            {
+                "when": "golden_isles",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "thorax:item/expedition_map/closed/golden_isles"
+                }
+            },
+            {
+                "when": "greenhouse",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "thorax:item/expedition_map/closed/greenhouse"
+                }
+            },
+            {
+                "when": "open",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "thorax:item/expedition_map/open"
+                }
+            }
+        ]
+    }
+}

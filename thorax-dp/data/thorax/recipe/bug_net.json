@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "1": "minecraft:stick",
+    "2": "minecraft:string"
+  },
+  "pattern": [
+    "122",
+    "122",
+    "1  "
+  ],
+  "result": {
+    "id": "minecraft:poisonous_potato",
+    "components": {
+      "minecraft:item_name": {
+        "translate": "item.thorax.bug_net"
+      },
+      "minecraft:item_model": "thorax:bug_net",
+      "minecraft:tooltip_style": "thorax:thorax",
+      "minecraft:rarity": "common",
+      "minecraft:max_damage": 64,
+      "minecraft:max_stack_size": 1,
+      "!minecraft:consumable": {},
+      "!minecraft:food": {},
+      "minecraft:lore": [
+        [
+          {
+            "text": "0 ",
+            "color": "white",
+            "font": "thorax:icon",
+            "italic": false
+          },
+          {
+            "translate": "ui.thorax.title",
+            "color": "white",
+            "font": "thorax:tooltip",
+            "italic": false
+          }
+        ]
+      ],
+      "minecraft:custom_data": {
+        "thorax": {
+          "id": "bug_net"
+        },
+        "smithed": {
+          "ignore": {
+            "functionality": 1,
+            "crafting": 1
+          }
+        }
+      }
+    }
+  }
+}

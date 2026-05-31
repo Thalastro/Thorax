@@ -106,5 +106,8 @@
     "block.thorax.terrarium.description.1": "%s with an insect to %s it.",
     "block.thorax.terrarium.description.2": "display",
     "block.thorax.terrarium.description.3": "Feed insects according to their %s.",
-    "block.thorax.terrarium.description.4": "diet"
+    "block.thorax.terrarium.description.4": "diet",
+    
+    "thorax.advancement.root.title": "Entomology",
+    "thorax.advancement.root.description": "Explore a world brimming with insects!"
 }

@@ -1,0 +1,43 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "entries": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "thorax:item/particle/bubble_pop/1"
+        },
+        "threshold": 1
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "thorax:item/particle/bubble_pop/2"
+        },
+        "threshold": 2
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "thorax:item/particle/bubble_pop/3"
+        },
+        "threshold": 3
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "thorax:item/particle/bubble_pop/4"
+        },
+        "threshold": 4
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "thorax:item/particle/bubble_pop/5"
+        },
+        "threshold": 5
+      }
+    ]
+  }
+}
