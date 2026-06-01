@@ -1,0 +1,392 @@
+{
+  "parent": "thorax:entomology/insect_itinerary",
+    "criteria": {
+      "thorax:catch_cabbage_butterfly": {
+        "trigger": "inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "predicates": {
+                "minecraft:custom_data": {
+                "thorax": {
+                "id": "cabbage_butterfly"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "thorax:catch_agrias_butterfly": {
+        "trigger": "inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "predicates": {
+                "minecraft:custom_data": {
+                "thorax": {
+                "id": "agrias_butterfly"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "thorax:catch_monarch_butterfly": {
+        "trigger": "inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "predicates": {
+                "minecraft:custom_data": {
+                "thorax": {
+                "id": "monarch_butterfly"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "thorax:catch_blazing_daggerwing": {
+        "trigger": "inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "predicates": {
+                "minecraft:custom_data": {
+                "thorax": {
+                "id": "blazing_daggerwing"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "thorax:catch_arctic_apollo": {
+        "trigger": "inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "predicates": {
+                "minecraft:custom_data": {
+                "thorax": {
+                "id": "arctic_apollo"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "thorax:catch_miller_moth": {
+        "trigger": "inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "predicates": {
+                "minecraft:custom_data": {
+                "thorax": {
+                "id": "miller_moth"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "thorax:catch_hawk_moth": {
+        "trigger": "inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "predicates": {
+                "minecraft:custom_data": {
+                "thorax": {
+                "id": "hawk_moth"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "thorax:catch_luna_moth": {
+        "trigger": "inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "predicates": {
+                "minecraft:custom_data": {
+                "thorax": {
+                "id": "luna_moth"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "thorax:catch_rosy_maple_moth": {
+        "trigger": "inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "predicates": {
+                "minecraft:custom_data": {
+                "thorax": {
+                "id": "rosy_maple_moth"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "thorax:catch_caccophomoth": {
+        "trigger": "inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "predicates": {
+                "minecraft:custom_data": {
+                "thorax": {
+                "id": "caccophomoth"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "thorax:catch_praying_mantis": {
+        "trigger": "inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "predicates": {
+                "minecraft:custom_data": {
+                "thorax": {
+                "id": "praying_mantis"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "thorax:catch_orchid_mantis": {
+        "trigger": "inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "predicates": {
+                "minecraft:custom_data": {
+                "thorax": {
+                "id": "orchid_mantis"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "thorax:catch_gilded_mantis": {
+        "trigger": "inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "predicates": {
+                "minecraft:custom_data": {
+                "thorax": {
+                "id": "gilded_mantis"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "thorax:catch_ladybug": {
+        "trigger": "inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "predicates": {
+                "minecraft:custom_data": {
+                "thorax": {
+                "id": "ladybug"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "thorax:catch_walking_stick": {
+        "trigger": "inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "predicates": {
+                "minecraft:custom_data": {
+                "thorax": {
+                "id": "walking_stick"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "thorax:catch_walking_leaf": {
+        "trigger": "inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "predicates": {
+                "minecraft:custom_data": {
+                "thorax": {
+                "id": "walking_leaf"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "thorax:catch_green_darner": {
+        "trigger": "inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "predicates": {
+                "minecraft:custom_data": {
+                "thorax": {
+                "id": "green_darner"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "thorax:catch_azure_damselfly": {
+        "trigger": "inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "predicates": {
+                "minecraft:custom_data": {
+                "thorax": {
+                "id": "azure_damselfly"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "thorax:catch_crystal_dasher": {
+        "trigger": "inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "predicates": {
+                "minecraft:custom_data": {
+                "thorax": {
+                "id": "crystal_dasher"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "thorax:catch_pond_skater": {
+        "trigger": "inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "predicates": {
+                "minecraft:custom_data": {
+                "thorax": {
+                "id": "pond_skater"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "thorax:catch_sea_strider": {
+        "trigger": "inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "predicates": {
+                "minecraft:custom_data": {
+                "thorax": {
+                "id": "sea_strider"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "thorax:catch_bark_scorpion": {
+        "trigger": "inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "predicates": {
+                "minecraft:custom_data": {
+                "thorax": {
+                "id": "bark_scorpion"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "thorax:catch_cathode_scorpion": {
+        "trigger": "inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "predicates": {
+                "minecraft:custom_data": {
+                "thorax": {
+                "id": "cathode_scorpion"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "display": {
+        "title": {"translate": "advancement.thorax.catch_all_bugs.title"},
+        "description": [{"translate": "advancement.thorax.catch_all_bugs.description"},
+        "\n\n",
+        {"text": "0 ", "color": "white", "font": "thorax:icon", "italic": false},
+        {"translate": "ui.thorax.title", "color": "white", "font": "thorax:tooltip", "italic": false}
+    ],
+        "icon": {
+            "id": "poisonous_potato",
+            "components": {"item_model":"thorax:bug/gilded_mantis"}
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "rewards": {
+        "experience": 250
+    }
+}

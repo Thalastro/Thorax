@@ -1,0 +1,27 @@
+{
+  "parent": "thorax:entomology/catch_bug",
+    "criteria": {
+        "thorax:insect_itinerary_crafted": {
+            "trigger": "recipe_crafted",
+            "conditions": {
+                "recipe_id": "thorax:insect_itinerary"
+            }
+        }
+    },
+    "display": {
+        "title": {"translate": "advancement.thorax.insect_itinerary.title"},
+        "description": [{"translate": "advancement.thorax.insect_itinerary.description"},
+        "\n\n",
+        {"text": "0 ", "color": "white", "font": "thorax:icon", "italic": false},
+        {"translate": "ui.thorax.title", "color": "white", "font": "thorax:tooltip", "italic": false}
+    ],
+        "icon": {
+            "id": "poisonous_potato",
+            "components": {"item_model":"thorax:insect_itinerary"}
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    }
+}

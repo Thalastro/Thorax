@@ -14,7 +14,8 @@
           "function": "minecraft:set_components",
           "components": {
             "minecraft:item_name": {
-              "translate": "item.thorax.monarch_butterfly"
+              "translate": "item.thorax.monarch_butterfly",
+              "fallback": "Monarch Butterfly"
             },
             "minecraft:lore": [
               [
@@ -73,7 +74,7 @@
               }
             },
             "minecraft:item_model": "thorax:bug/monarch_butterfly",
-            "minecraft:tooltip_style": "thorax:thorax",
+            "minecraft:tooltip_style": "thorax:main",
             "minecraft:rarity": "uncommon",
             "!minecraft:consumable": {},
             "!minecraft:food": {}

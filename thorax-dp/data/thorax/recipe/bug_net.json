@@ -17,7 +17,7 @@
         "translate": "item.thorax.bug_net"
       },
       "minecraft:item_model": "thorax:bug_net",
-      "minecraft:tooltip_style": "thorax:thorax",
+      "minecraft:tooltip_style": "thorax:main",
       "minecraft:rarity": "common",
       "minecraft:max_damage": 64,
       "minecraft:max_stack_size": 1,

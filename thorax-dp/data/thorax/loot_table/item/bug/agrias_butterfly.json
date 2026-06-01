@@ -14,7 +14,8 @@
           "function": "minecraft:set_components",
           "components": {
             "minecraft:item_name": {
-              "translate": "item.thorax.agrias_butterfly"
+              "translate": "item.thorax.agrias_butterfly",
+              "fallback": "Agrias Butterfly"
             },
             "minecraft:lore": [
               [

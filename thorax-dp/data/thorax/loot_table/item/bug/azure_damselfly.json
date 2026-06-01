@@ -14,7 +14,8 @@
           "function": "minecraft:set_components",
           "components": {
             "minecraft:item_name": {
-              "translate": "item.thorax.azure_damselfly"
+              "translate": "item.thorax.azure_damselfly",
+              "fallback": "Azure Damselfly"
             },
             "minecraft:lore": [
               [

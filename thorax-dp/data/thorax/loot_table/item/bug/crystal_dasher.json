@@ -75,7 +75,7 @@
             },
             "minecraft:item_model": "thorax:bug/crystal_dasher",
             "minecraft:tooltip_style": "thorax:main",
-            "minecraft:rarity": "epic",
+            "minecraft:rarity": "rare",
             "!minecraft:consumable": {},
             "!minecraft:food": {}
           }

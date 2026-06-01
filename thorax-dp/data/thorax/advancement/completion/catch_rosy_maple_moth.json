@@ -1,0 +1,21 @@
+{
+    "parent": "thorax:completion/root",
+    "criteria": {
+        "thorax:catch_rosy_maple_moth": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "thorax": {
+                                "id": "rosy_maple_moth"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    } 
+}

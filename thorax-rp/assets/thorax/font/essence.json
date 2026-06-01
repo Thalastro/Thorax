@@ -1,0 +1,19 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "thorax:gui/essence.png",
+            "height": 9,
+            "ascent": 8,
+            "chars": [
+                "ABCD"
+            ]
+        },
+		{
+			"type": "space",
+			"advances": {
+				" ": 2
+			}
+		}
+    ]
+}

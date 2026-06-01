@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "thorax:item/expedition_map/closed/base"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_name",
+          "target": "item_name",
+          "name": {
+            "translate": "item.thorax.eternal_gardens_map"
+          }
+        },
+        {
+          "function": "minecraft:set_custom_data",
+          "tag": {
+            "thallium": {
+              "grab_bag": {
+                "loot_table": "thorax:items/expedition_map/open/eternal_gardens"
+              }
+            }
+          }
+        },
+        {
+            "function": "minecraft:set_custom_model_data",
+            "strings": {
+                "mode": "replace_all",
+                "values":  [
+                    "eternal_gardens"
+                ]
+            }
+        }
+      ]
+    }
+  ]
+}

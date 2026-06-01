@@ -1,0 +1,62 @@
+{
+  "type": "minecraft:notice",
+  "title": {
+    "translate": "ui.thallium.credits"
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        { "translate": "ui.thallium.hyphen",
+          "with": [ { "translate": "contributor.bigmastah", "color": "#ff7936" }, { "translate": "contributor.thorax.bigmastah.description" } ],
+          "click_event": { "action": "open_url", "url": "https://modrinth.com/user/BigMastah" },
+          "hover_event": { "action": "show_text", "value": { "text": "Modrinth" } } },
+          "\n",
+        { "translate": "ui.thallium.hyphen",
+          "with": [ { "translate": "contributor.lead", "color": "#c99b73" }, { "translate": "contributor.thorax.lead.description" } ],
+          "click_event": { "action": "open_url", "url": "https://modrinth.com/user/LeadisToxic" },
+          "hover_event": { "action": "show_text", "value": { "text": "Modrinth" } } },
+          "\n",
+        { "translate": "ui.thallium.hyphen",
+          "with": [ { "translate": "contributor.ninesnow", "color": "#ee53a6" }, { "translate": "contributor.thorax.ninesnow.description" } ],
+          "click_event": { "action": "open_url", "url": "https://modrinth.com/user/ninesnow" },
+          "hover_event": { "action": "show_text", "value": { "text": "Modrinth" } } },
+          "\n",
+        { "translate": "ui.thallium.hyphen",
+          "with": [ { "translate": "contributor.fracturedflux", "color": "#df428a" }, { "translate": "contributor.thorax.fracturedflux.description" } ],
+          "click_event": { "action": "open_url", "url": "https://modrinth.com/user/fracturedflux" },
+          "hover_event": { "action": "show_text", "value": { "text": "Modrinth" } } },
+          "\n",
+        { "translate": "ui.thallium.hyphen",
+          "with": [ { "translate": "contributor.toasteddragon", "color": "#4aec80" }, { "translate": "contributor.thorax.toasteddragon.description" } ],
+          "click_event": { "action": "open_url", "url": "https://modrinth.com/user/toasteddragon" },
+          "hover_event": { "action": "show_text", "value": { "text": "Modrinth" } } }
+      ],
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "credits.thorax.community",
+        "with": [
+          {
+            "translate": "credits.thorax.community.starstead",
+            "color": "#ff3f96"
+          }
+        ]
+      },
+      "width": 250
+    }
+  ],
+  "pause": true,
+  "action": {
+    "label": {
+      "translate": "gui.back"
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "thorax:root"
+    },
+    "width": 200
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:item_name": {
+              "translate": "item.thorax.bubble_wand"
+            },
+            "minecraft:lore": [
+              [
+                {
+                  "text": "0 ",
+                  "color": "white",
+                  "font": "thorax:icon",
+                  "italic": false
+                },
+                {
+                  "translate": "ui.thorax.title",
+                  "color": "white",
+                  "font": "thorax:tooltip",
+                  "italic": false
+                }
+              ],
+          [
+            {
+              "translate": "item.thorax.bubble_wand.description.1",
+              "color": "gray",
+              "italic": false,
+              "with": [
+                {
+                    "keybind": "key.use",
+                    "italic": false
+                },
+                {
+                  "translate": "item.thorax.bubble_wand.description.2",
+                  "color": "#a1dbff"
+                }
+              ]
+            }
+          ]
+            ],
+            "minecraft:custom_data": {
+              "thorax": {
+                "id": "bubble_wand"
+              },
+              "smithed": {
+                "ignore": {
+                  "functionality": true,
+                  "crafting": true
+                }
+              }
+            },
+            "minecraft:item_model": "thorax:bubble_wand",
+            "minecraft:tooltip_style": "thorax:main",
+            "minecraft:rarity": "uncommon",
+            "minecraft:max_stack_size": 64,
+            "!minecraft:food": {},
+            "minecraft:consumable": {
+                "animation": "block",
+                "consume_seconds": 0.75,
+                "has_consume_particles": false,
+                "sound": {
+                    "sound_id": "thorax:item.bubble_wand.use",
+                    "range": 1
+                }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

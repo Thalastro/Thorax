@@ -1,0 +1,61 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:item_name": {
+              "translate": "item.thorax.bug_net"
+            },
+            "minecraft:lore": [
+              [
+                {
+                  "text": "0 ",
+                  "color": "white",
+                  "font": "thorax:icon",
+                  "italic": false
+                },
+                {
+                  "translate": "ui.thorax.title",
+                  "color": "white",
+                  "font": "thorax:tooltip",
+                  "italic": false
+                }
+              ]
+            ],
+            "minecraft:custom_data": {
+              "thorax": {
+                "id": "bug_net"
+              },
+              "smithed": {
+                "ignore": {
+                  "functionality": true,
+                  "crafting": true
+                }
+              }
+            },
+            "minecraft:item_model": "thorax:bug_net",
+            "minecraft:tooltip_style": "thorax:main",
+            "minecraft:rarity": "common",
+            "minecraft:max_stack_size": 1,
+            "minecraft:max_damage": 64,
+            "minecraft:repairable": {
+              "items": "minecraft:string"
+            },
+            "!minecraft:consumable": {},
+            "!minecraft:food": {}
+          }
+        }
+      ]
+    }
+  ]
+}

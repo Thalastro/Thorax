@@ -1,0 +1,21 @@
+{
+    "parent": "thorax:completion/root",
+    "criteria": {
+        "thorax:catch_sea_strider": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "thorax": {
+                                "id": "sea_strider"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    } 
+}

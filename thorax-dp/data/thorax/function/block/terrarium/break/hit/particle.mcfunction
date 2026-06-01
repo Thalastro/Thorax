@@ -1,0 +1,1 @@
+$particle minecraft:item{item:{id:"minecraft:poisonous_potato",components:{"minecraft:item_model":"thorax:terrarium","minecraft:custom_model_data":{strings:[$(particle)]}}}} ~ ~ ~ 0.25 0.15 0.25 0.1 3

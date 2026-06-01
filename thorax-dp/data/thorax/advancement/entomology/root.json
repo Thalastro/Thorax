@@ -8,14 +8,15 @@
         }
     },
     "display": {
-        "title": {"translate": "thorax.advancement.root.title"},
-        "description": [{"translate": "thorax.advancement.root.description"},
+        "title": {"translate": "advancement.thorax.root.title"},
+        "description": [{"translate": "advancement.thorax.root.description"},
         "\n\n",
         {"text": "0 ", "color": "white", "font": "thorax:icon", "italic": false},
-        {"translate": "ui.thorax.title", "color": "white", "font": "thorax:tooltip", "italic": false}],
+        {"translate": "ui.thorax.title", "color": "white", "font": "thorax:tooltip", "italic": false}
+    ],
         "icon": {
             "id": "poisonous_potato",
-            "components": {"item_model": "thorax:item/bug_net"}
+            "components": {"item_model":"thorax:bug_net"}
         },
         "background": "minecraft:block/moss_block",
         "frame": "task",

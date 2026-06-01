@@ -1,0 +1,105 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "terrarium",
+  "pattern": [
+    "BBB",
+    "B B",
+    "AAA"
+  ],
+  "key": {
+    "A": [
+      "minecraft:pale_oak_planks"
+    ],
+    "B": [
+      "minecraft:glass"
+    ]
+  },
+  "result": {
+    "id": "minecraft:smoker",
+    "components": {
+      "minecraft:item_name": {
+        "translate": "block.thorax.pale_oak_terrarium",
+        "fallback": "Pale Oak Terrarium"
+      },
+      "minecraft:tooltip_style": "thorax:main",
+      "minecraft:rarity": "common",
+      "minecraft:lore": [
+        [
+          {
+            "text": "0 ",
+            "color": "white",
+            "font": "thorax:icon",
+            "italic": false
+          },
+          {
+            "translate": "ui.thorax.title",
+            "color": "white",
+            "font": "thorax:tooltip",
+            "italic": false
+          }
+        ],
+        {
+          "translate": "block.thorax.terrarium.description.1",
+          "with": [
+              {
+                "keybind": "key.use"
+              },
+            {
+              "translate": "block.thorax.terrarium.description.2",
+              "color": "#3196d4",
+              "italic": false
+            }
+          ],
+          "color": "gray",
+          "italic": false
+        },
+        "",
+        [
+          {
+            "translate": "block.thorax.terrarium.description.3",
+            "with": [
+              {
+                "translate": "block.thorax.terrarium.description.5",
+                "color": "#2ad721",
+                "italic": false
+              }
+            ],
+            "color": "gray",
+            "italic": false
+          }
+        ]
+      ],
+      "minecraft:custom_data": {
+        "thorax": {
+          "id": "pale_oak_terrarium",
+          "block": {
+            "variant": "pale_oak",
+            "loot_table": "thorax:items/terrarium/pale_oak",
+            "vertical_offset": -0.55
+          }
+        },
+        "thallium": {
+          "block": {
+            "place_function": "thorax:block/terrarium/place/start"
+          }
+        },
+        "smithed": {
+          "ignore": {
+            "functionality": true,
+            "crafting": true
+          }
+        }
+      },
+      "minecraft:item_model": "thorax:terrarium",
+      "minecraft:custom_model_data": {
+        "strings": [
+          "pale_oak",
+          "glass",
+          "none",
+          "none"
+        ]
+      }
+    }
+  }
+}

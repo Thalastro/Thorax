@@ -1,0 +1,76 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "translate": "item.thorax.insect_itinerary",
+                  "fallback": "Big Book o' Bugs"
+                },
+                "minecraft:item_model": "thorax:insect_itinerary",
+                "minecraft:custom_data": {
+                  "thorax":{
+                    "id": "insect_itinerary"
+                  },
+                  "smithed":{
+                    "ignore":{
+                      "functionality": true,
+                      "crafting": true
+                    }
+                  }
+                },
+                "minecraft:enchantment_glint_override": false,
+                "!written_book_content": {},
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:written_book_content"
+                  ]
+                },
+                "minecraft:lore": [
+                  [
+                    {
+                      "text": "0 ",
+                      "color": "white",
+                      "font": "thorax:icon",
+                      "italic": false
+                    },
+                    {
+                      "translate": "ui.thorax.title",
+                      "font": "thorax:tooltip",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "translate": "item.thorax.insect_itinerary.description.1",
+                      "color": "gray",
+                      "italic": false,
+                      "with": [
+                        {
+                            "translate": "item.thorax.insect_itinerary.description.2",
+                            "color": "#45ff86",
+                            "italic": false
+                        }
+                      ]
+                    }
+                  ]
+                ],
+                "minecraft:max_stack_size": 1,
+                "minecraft:rarity": "uncommon",
+                "minecraft:tooltip_style": "thorax:main"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

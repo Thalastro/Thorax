@@ -14,7 +14,8 @@
           "function": "minecraft:set_components",
           "components": {
             "minecraft:item_name": {
-              "translate": "item.thorax.arctic_apollo"
+              "translate": "item.thorax.arctic_apollo",
+              "fallback": "Arctic Apollo"
             },
             "minecraft:lore": [
               [

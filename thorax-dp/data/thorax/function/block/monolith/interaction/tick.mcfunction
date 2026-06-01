@@ -1,0 +1,2 @@
+execute if data entity @s interaction positioned ~ ~0.5 ~ run function thorax:block/monolith/interaction/right_click
+execute if data entity @s attack positioned ~ ~0.5 ~ run function thorax:block/monolith/interaction/left_click

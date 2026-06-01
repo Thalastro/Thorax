@@ -1,0 +1,21 @@
+{
+    "parent": "thorax:completion/root",
+    "criteria": {
+        "thorax:catch_arctic_apollo": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "thorax": {
+                                "id": "arctic_apollo"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    } 
+}

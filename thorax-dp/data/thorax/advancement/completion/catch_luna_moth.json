@@ -1,0 +1,21 @@
+{
+    "parent": "thorax:completion/root",
+    "criteria": {
+        "thorax:catch_luna_moth": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "thorax": {
+                                "id": "luna_moth"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    } 
+}

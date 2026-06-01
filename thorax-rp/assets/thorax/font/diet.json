@@ -1,0 +1,19 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "thorax:gui/diet.png",
+            "height": 9,
+            "ascent": 8,
+            "chars": [
+                "ABCDE"
+            ]
+        },
+		{
+			"type": "space",
+			"advances": {
+				" ": 2
+			}
+		}
+    ]
+}

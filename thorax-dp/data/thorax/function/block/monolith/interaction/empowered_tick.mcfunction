@@ -1,0 +1,1 @@
+execute if predicate thallium:random_chance/40 run particle soul_fire_flame ~ ~-0.6 ~ 0.35 0.65 0.35 0 1

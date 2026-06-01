@@ -1,0 +1,129 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:blast_furnace"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:item_name": {
+              "translate": "block.thorax.nature_monolith"
+            },
+            "minecraft:lore": [
+              [
+                {
+                  "text": "0 ",
+                  "color": "white",
+                  "font": "thorax:icon",
+                  "italic": false
+                },
+                {
+                  "translate": "ui.thorax.title",
+                  "color": "white",
+                  "font": "thorax:tooltip",
+                  "italic": false
+                }
+              ],
+              {
+                "translate": "block.thorax.monolith.description.1",
+                "with": [
+                    {
+                        "translate": "block.thorax.monolith.description.4",
+                        "color": "#9ffb27",
+                        "italic": false
+                    },
+                    {
+                        "translate": "block.thorax.monolith.description.5",
+                        "color": "#ff006f",
+                        "italic": false
+                    }
+                ],
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "translate": "block.thorax.monolith.description.2",
+                "color": "gray",
+                "italic": false,
+                "with": [
+                    {
+                        "keybind": "key.use"
+                    }
+                ]
+              },
+              "",
+              {
+                "translate": "block.thorax.monolith.description.3",
+                "color": "gray",
+                "italic": false,
+                "with": [
+                    {
+                        "translate": "block.thorax.monolith.description.6",
+                        "color": "#ff006f",
+                        "italic": false
+                    },
+                    {
+                        "translate": "block.thorax.monolith.description.7",
+                        "color": "#00e1ff",
+                        "italic": false
+                    }
+                ]
+              },
+            "",
+            [
+              {
+                "translate": "block.thorax.nature_monolith.description.8",
+                "color": "dark_gray",
+                "italic": true
+              }
+            ],
+            [
+                {
+                "translate": "block.thorax.nature_monolith.description.9",
+                "color": "dark_gray",
+                "italic": true
+              }
+            ]
+            ],
+            "minecraft:custom_data": {
+              "thorax": {
+                "id": "nature_monolith",
+                "block": {
+                  "variant": "nature",
+                  "loot_table": "thorax:items/monolith/nature",
+                  "vertical_offset": -1.49
+                }
+              },
+              "thallium": {
+                "block": {
+                  "place_function": "thorax:block/monolith/place/start"
+                }
+              },
+              "smithed": {
+                "ignore": {
+                  "functionality": true,
+                  "crafting": true
+                }
+              }
+            },
+            "minecraft:item_model": "thorax:monolith",
+            "minecraft:custom_model_data": {
+              "strings": [
+                "nature"
+              ]
+            },
+            "minecraft:tooltip_style": "thorax:main",
+            "minecraft:rarity": "epic"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:item_name": {
+              "translate": "item.thorax.chitin"
+            },
+            "minecraft:lore": [
+              [
+                {
+                  "text": "0 ",
+                  "color": "white",
+                  "font": "thorax:icon",
+                  "italic": false
+                },
+                {
+                  "translate": "ui.thorax.title",
+                  "color": "white",
+                  "font": "thorax:tooltip",
+                  "italic": false
+                }
+              ]
+            ],
+            "minecraft:custom_data": {
+              "thorax": {
+                "id": "chitin"
+              },
+              "smithed": {
+                "ignore": {
+                  "functionality": true,
+                  "crafting": true
+                }
+              }
+            },
+            "minecraft:item_model": "thorax:chitin",
+            "minecraft:tooltip_style": "thorax:main",
+            "minecraft:rarity": "uncommon",
+            "minecraft:provides_trim_material": "thorax:chitin",
+            "minecraft:food": {
+              "nutrition": 0,
+              "saturation": 0,
+              "can_always_eat": true
+            },
+            "minecraft:consumable": {
+              "consume_seconds": 2.4,
+              "sound": {
+                "sound_id": "thorax:item.chitin.eat"
+              },
+              "on_consume_effects": [
+                {
+                  "type": "apply_effects",
+                  "effects": [
+                    {
+                      "id": "resistance",
+                      "duration": 400
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

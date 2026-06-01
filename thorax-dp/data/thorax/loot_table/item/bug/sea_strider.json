@@ -14,7 +14,8 @@
           "function": "minecraft:set_components",
           "components": {
             "minecraft:item_name": {
-              "translate": "item.thorax.sea_strider"
+              "translate": "item.thorax.sea_strider",
+              "fallback": "Sea Strider"
             },
             "minecraft:lore": [
               [
@@ -73,7 +74,7 @@
               }
             },
             "minecraft:item_model": "thorax:bug/sea_strider",
-            "minecraft:tooltip_style": "thorax:thorax",
+            "minecraft:tooltip_style": "thorax:main",
             "minecraft:rarity": "uncommon",
             "!minecraft:consumable": {},
             "!minecraft:food": {}

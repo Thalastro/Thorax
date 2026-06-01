@@ -1,0 +1,103 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:smoker"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:item_name": {
+              "translate": "block.thorax.birch_terrarium",
+              "fallback": "Birch Terrarium"
+            },
+            "minecraft:lore": [
+              [
+                {
+                  "text": "0 ",
+                  "color": "white",
+                  "font": "thorax:icon",
+                  "italic": false
+                },
+                {
+                  "translate": "ui.thorax.title",
+                  "color": "white",
+                  "font": "thorax:tooltip",
+                  "italic": false
+                }
+              ],
+              {
+                "translate": "block.thorax.terrarium.description.1",
+                "with": [
+                    {
+                        "keybind": "key.use"
+                    },
+                  {
+                    "translate": "block.thorax.terrarium.description.2",
+                    "color": "#3196d4",
+                    "italic": false
+                  }
+                ],
+                "color": "gray",
+                "italic": false
+              },
+              "",
+            [
+              {
+                "translate": "block.thorax.terrarium.description.3",
+                "with": [
+                  {
+                    "translate": "block.thorax.terrarium.description.5",
+                    "color": "#2ad721",
+                    "italic": false
+                  }
+                ],
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          ],
+            "minecraft:custom_data": {
+              "thorax": {
+                "id": "birch_terrarium",
+                "block": {
+                  "variant": "birch",
+                  "loot_table": "thorax:items/terrarium/birch",
+                  "vertical_offset": -0.55
+                }
+              },
+              "thallium": {
+                "block": {
+                  "place_function": "thorax:block/terrarium/place/start"
+                }
+              },
+              "smithed": {
+                "ignore": {
+                  "functionality": true,
+                  "crafting": true
+                }
+              }
+            },
+            "minecraft:item_model": "thorax:terrarium",
+            "minecraft:custom_model_data": {
+              "strings": [
+                "birch",
+                "glass",
+                "none",
+                "none"
+              ]
+            },
+            "minecraft:tooltip_style": "thorax:main",
+            "minecraft:rarity": "common"
+          }
+        }
+      ]
+    }
+  ]
+}

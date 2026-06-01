@@ -1,0 +1,127 @@
+{
+  "type": "minecraft:multi_action",
+  "title": [
+    {
+      "text": "0 ",
+      "color": "white",
+      "font": "thorax:icon",
+      "italic": false
+    },
+    {
+      "translate": "ui.thorax.menu",
+      "font": "minecraft:default",
+      "italic": false
+    },
+    {
+      "text": " 0",
+      "color": "white",
+      "font": "thorax:icon",
+      "italic": false
+    }
+  ],
+  "external_title": {
+    "translate": "ui.thorax.title"
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        { "translate": "X", "font": "thorax:statistics", "color": "white" }
+      ],
+      "width": 192
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        [
+          {
+            "translate": "ui.thorax.version",
+            "color": "gray",
+            "font": "thallium:5"
+          },
+          {
+            "text": " - ",
+            "color": "gray",
+            "font": "thallium:5"
+          },
+          {
+            "translate": "ui.thorax.update",
+            "color": "#ffd43b",
+            "font": "thallium:5"
+          }
+        ],
+        "\n",
+        {
+          "translate": "book.byAuthor",
+          "color": "gray",
+          "font": "thallium:5",
+          "with": [
+            [
+            {
+              "text": "4  ",
+              "color": "white",
+              "font": "thorax:icon",
+              "italic": false
+            },
+            {
+              "translate": "contributor.bigmastah",
+              "font": "thallium:5",
+              "color": "#ff7936"
+            }
+          ]
+          ]
+        }
+      ],
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "ui.thorax.description"
+      },
+      "width": 300
+    }
+  ],
+  "pause": true,
+  "after_action": "wait_for_response",
+  "columns": 2,
+  "actions": [
+    {
+      "label": {
+        "translate": "ui.thallium.credits"
+      },
+      "action": {
+        "type": "show_dialog",
+        "dialog": "thorax:credits"
+      }
+    },
+    {
+      "label": {
+        "translate": "gui.stats"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger thorax.menu set 2"
+      }
+    },
+    {
+      "label": {
+        "translate": "ui.thorax.link"
+      },
+      "action": {
+        "type": "open_url",
+        "url": "https://modrinth.com/project/thorax"
+      }
+    }
+  ],
+  "exit_action": {
+    "label": {
+      "translate": "gui.back"
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "smithed:data_packs"
+    },
+    "width": 200
+  }
+}

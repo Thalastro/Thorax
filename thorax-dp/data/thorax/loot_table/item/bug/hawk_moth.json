@@ -14,7 +14,8 @@
           "function": "minecraft:set_components",
           "components": {
             "minecraft:item_name": {
-              "translate": "item.thorax.hawk_moth"
+              "translate": "item.thorax.hawk_moth",
+              "fallback": "Hawk Moth"
             },
             "minecraft:lore": [
               [
@@ -73,7 +74,7 @@
               }
             },
             "minecraft:item_model": "thorax:bug/hawk_moth",
-            "minecraft:tooltip_style": "thorax:thorax",
+            "minecraft:tooltip_style": "thorax:main",
             "minecraft:rarity": "common",
             "!minecraft:consumable": {},
             "!minecraft:food": {}

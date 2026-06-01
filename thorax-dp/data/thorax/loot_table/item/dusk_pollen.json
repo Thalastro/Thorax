@@ -1,0 +1,84 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:item_name": {
+              "translate": "item.thorax.dusk_pollen"
+            },
+            "minecraft:lore": [
+              [
+                {
+                  "text": "0 ",
+                  "color": "white",
+                  "font": "thorax:icon",
+                  "italic": false
+                },
+                {
+                  "translate": "ui.thorax.title",
+                  "color": "white",
+                  "font": "thorax:tooltip",
+                  "italic": false
+                }
+              ],
+          [
+            {
+              "translate": "item.thorax.dusk_pollen.description.1",
+              "color": "gray",
+              "italic": false,
+              "with": [
+                {
+                  "translate": "item.thorax.dusk_pollen.description.3",
+                  "color": "#61329b",
+                  "italic": false
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "translate": "item.thorax.dusk_pollen.description.2",
+              "color": "gray",
+              "italic": false,
+              "with": [
+                {
+                  "translate": "item.thorax.dusk_pollen.description.4",
+                  "color": "#f76f2b",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+            ],
+            "minecraft:custom_data": {
+              "thorax": {
+                "id": "dusk_pollen"
+              },
+              "smithed": {
+                "ignore": {
+                  "functionality": true,
+                  "crafting": true
+                }
+              }
+            },
+            "minecraft:item_model": "thorax:dusk_pollen",
+            "minecraft:tooltip_style": "thorax:main",
+            "minecraft:rarity": "uncommon",
+            "minecraft:max_stack_size": 64,
+            "!minecraft:max_damage": {}
+          }
+        }
+      ]
+    }
+  ]
+}
