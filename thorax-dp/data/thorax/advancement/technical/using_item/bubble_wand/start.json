@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "thorax:use_bubble_wand": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "thorax": {
+                "id": "bubble_wand"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "thorax:item/bubble_wand/start"
+  }
+}

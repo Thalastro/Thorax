@@ -6,4 +6,3 @@ execute if entity @s[tag=thorax.block.terrarium.has_arctic_apollo] run return ru
 execute if entity @s[tag=thorax.block.terrarium.has_caccophomoth] run return run function thorax:block/terrarium/effects/caccophomoth
 execute if entity @s[tag=thorax.block.terrarium.has_crystal_dasher] run return run function thorax:block/terrarium/effects/crystal_dasher
 execute if entity @s[tag=thorax.block.terrarium.has_orchid_mantis] run return run function thorax:block/terrarium/effects/orchid_mantis
-execute if entity @s[tag=thorax.block.terrarium.has_abyss_dweller] run return run function thorax:block/terrarium/effects/abyss_dweller

@@ -47,13 +47,12 @@
                 "color": "gray",
                 "italic": false
               },
-              "",
             [
               {
                 "translate": "block.thorax.terrarium.description.3",
                 "with": [
                   {
-                    "translate": "block.thorax.terrarium.description.5",
+                    "translate": "block.thorax.terrarium.description.4",
                     "color": "#2ad721",
                     "italic": false
                   }
@@ -68,7 +67,7 @@
                 "id": "jungle_terrarium",
                 "block": {
                   "variant": "jungle",
-                  "loot_table": "thorax:items/terrarium/jungle",
+                  "loot_table": "thorax:item/terrarium/jungle",
                   "vertical_offset": -0.55
                 }
               },

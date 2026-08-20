@@ -1,0 +1,7 @@
+{
+    "parent": "thorax:entity/bug/red_maiden/stationary",
+    "textures": {
+		"0": "thorax:entity/bug/red_maiden/moving",
+        "particle": "thorax:entity/bug/red_maiden/moving"
+	}
+}

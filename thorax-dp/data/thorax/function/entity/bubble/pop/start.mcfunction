@@ -1,0 +1,2 @@
+execute as @n[type=minecraft:interaction,tag=thorax.entity.bubble,nbt={attack:{}}] at @s run function thorax:entity/bubble/pop/manual
+advancement revoke @s only thorax:technical/player_hit_entity/bubble

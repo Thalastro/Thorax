@@ -67,7 +67,6 @@
                 "id": "praying_mantis",
                 "bug": {
                   "terrarium_loot_table": "thorax:items/bug/praying_mantis",
-                  "rarity": "common",
                   "essence": "harmony",
                   "diet": "carnivore"
                 }

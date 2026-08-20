@@ -1,0 +1,2 @@
+execute on target if score #thorax.should_consume_item thorax.dummy matches 1 run item modify entity @s[gamemode=!creative] weapon.mainhand thallium:count/remove_1
+execute on target if score #thorax.has_changed_state thorax.dummy matches 1 run advancement grant @s only thorax:entomology/terrarium

@@ -1,7 +1,0 @@
-{
-    "parent": "thorax:entity/bug/praying_mantis",
-    "textures": {
-        "0": "thorax:entity/bug/orchid_mantis",
-        "particle": "thorax:entity/bug/orchid_mantis"
-    }
-}

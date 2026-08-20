@@ -1,11 +1,19 @@
 {
     "criteria": {
-        "thorax:craft_bug_net": {
-            "trigger": "recipe_crafted",
-            "conditions": {
-                "recipe_id": "thorax:bug_net"
+        "thorax:obtain_thorax_item": {
+        "trigger": "inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "predicates": {
+                "minecraft:custom_data": {
+                "thorax": {}
+                }
+              }
             }
+          ]
         }
+      }
     },
     "display": {
         "title": {"translate": "advancement.thorax.root.title"},

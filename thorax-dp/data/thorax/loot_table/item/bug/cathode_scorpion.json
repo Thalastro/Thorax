@@ -67,7 +67,6 @@
                 "id": "cathode_scorpion",
                 "bug": {
                   "terrarium_loot_table": "thorax:items/bug/cathode_scorpion",
-                  "monolith_loot_table": "thorax:monolith/blight/epic",
                   "essence": "chaos",
                   "diet": "carnivore"
                 }

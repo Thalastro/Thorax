@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "thorax:obtain_orange_terracotta": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "orange_terracotta"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "thorax:bubble_wand"
+        ]
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "thorax:block/monolith/ether",
+    "textures": {
+		"0": "thorax:block/monolith/nature",
+		"particle": "thorax:block/monolith/nature"
+	}
+}

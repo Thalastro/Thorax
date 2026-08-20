@@ -56,7 +56,7 @@
                 },
                 {
                   "translate": "item.thorax.bug.diet.pollinator.name",
-                  "color": "#efbf58",
+                  "color": "#ffd06b",
                   "font": "minecraft:default",
                   "italic": false
                 }
@@ -67,7 +67,6 @@
                 "id": "cabbage_butterfly",
                 "bug": {
                   "terrarium_loot_table": "thorax:items/bug/cabbage_butterfly",
-                  "monolith_loot_table": "thorax:monolith/harmony/common",
                   "essence": "harmony",
                   "diet": "pollinator"
                 }

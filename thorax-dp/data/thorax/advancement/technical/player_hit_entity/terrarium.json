@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "thorax:hit_terrarium": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:interaction",
+                    "minecraft:entity_tags": {
+                        "any_of": [
+                            "thorax.entity.terrarium"
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "thorax:block/terrarium/break/start"
+    }
+}

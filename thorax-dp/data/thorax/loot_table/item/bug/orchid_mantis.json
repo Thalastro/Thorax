@@ -67,7 +67,6 @@
                 "id": "orchid_mantis",
                 "bug": {
                   "terrarium_loot_table": "thorax:items/bug/orchid_mantis",
-                  "rarity": "uncommon",
                   "essence": "chaos",
                   "diet": "carnivore"
                 }

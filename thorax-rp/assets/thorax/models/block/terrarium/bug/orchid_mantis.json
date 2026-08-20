@@ -1,5 +1,5 @@
 {
-    "parent": "thorax:entity/bug/orchid_mantis",
+    "parent": "thorax:block/terrarium/bug/praying_mantis",
     "textures": {
 		"0": "thorax:block/terrarium/bug/orchid_mantis",
 		"particle": "thorax:block/terrarium/bug/orchid_mantis"

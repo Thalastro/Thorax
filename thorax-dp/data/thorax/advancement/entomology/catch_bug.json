@@ -1,9 +1,42 @@
 {
   "parent": "thorax:entomology/root",
     "criteria": {
-        "thorax:impossible": {
-            "trigger": "impossible"
+        "thorax:use_bug_net": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+            "entity": {
+                "entity_type": "minecraft:interaction",
+                "entity_tags": {"any_of": ["thorax.entity.bug"]}
+            },
+            "item": {
+                "predicates": {
+                    "minecraft:custom_data": {
+                        "thorax": {
+                            "id": "bug_net"
+                        }
+                    }
+                }
+            }
         }
+    },
+    "thorax:use_xanite_bug_net": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+            "entity": {
+                "entity_type": "minecraft:interaction",
+                "entity_tags": {"any_of": ["thorax.entity.bug"]}
+            },
+            "item": {
+                "predicates": {
+                    "minecraft:custom_data": {
+                        "thorax": {
+                            "id": "xanite_bug_net"
+                        }
+                    }
+                }
+            }
+        }
+    }
     },
     "display": {
         "title": {"translate": "advancement.thorax.catch_bug.title"},
@@ -20,5 +53,11 @@
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
-    }
+    },
+  "requirements": [
+    [
+        "thorax:use_bug_net",
+        "thorax:use_xanite_bug_net"
+    ]
+  ]
 }

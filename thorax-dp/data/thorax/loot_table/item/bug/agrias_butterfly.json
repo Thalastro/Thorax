@@ -67,7 +67,6 @@
                 "id": "agrias_butterfly",
                 "bug": {
                   "terrarium_loot_table": "thorax:items/bug/agrias_butterfly",
-                  "monolith_loot_table": "thorax:monolith/chaos/uncommon",
                   "essence": "chaos",
                   "diet": "decomposer"
                 }

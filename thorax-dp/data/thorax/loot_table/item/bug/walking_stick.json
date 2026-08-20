@@ -67,7 +67,6 @@
                 "id": "walking_stick",
                 "bug": {
                   "terrarium_loot_table": "thorax:items/bug/walking_stick",
-                  "rarity": "uncommon",
                   "essence": "harmony",
                   "diet": "herbivore"
                 }

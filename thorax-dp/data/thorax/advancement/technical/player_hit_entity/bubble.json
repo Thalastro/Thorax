@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "thorax:hit_bubble": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:interaction",
+                    "minecraft:entity_tags": {
+                        "any_of": [
+                            "thorax.entity.bubble"
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "thorax:entity/bubble/pop/start"
+    }
+}

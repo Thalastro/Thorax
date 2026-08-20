@@ -67,7 +67,6 @@
                 "id": "ladybug",
                 "bug": {
                   "terrarium_loot_table": "thorax:items/bug/ladybug",
-                  "rarity": "uncommon",
                   "essence": "harmony",
                   "diet": "herbivore"
                 }
@@ -75,7 +74,7 @@
             },
             "minecraft:item_model": "thorax:bug/ladybug",
             "minecraft:tooltip_style": "thorax:main",
-            "minecraft:rarity": "uncommon",
+            "minecraft:rarity": "common",
             "!minecraft:consumable": {},
             "!minecraft:food": {}
           }

@@ -35,13 +35,13 @@
               "",
               [
                 {
-                  "translate": "item.thorax.bug.essence.blight.symbol",
+                  "translate": "item.thorax.bug.essence.obscurity.symbol",
                   "color": "white",
                   "font": "thorax:essence",
                   "italic": false
                 },
                 {
-                  "translate": "item.thorax.bug.essence.blight.name",
+                  "translate": "item.thorax.bug.essence.obscurity.name",
                   "color": "#d63232",
                   "font": "minecraft:default",
                   "italic": false
@@ -67,8 +67,7 @@
                 "id": "azure_damselfly",
                 "bug": {
                   "terrarium_loot_table": "thorax:items/bug/azure_damselfly",
-                  "monolith_loot_table": "thorax:monolith/blight/uncommon",
-                  "essence": "blight",
+                  "essence": "obscurity",
                   "diet": "carnivore"
                 }
               }

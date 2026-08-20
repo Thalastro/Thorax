@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "thorax:hit_bug": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:interaction",
+                    "minecraft:entity_tags": {
+                        "any_of": [
+                            "thorax.entity.bug"
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "thorax:entity/bug/behavior/kill/hit"
+    }
+}

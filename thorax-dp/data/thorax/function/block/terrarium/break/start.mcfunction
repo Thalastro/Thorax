@@ -1,4 +1,2 @@
-playsound minecraft:block.metal.break block @a[distance=..16]
-
-execute on passengers run function thorax:block/terrarium/break/as_display with entity @s data.thorax
-kill @s
+execute positioned ~ ~0.5 ~ as @n[type=interaction,tag=thorax.block.terrarium,nbt={attack:{}}] at @s run function thorax:block/terrarium/break/hit
+advancement revoke @s only thorax:technical/player_hit_entity/terrarium

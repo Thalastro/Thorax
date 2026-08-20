@@ -67,7 +67,6 @@
                 "id": "crystal_dasher",
                 "bug": {
                   "terrarium_loot_table": "thorax:items/bug/crystal_dasher",
-                  "monolith_loot_table": "thorax:monolith/harmony/epic",
                   "essence": "harmony",
                   "diet": "herbivore"
                 }

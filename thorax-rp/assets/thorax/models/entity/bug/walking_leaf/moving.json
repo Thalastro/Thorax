@@ -1,0 +1,7 @@
+{
+    "parent": "thorax:entity/bug/walking_leaf/stationary",
+    "textures": {
+		"0": "thorax:entity/bug/walking_leaf/moving",
+        "particle": "thorax:entity/bug/walking_leaf/moving"
+	}
+}

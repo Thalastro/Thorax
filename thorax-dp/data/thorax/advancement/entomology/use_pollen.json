@@ -1,0 +1,43 @@
+{
+    "parent": "thorax:entomology/catch_bug",
+    "display": {
+      "icon": {
+        "id": "minecraft:poisonous_potato",
+        "components": {
+            "minecraft:item_model": "thorax:pollen"
+    }
+      },
+      "title": {
+        "translate": "advancement.thorax.use_pollen.title"
+      },
+      "description": [
+        [
+            {
+                "translate": "advancement.thorax.use_pollen.description"
+            }
+        ],
+        "\n\n",
+        {
+          "text": "0 ",
+          "color": "white",
+          "font": "thorax:icon",
+          "italic": false
+        },
+        {
+          "translate": "ui.thorax.title",
+          "color": "white",
+          "font": "thorax:tooltip",
+          "italic": false
+        }
+      ],
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "thorax:use_pollen": {
+        "trigger": "minecraft:impossible"
+        }
+      }
+}

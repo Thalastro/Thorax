@@ -3,7 +3,7 @@ execute if data entity @s item.components."minecraft:custom_data".thorax.stored_
 execute if data entity @s item.components."minecraft:custom_data".thorax.stored_item.components."minecraft:custom_data".thorax.bug{diet:"pollinator"} run function thorax:block/terrarium/digest/pollinator
 execute if data entity @s item.components."minecraft:custom_data".thorax.stored_item.components."minecraft:custom_data".thorax.bug{diet:"decomposer"} run function thorax:block/terrarium/digest/decomposer
 
-scoreboard players reset @s thorax.disgestion_timer
+scoreboard players reset @s thorax.dummy
 tag @s remove thorax.terrarium.digested
 data remove entity @s item.components."minecraft:custom_data".thorax.digesting_item
 

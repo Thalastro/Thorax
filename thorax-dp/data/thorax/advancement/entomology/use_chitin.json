@@ -1,0 +1,43 @@
+{
+    "parent": "thorax:entomology/feed_insect",
+    "display": {
+      "icon": {
+        "id": "minecraft:poisonous_potato",
+        "components": {
+            "minecraft:item_model": "thorax:chitin"
+    }
+      },
+      "title": {
+        "translate": "advancement.thorax.use_chitin.title"
+      },
+      "description": [
+        [
+            {
+                "translate": "advancement.thorax.use_chitin.description"
+            }
+        ],
+        "\n\n",
+        {
+          "text": "0 ",
+          "color": "white",
+          "font": "thorax:icon",
+          "italic": false
+        },
+        {
+          "translate": "ui.thorax.title",
+          "color": "white",
+          "font": "thorax:tooltip",
+          "italic": false
+        }
+      ],
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "thorax:use_chitin": {
+        "trigger": "minecraft:impossible"
+        }
+      }
+}

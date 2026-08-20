@@ -19,7 +19,7 @@
             "id": "poisonous_potato",
             "components": {"item_model":"thorax:insect_itinerary"}
         },
-        "frame": "goal",
+        "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false

@@ -1,0 +1,7 @@
+{
+    "parent": "thorax:block/terrarium/decor/leaf_litter",
+    "textures": {
+        "0": "thorax:block/terrarium/decor/wildflowers",
+		"particle": "thorax:block/terrarium/decor/wildflowers"
+    }
+}

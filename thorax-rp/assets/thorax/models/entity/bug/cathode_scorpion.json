@@ -1,7 +1,0 @@
-{
-    "parent": "thorax:entity/bug/bark_scorpion",
-    "textures": {
-        "0": "thorax:entity/bug/cathode_scorpion",
-        "particle": "thorax:entity/bug/cathode_scorpion"
-    }
-}

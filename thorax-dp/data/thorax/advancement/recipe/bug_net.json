@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "thorax:obtain_string": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "string"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "thorax:bug_net"
+        ]
+    }
+}

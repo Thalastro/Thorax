@@ -1,0 +1,37 @@
+{
+    "criteria": {
+        "thorax:obtain_glass": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "glass"
+                    }
+                ]
+            }
+        },
+        "thorax:obtain_jungle_planks": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "jungle_planks"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "thorax:obtain_jungle_planks"
+        ],
+        [
+            "thorax:obtain_glass"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "thorax:terrarium/jungle"
+        ]
+    }
+}

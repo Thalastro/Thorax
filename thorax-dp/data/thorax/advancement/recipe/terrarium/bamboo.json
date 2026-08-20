@@ -1,0 +1,37 @@
+{
+    "criteria": {
+        "thorax:obtain_glass": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "glass"
+                    }
+                ]
+            }
+        },
+        "thorax:obtain_bamboo_planks": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "bamboo_planks"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "thorax:obtain_bamboo_planks"
+        ],
+        [
+            "thorax:obtain_glass"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "thorax:terrarium/bamboo"
+        ]
+    }
+}

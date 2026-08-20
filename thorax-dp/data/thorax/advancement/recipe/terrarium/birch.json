@@ -1,0 +1,37 @@
+{
+    "criteria": {
+        "thorax:obtain_glass": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "glass"
+                    }
+                ]
+            }
+        },
+        "thorax:obtain_birch_planks": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "birch_planks"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "thorax:obtain_birch_planks"
+        ],
+        [
+            "thorax:obtain_glass"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "thorax:terrarium/birch"
+        ]
+    }
+}

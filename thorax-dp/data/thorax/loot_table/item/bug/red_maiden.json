@@ -42,7 +42,7 @@
                 },
                 {
                   "translate": "item.thorax.bug.essence.radiance.name",
-                  "color": "#ff9b44",
+                  "color": "#ff753a",
                   "font": "minecraft:default",
                   "italic": false
                 }
@@ -53,7 +53,6 @@
                 "id": "red_maiden",
                 "bug": {
                   "terrarium_loot_table": "thorax:items/bug/red_maiden",
-                  "rarity": "rare",
                   "essence": "radiance",
                   "diet": "unknown"
                 }

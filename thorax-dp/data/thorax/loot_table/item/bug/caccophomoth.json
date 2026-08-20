@@ -56,7 +56,7 @@
                 },
                 {
                   "translate": "item.thorax.bug.diet.pollinator.name",
-                  "color": "#efbf58",
+                  "color": "#ffd06b",
                   "font": "minecraft:default",
                   "italic": false
                 }
@@ -67,7 +67,6 @@
                 "id": "caccophomoth",
                 "bug": {
                   "terrarium_loot_table": "thorax:items/bug/caccophomoth",
-                  "monolith_loot_table": "thorax:monolith/harmony/rare",
                   "essence": "harmony",
                   "diet": "pollinator"
                 }

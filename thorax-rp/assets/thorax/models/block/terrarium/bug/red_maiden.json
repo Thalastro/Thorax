@@ -1,5 +1,5 @@
 {
-    "parent": "thorax:entity/bug/red_maiden",
+    "parent": "thorax:entity/bug/red_maiden/stationary",
     "textures": {
 		"0": "thorax:block/terrarium/bug/red_maiden",
 		"particle": "thorax:block/terrarium/bug/red_maiden"

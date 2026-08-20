@@ -193,22 +193,6 @@
           ]
         }
       },
-      "thorax:catch_gilded_mantis": {
-        "trigger": "inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "predicates": {
-                "minecraft:custom_data": {
-                "thorax": {
-                "id": "gilded_mantis"
-                  }
-                }
-              }
-            }
-          ]
-        }
-      },
       "thorax:catch_ladybug": {
         "trigger": "inventory_changed",
         "conditions": {

@@ -1,7 +1,7 @@
-execute if data entity @s item.components."minecraft:custom_data".thorax.digesting_item.components."minecraft:custom_data".thorax.bug{rarity:"common"} run loot spawn ~ ~1 ~ loot thorax:gameplay/insect_feeding/carnivore/common
-execute if data entity @s item.components."minecraft:custom_data".thorax.digesting_item.components."minecraft:custom_data".thorax.bug{rarity:"uncommon"} run loot spawn ~ ~1 ~ loot thorax:gameplay/insect_feeding/carnivore/uncommon
-execute if data entity @s item.components."minecraft:custom_data".thorax.digesting_item.components."minecraft:custom_data".thorax.bug{rarity:"rare"} run loot spawn ~ ~1 ~ loot thorax:gameplay/insect_feeding/carnivore/rare
-execute if data entity @s item.components."minecraft:custom_data".thorax.digesting_item.components."minecraft:custom_data".thorax.bug{rarity:"epic"} run loot spawn ~ ~1 ~ loot thorax:gameplay/insect_feeding/carnivore/epic
+#execute if data entity @s item.components."minecraft:custom_data".thorax.digesting_item.components."minecraft:custom_data".thorax.bug{rarity:"common"} run loot spawn ~ ~1 ~ loot thorax:gameplay/insect_feeding/carnivore/common
+#execute if data entity @s item.components."minecraft:custom_data".thorax.digesting_item.components."minecraft:custom_data".thorax.bug{rarity:"uncommon"} run loot spawn ~ ~1 ~ loot thorax:gameplay/insect_feeding/carnivore/uncommon
+#execute if data entity @s item.components."minecraft:custom_data".thorax.digesting_item.components."minecraft:custom_data".thorax.bug{rarity:"rare"} run loot spawn ~ ~1 ~ loot thorax:gameplay/insect_feeding/carnivore/rare
+#execute if data entity @s item.components."minecraft:custom_data".thorax.digesting_item.components."minecraft:custom_data".thorax.bug{rarity:"epic"} run loot spawn ~ ~1 ~ loot thorax:gameplay/insect_feeding/carnivore/epic
 
 execute if data entity @s item.components."minecraft:custom_data".thorax.digesting_item.components."minecraft:custom_data".thorax.bug{rarity:"common"} run return run summon experience_orb ~ ~1 ~ {Count:1,Value:3}
 execute if data entity @s item.components."minecraft:custom_data".thorax.digesting_item.components."minecraft:custom_data".thorax.bug{rarity:"uncommon"} run return run summon experience_orb ~ ~1 ~ {Count:3,Value:3}

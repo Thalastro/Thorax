@@ -42,7 +42,7 @@
                 },
                 {
                   "translate": "item.thorax.bug.essence.radiance.name",
-                  "color": "#ff9b44",
+                  "color": "#ff753a",
                   "font": "minecraft:default",
                   "italic": false
                 }
@@ -67,7 +67,6 @@
                 "id": "miller_moth",
                 "bug": {
                   "terrarium_loot_table": "thorax:items/bug/miller_moth",
-                  "rarity": "common",
                   "essence": "radiance",
                   "diet": "herbivore"
                 }

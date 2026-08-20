@@ -67,7 +67,6 @@
                 "id": "walking_leaf",
                 "bug": {
                   "terrarium_loot_table": "thorax:items/bug/walking_leaf",
-                  "rarity": "uncommon",
                   "essence": "chaos",
                   "diet": "herbivore"
                 }
@@ -75,7 +74,7 @@
             },
             "minecraft:item_model": "thorax:bug/walking_leaf",
             "minecraft:tooltip_style": "thorax:main",
-            "minecraft:rarity": "uncommon",
+            "minecraft:rarity": "rare",
             "!minecraft:consumable": {},
             "!minecraft:food": {}
           }

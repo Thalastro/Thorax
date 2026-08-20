@@ -1,0 +1,37 @@
+{
+    "criteria": {
+        "thorax:obtain_glass": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "glass"
+                    }
+                ]
+            }
+        },
+        "thorax:obtain_pale_oak_planks": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "pale_oak_planks"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "thorax:obtain_pale_oak_planks"
+        ],
+        [
+            "thorax:obtain_glass"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "thorax:terrarium/pale_oak"
+        ]
+    }
+}

@@ -152,35 +152,29 @@
         {"type":"minecraft:loot_table","value":"thorax:item/enraged_trickster","functions":[{"function":"minecraft:set_count","count":{"type":"minecraft:score","target":"this","score":"thallium.dummy"}}],"conditions":[{"condition":"minecraft:entity_properties","entity":"this","predicate":{"slots":{"contents":
         {"predicates": {"custom_data": {"thorax":{"id": "enraged_trickster"}}}}}}}]},
 
-        {"type":"minecraft:loot_table","value":"thorax:item/dishes/bug_meat_cutlets","functions":[{"function":"minecraft:set_count","count":{"type":"minecraft:score","target":"this","score":"thallium.dummy"}}],"conditions":[{"condition":"minecraft:entity_properties","entity":"this","predicate":{"slots":{"contents":
-        {"predicates": {"custom_data": {"thorax":{"id": "bug_meat_cutlets"}}}}}}}]},
+        {"type":"minecraft:loot_table","value":"thorax:item/dishes/diced_bug_guts","functions":[{"function":"minecraft:set_count","count":{"type":"minecraft:score","target":"this","score":"thallium.dummy"}}],"conditions":[{"condition":"minecraft:entity_properties","entity":"this","predicate":{"slots":{"contents":
+        {"predicates": {"custom_data": {"thorax":{"id": "diced_bug_guts"}}}}}}}]},
 
-        {"type":"minecraft:loot_table","value":"thorax:item/dishes/chitin_powder","functions":[{"function":"minecraft:set_count","count":{"type":"minecraft:score","target":"this","score":"thallium.dummy"}}],"conditions":[{"condition":"minecraft:entity_properties","entity":"this","predicate":{"slots":{"contents":
-        {"predicates": {"custom_data": {"thorax":{"id": "chitin_powder"}}}}}}}]},
+        {"type":"minecraft:loot_table","value":"thorax:item/dishes/powdered_chitin","functions":[{"function":"minecraft:set_count","count":{"type":"minecraft:score","target":"this","score":"thallium.dummy"}}],"conditions":[{"condition":"minecraft:entity_properties","entity":"this","predicate":{"slots":{"contents":
+        {"predicates": {"custom_data": {"thorax":{"id": "powdered_chitin"}}}}}}}]},
 
-        {"type":"minecraft:loot_table","value":"thorax:item/dishes/manic_margarita","functions":[{"function":"minecraft:set_count","count":{"type":"minecraft:score","target":"this","score":"thallium.dummy"}}],"conditions":[{"condition":"minecraft:entity_properties","entity":"this","predicate":{"slots":{"contents":
-        {"predicates": {"custom_data": {"thorax":{"id": "manic_margarita"}}}}}}}]},
+        {"type":"minecraft:loot_table","value":"thorax:item/dishes/dusk_puffs","functions":[{"function":"minecraft:set_count","count":{"type":"minecraft:score","target":"this","score":"thallium.dummy"}}],"conditions":[{"condition":"minecraft:entity_properties","entity":"this","predicate":{"slots":{"contents":
+        {"predicates": {"custom_data": {"thorax":{"id": "dusk_puffs"}}}}}}}]},
 
-        {"type":"minecraft:loot_table","value":"thorax:item/dishes/dusk_pollen_puffs","functions":[{"function":"minecraft:set_count","count":{"type":"minecraft:score","target":"this","score":"thallium.dummy"}}],"conditions":[{"condition":"minecraft:entity_properties","entity":"this","predicate":{"slots":{"contents":
-        {"predicates": {"custom_data": {"thorax":{"id": "dusk_pollen_puffs"}}}}}}}]},
-
-        {"type":"minecraft:loot_table","value":"thorax:item/dishes/fragrant_pollen_puffs","functions":[{"function":"minecraft:set_count","count":{"type":"minecraft:score","target":"this","score":"thallium.dummy"}}],"conditions":[{"condition":"minecraft:entity_properties","entity":"this","predicate":{"slots":{"contents":
-        {"predicates": {"custom_data": {"thorax":{"id": "fragrant_pollen_puffs"}}}}}}}]},
+        {"type":"minecraft:loot_table","value":"thorax:item/dishes/fragrant_puffs","functions":[{"function":"minecraft:set_count","count":{"type":"minecraft:score","target":"this","score":"thallium.dummy"}}],"conditions":[{"condition":"minecraft:entity_properties","entity":"this","predicate":{"slots":{"contents":
+        {"predicates": {"custom_data": {"thorax":{"id": "fragrant_puffs"}}}}}}}]},
 
         {"type":"minecraft:loot_table","value":"thorax:item/dishes/bug_burger","functions":[{"function":"minecraft:set_count","count":{"type":"minecraft:score","target":"this","score":"thallium.dummy"}}],"conditions":[{"condition":"minecraft:entity_properties","entity":"this","predicate":{"slots":{"contents":
         {"predicates": {"custom_data": {"thorax":{"id": "bug_burger"}}}}}}}]},
 
-        {"type":"minecraft:loot_table","value":"thorax:item/dishes/mud_pie","functions":[{"function":"minecraft:set_count","count":{"type":"minecraft:score","target":"this","score":"thallium.dummy"}}],"conditions":[{"condition":"minecraft:entity_properties","entity":"this","predicate":{"slots":{"contents":
-        {"predicates": {"custom_data": {"thorax":{"id": "mud_pie"}}}}}}}]},
+        {"type":"minecraft:loot_table","value":"thorax:item/dishes/earth_and_worms","functions":[{"function":"minecraft:set_count","count":{"type":"minecraft:score","target":"this","score":"thallium.dummy"}}],"conditions":[{"condition":"minecraft:entity_properties","entity":"this","predicate":{"slots":{"contents":
+        {"predicates": {"custom_data": {"thorax":{"id": "earth_and_worms"}}}}}}}]},
 
-        {"type":"minecraft:loot_table","value":"thorax:item/dishes/gummy_worms","functions":[{"function":"minecraft:set_count","count":{"type":"minecraft:score","target":"this","score":"thallium.dummy"}}],"conditions":[{"condition":"minecraft:entity_properties","entity":"this","predicate":{"slots":{"contents":
-        {"predicates": {"custom_data": {"thorax":{"id": "gummy_worms"}}}}}}}]},
+        {"type":"minecraft:loot_table","value":"thorax:item/dishes/gummy_snake","functions":[{"function":"minecraft:set_count","count":{"type":"minecraft:score","target":"this","score":"thallium.dummy"}}],"conditions":[{"condition":"minecraft:entity_properties","entity":"this","predicate":{"slots":{"contents":
+        {"predicates": {"custom_data": {"thorax":{"id": "gummy_snake"}}}}}}}]},
 
         {"type":"minecraft:loot_table","value":"thorax:item/dishes/butterfly_parfait/cabbage","functions":[{"function":"minecraft:set_count","count":{"type":"minecraft:score","target":"this","score":"thallium.dummy"}}],"conditions":[{"condition":"minecraft:entity_properties","entity":"this","predicate":{"slots":{"contents":
         {"components": {"item_model": "thorax:dishes/butterfly_parfait/cabbage"}}}}}]},
-
-        {"type":"minecraft:loot_table","value":"thorax:item/dishes/butterfly_parfait/morpho","functions":[{"function":"minecraft:set_count","count":{"type":"minecraft:score","target":"this","score":"thallium.dummy"}}],"conditions":[{"condition":"minecraft:entity_properties","entity":"this","predicate":{"slots":{"contents":
-        {"components": {"item_model": "thorax:dishes/butterfly_parfait/morpho"}}}}}]},
 
         {"type":"minecraft:loot_table","value":"thorax:item/dishes/butterfly_parfait/agrias","functions":[{"function":"minecraft:set_count","count":{"type":"minecraft:score","target":"this","score":"thallium.dummy"}}],"conditions":[{"condition":"minecraft:entity_properties","entity":"this","predicate":{"slots":{"contents":
         {"components": {"item_model": "thorax:dishes/butterfly_parfait/agrias"}}}}}]},

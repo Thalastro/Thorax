@@ -1,5 +1,5 @@
-execute if data entity @s item.components."minecraft:custom_data".thorax.stored_item.components."minecraft:custom_data".thorax.bug{essence:"harmony"} run return run loot spawn ~ ~1 ~ loot thorax:gameplay/insect_feeding/pollinator/harmony
-execute if data entity @s item.components."minecraft:custom_data".thorax.stored_item.components."minecraft:custom_data".thorax.bug{essence:"chaos"} run return run loot spawn ~ ~1 ~ loot thorax:gameplay/insect_feeding/pollinator/chaos
-execute if data entity @s item.components."minecraft:custom_data".thorax.stored_item.components."minecraft:custom_data".thorax.bug{essence:"blight"} run return run loot spawn ~ ~1 ~ loot thorax:gameplay/insect_feeding/pollinator/blight
-execute if data entity @s item.components."minecraft:custom_data".thorax.stored_item.components."minecraft:custom_data".thorax.bug{essence:"radiance"} run return run loot spawn ~ ~1 ~ loot thorax:gameplay/insect_feeding/pollinator/radiance
+#execute if data entity @s item.components."minecraft:custom_data".thorax.stored_item.components."minecraft:custom_data".thorax.bug{essence:"harmony"} run return run loot spawn ~ ~1 ~ loot thorax:gameplay/insect_feeding/pollinator/harmony
+#execute if data entity @s item.components."minecraft:custom_data".thorax.stored_item.components."minecraft:custom_data".thorax.bug{essence:"chaos"} run return run loot spawn ~ ~1 ~ loot thorax:gameplay/insect_feeding/pollinator/chaos
+#execute if data entity @s item.components."minecraft:custom_data".thorax.stored_item.components."minecraft:custom_data".thorax.bug{essence:"blight"} run return run loot spawn ~ ~1 ~ loot thorax:gameplay/insect_feeding/pollinator/blight
+#execute if data entity @s item.components."minecraft:custom_data".thorax.stored_item.components."minecraft:custom_data".thorax.bug{essence:"radiance"} run return run loot spawn ~ ~1 ~ loot thorax:gameplay/insect_feeding/pollinator/radiance
 summon experience_orb ~ ~1 ~ {Count:1,Value:3}

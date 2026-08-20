@@ -1,8 +1,8 @@
 {
   "id": "thorax",
   "pack": {
-    "min_format": [101, 1],
-    "max_format": [101, 1],
+    "min_format": [107, 1],
+    "max_format": [107, 1],
     "description": [
       {
         "text": "☯ Thorax ☯",
@@ -12,8 +12,8 @@
         "text": "\n"
       },
       {
-        "text": "v1.0.0 - 'Golden Age'",
-        "color": "#ffd43b"
+        "text": "v1.0 - \"Field Trip\"",
+        "color": "#bcff59"
       }
     ]
   }

@@ -45,9 +45,9 @@
             },
             "minecraft:item_model": "thorax:xanite_bug_net",
             "minecraft:tooltip_style": "thorax:gilded",
-            "minecraft:rarity": "uncommon",
+            "minecraft:rarity": "epic",
             "minecraft:max_stack_size": 1,
-            "minecraft:max_damage": 128,
+            "minecraft:max_damage": 256,
             "minecraft:repairable": {
               "items": [
                 "minecraft:gold_ingot"

@@ -1,0 +1,7 @@
+{
+    "parent": "thorax:entity/bug/ladybug/stationary",
+    "textures": {
+		"0": "thorax:entity/bug/ladybug/moving",
+        "particle": "thorax:entity/bug/ladybug/moving"
+	}
+}

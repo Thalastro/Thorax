@@ -1,0 +1,101 @@
+{
+    "ambient.golden_isles.additions": {
+        "sounds": [
+            "minecraft:ambient/nether/soulsand_valley/wind1",
+            "minecraft:ambient/nether/soulsand_valley/wind2",
+            "minecraft:ambient/nether/soulsand_valley/wind3",
+            "minecraft:ambient/nether/soulsand_valley/wind4"
+        ]
+    },
+    "item.bubble_wand.use": {
+        "sounds": [
+            "mob/pufferfish/blow_up1",
+            "mob/pufferfish/blow_up2"
+        ],
+        "subtitle": "subtitles.item.thorax.bubble_wand.use"
+    },
+    "item.bubble_wand.end": {
+        "sounds": [
+            "mob/pufferfish/blow_out1",
+            "mob/pufferfish/blow_out2"
+        ],
+        "subtitle": "subtitles.item.thorax.bubble_wand.finish"
+    },
+    "entity.bubble.pop": {
+        "sounds": [
+            "ui/hud/hud_bubble"
+        ],
+        "subtitle": "subtitles.entity.thorax.bubble.pop"
+    },
+    "entity.bubble.catch": {
+        "sounds": [
+            "mob/pufferfish/blow_out1",
+            "mob/pufferfish/blow_out2"
+        ],
+        "subtitle": "subtitles.entity.thorax.bubble.catch"
+    },
+    "entity.bug.catch": {
+        "sounds": [
+            "item/bonemeal/bonemeal1",
+            "item/bonemeal/bonemeal2",
+            "item/bonemeal/bonemeal3",
+            "item/bonemeal/bonemeal4",
+            "item/bonemeal/bonemeal5"
+        ],
+        "subtitle": "subtitles.entity.thorax.bug.catch"
+    },
+    "entity.bug.reinforce": {
+        "sounds": [
+            "random/anvil_use"
+        ],
+        "subtitle": "subtitles.entity.thorax.bug.reinforce"
+    },
+    "entity.bug.protected": {
+        "sounds": [
+            "random/anvil_land"
+        ],
+        "subtitle": "subtitles.entity.thorax.bug.protected"
+    },
+    "block.monolith.speak": {
+        "sounds": [
+            "enchant/soulspeed/soulspeed1",
+            "enchant/soulspeed/soulspeed2",
+            "enchant/soulspeed/soulspeed3",
+            "enchant/soulspeed/soulspeed4",
+            "enchant/soulspeed/soulspeed5",
+            "enchant/soulspeed/soulspeed6",
+            "enchant/soulspeed/soulspeed7",
+            "enchant/soulspeed/soulspeed8"
+        ],
+        "subtitle": "subtitles.block.thorax.monolith.speak"
+    },
+    "block.monolith.offer": {
+        "sounds": [
+            "minecraft:mob/irongolem/repair"
+        ],
+        "subtitle": "subtitles.block.thorax.monolith.fill"
+    },
+    "block.monolith.reward": {
+        "sounds": [
+            "block/amethyst/resonate1",
+            "block/amethyst/resonate2",
+            "block/amethyst/resonate3",
+            "block/amethyst/resonate4"
+        ],
+        "subtitle": "subtitles.block.thorax.monolith.finish"
+    },
+    "block.monolith.reject": {
+        "sounds": [
+            "enchant/soulspeed/soulspeed1",
+            "enchant/soulspeed/soulspeed2",
+            "enchant/soulspeed/soulspeed3",
+            "enchant/soulspeed/soulspeed4",
+            "enchant/soulspeed/soulspeed5",
+            "enchant/soulspeed/soulspeed6",
+            "enchant/soulspeed/soulspeed7",
+            "enchant/soulspeed/soulspeed8",
+            "enchant/soulspeed/soulspeed11"
+        ],
+        "subtitle": "subtitles.block.thorax.monolith.reject"
+    }
+}

@@ -290,7 +290,7 @@
                   "type": "minecraft:model",
                   "model": "thorax:block/terrarium/bug/monarch_butterfly",
                   "transformation": {
-                    "translation": [0,0.3,0],
+                    "translation": [0,0.125,0],
                     "left_rotation": [0,0,0,1],
                     "right_rotation": [0,0,0,1],
                     "scale": [1,1,1]
@@ -677,52 +677,45 @@
         "index": 3,
         "cases": [
           {
-            "when": "leaves",
+            "when": "leaf_litter",
             "model": {
               "type": "minecraft:model",
-              "model": "thorax:block/terrarium/decor/leaves"
+              "model": "thorax:block/terrarium/decor/leaf_litter"
             }
           },
           {
-            "when": "dried_leaves",
+            "when": "pink_petals",
             "model": {
               "type": "minecraft:model",
-              "model": "thorax:block/terrarium/decor/dried_leaves"
+              "model": "thorax:block/terrarium/decor/pink_petals"
             }
           },
           {
-            "when": "cherry_leaves",
+            "when": "sculk_vein",
             "model": {
               "type": "minecraft:model",
-              "model": "thorax:block/terrarium/decor/cherry_leaves"
+              "model": "thorax:block/terrarium/decor/sculk_vein"
             }
           },
           {
-            "when": "sand",
+            "when": "wildflowers",
             "model": {
               "type": "minecraft:model",
-              "model": "thorax:block/terrarium/decor/sand"
+              "model": "thorax:block/terrarium/decor/wildflowers"
             }
           },
           {
-            "when": "red_sand",
+            "when": "water_bottle",
             "model": {
               "type": "minecraft:model",
-              "model": "thorax:block/terrarium/decor/red_sand"
+              "model": "thorax:block/terrarium/decor/water_bottle"
             }
           },
           {
-            "when": "puddle",
+            "when": "snowball",
             "model": {
               "type": "minecraft:model",
-              "model": "thorax:block/terrarium/decor/puddle"
-            }
-          },
-          {
-            "when": "snow",
-            "model": {
-              "type": "minecraft:model",
-              "model": "thorax:block/terrarium/decor/snow"
+              "model": "thorax:block/terrarium/decor/snowball"
             }
           }
         ],

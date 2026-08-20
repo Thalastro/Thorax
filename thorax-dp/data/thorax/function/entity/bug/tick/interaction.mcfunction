@@ -1,0 +1,1 @@
+execute unless predicate thallium:entity_properties/has_vehicle run function thorax:entity/bug/behavior/kill/squish
