@@ -20,7 +20,7 @@ Thorax is a large datapack that adds 20+ insects to your world! Exploration is h
 
 # Credits
 
-[BigMastah](https://modrinth.com/user/BigMastah) - Developer & Artist
+[Thalastro](https://modrinth.com/user/Thalastro) - Developer & Artist
 
 ## Contributing Artists
 
