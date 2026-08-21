@@ -9,7 +9,7 @@
     },
     {
       "translate": "ui.thorax.menu",
-      "font": "minecraft:default",
+      "font": "thallium:5",
       "italic": false
     },
     {
@@ -26,7 +26,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": [
-        { "translate": "X", "font": "thorax:statistics", "color": "white" }
+        { "translate": "1", "font": "thorax:icon", "color": "white" }
       ],
       "width": 192
     },
@@ -36,37 +36,37 @@
         [
           {
             "translate": "ui.thorax.version",
-            "color": "gray",
+            "color": "white",
             "font": "thallium:5"
           },
           {
             "text": " - ",
-            "color": "gray",
+            "color": "white",
             "font": "thallium:5"
           },
           {
             "translate": "ui.thorax.update",
-            "color": "#ffd43b",
+            "color": "#bcff59",
             "font": "thallium:5"
           }
         ],
         "\n",
         {
           "translate": "book.byAuthor",
-          "color": "gray",
+          "color": "white",
           "font": "thallium:5",
           "with": [
             [
             {
-              "text": "4  ",
+              "text": "2 ",
               "color": "white",
               "font": "thorax:icon",
               "italic": false
             },
             {
-              "translate": "contributor.bigmastah",
+              "translate": "contributor.thalastro",
               "font": "thallium:5",
-              "color": "#ff7936"
+              "color": "#5a28ff"
             }
           ]
           ]
@@ -93,7 +93,8 @@
       "action": {
         "type": "show_dialog",
         "dialog": "thorax:credits"
-      }
+      },
+      "width": 125
     },
     {
       "label": {
@@ -102,7 +103,8 @@
       "action": {
         "type": "run_command",
         "command": "trigger thorax.menu set 2"
-      }
+      },
+      "width": 125
     },
     {
       "label": {
@@ -111,7 +113,8 @@
       "action": {
         "type": "open_url",
         "url": "https://modrinth.com/project/thorax"
-      }
+      },
+      "width": 125
     }
   ],
   "exit_action": {

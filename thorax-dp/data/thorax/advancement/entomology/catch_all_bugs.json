@@ -363,7 +363,7 @@
     ],
         "icon": {
             "id": "poisonous_potato",
-            "components": {"item_model":"thorax:bug/gilded_mantis"}
+            "components": {"item_model":"thorax:bug/orchid_mantis"}
         },
         "frame": "challenge",
         "show_toast": true,

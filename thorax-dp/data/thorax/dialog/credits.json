@@ -1,15 +1,30 @@
 {
   "type": "minecraft:notice",
-  "title": {
-    "translate": "ui.thallium.credits"
-  },
+  "title": [
+    {
+      "text": "0 ",
+      "color": "white",
+      "font": "thorax:icon",
+      "italic": false
+    },
+    {
+      "translate": "ui.thallium.credits",
+      "font": "thallium:5"
+    },
+    {
+      "text": " 0",
+      "color": "white",
+      "font": "thorax:icon",
+      "italic": false
+    }
+  ],
   "body": [
     {
       "type": "minecraft:plain_message",
       "contents": [
         { "translate": "ui.thallium.hyphen",
-          "with": [ { "translate": "contributor.bigmastah", "color": "#ff7936" }, { "translate": "contributor.thorax.bigmastah.description" } ],
-          "click_event": { "action": "open_url", "url": "https://modrinth.com/user/BigMastah" },
+          "with": [ { "translate": "contributor.thalastro", "color": "#5a28ff" }, { "translate": "contributor.thorax.thalastro.description" } ],
+          "click_event": { "action": "open_url", "url": "https://modrinth.com/user/Thalastro" },
           "hover_event": { "action": "show_text", "value": { "text": "Modrinth" } } },
           "\n",
         { "translate": "ui.thallium.hyphen",

@@ -25,14 +25,14 @@
         "sounds": [
             "ui/hud/hud_bubble"
         ],
-        "subtitle": "subtitles.entity.thorax.bubble.pop"
+        "subtitle": "subtitles.thorax.bubble.pop"
     },
     "entity.bubble.catch": {
         "sounds": [
             "mob/pufferfish/blow_out1",
             "mob/pufferfish/blow_out2"
         ],
-        "subtitle": "subtitles.entity.thorax.bubble.catch"
+        "subtitle": "subtitles.thorax.bubble.catch"
     },
     "entity.bug.catch": {
         "sounds": [
@@ -42,19 +42,19 @@
             "item/bonemeal/bonemeal4",
             "item/bonemeal/bonemeal5"
         ],
-        "subtitle": "subtitles.entity.thorax.bug.catch"
+        "subtitle": "subtitles.thorax.bug.catch"
     },
     "entity.bug.reinforce": {
         "sounds": [
             "random/anvil_use"
         ],
-        "subtitle": "subtitles.entity.thorax.bug.reinforce"
+        "subtitle": "subtitles.thorax.bug.reinforce"
     },
     "entity.bug.protected": {
         "sounds": [
             "random/anvil_land"
         ],
-        "subtitle": "subtitles.entity.thorax.bug.protected"
+        "subtitle": "subtitles.thorax.bug.protected"
     },
     "block.monolith.speak": {
         "sounds": [
@@ -67,13 +67,13 @@
             "enchant/soulspeed/soulspeed7",
             "enchant/soulspeed/soulspeed8"
         ],
-        "subtitle": "subtitles.block.thorax.monolith.speak"
+        "subtitle": "subtitles.thorax.monolith.speak"
     },
     "block.monolith.offer": {
         "sounds": [
             "minecraft:mob/irongolem/repair"
         ],
-        "subtitle": "subtitles.block.thorax.monolith.fill"
+        "subtitle": "subtitles.thorax.monolith.fill"
     },
     "block.monolith.reward": {
         "sounds": [
@@ -82,7 +82,7 @@
             "block/amethyst/resonate3",
             "block/amethyst/resonate4"
         ],
-        "subtitle": "subtitles.block.thorax.monolith.finish"
+        "subtitle": "subtitles.thorax.monolith.finish"
     },
     "block.monolith.reject": {
         "sounds": [
@@ -96,6 +96,6 @@
             "enchant/soulspeed/soulspeed8",
             "enchant/soulspeed/soulspeed11"
         ],
-        "subtitle": "subtitles.block.thorax.monolith.reject"
+        "subtitle": "subtitles.thorax.monolith.reject"
     }
 }

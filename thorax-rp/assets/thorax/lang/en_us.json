@@ -2,6 +2,8 @@
     "ui.thorax.title": "Thorax",
     "ui.thorax.version": "V1.0",
     "ui.thorax.update": "\"Field Trip\"",
+    
+    "ui.thorax.menu": " Thorax ",
     "ui.thorax.description": "Explore a world brimming with insects!",
 
     "ui.thorax.link": "Website",
@@ -9,8 +11,8 @@
     "ui.thorax.thank_you": "Whether you're someone I've known for a while, someone new, or someone I've never even met, thank you so much for playing Thorax and getting full completion! As a special treat, I'll tell you the name of 1.1! %s, coming out... when it's done...",
     "ui.thorax.sign_off": "Signing off, %s",
 
-    "contributor.bigmastah": "BigMastah",
-    "contributor.thorax.bigmastah.description": "Developer",
+    "contributor.thalastro": "Thalastro",
+    "contributor.thorax.thalastro.description": "Developer",
     "contributor.lead": "Lead_Is_Toxic",
     "contributor.thorax.lead.description": "Contributing Artist",
     "contributor.ninesnow": "ninesnow",
@@ -133,8 +135,8 @@
     "subtitles.item.thorax.bubble_wand.use": "Bubble Wand used",
     "subtitles.item.thorax.bubble_wand.finish": "Bubble blown",
 
-    "subtitles.entity.thorax.bubble.catch": "Bubble catches bug",
-    "subtitles.entity.thorax.bubble.pop": "Bubble pops",
+    "subtitles.thorax.entity.bubble.catch": "Bubble catches bug",
+    "subtitles.thorax.entity.bubble.pop": "Bubble pops",
 
     "item.thorax.enraged_trickster": "Enraged Trickster",
     "item.thorax.enraged_trickster.description": "%s to release",
@@ -222,11 +224,11 @@
     "advancement.thorax.use_pollen.title": "Allergen Risk",
     "advancement.thorax.use_pollen.description": "Apply Pollen in order to increase your chances of encountering insects!",
     "advancement.thorax.terrarium.title": "It Belongs in a Museum!",
-    "advancement.thorax.terrarium.description": "Place an Insect in a Terrarium.",
+    "advancement.thorax.terrarium.description": "Place an insect in a Terrarium.",
     "advancement.thorax.feed_insect.title": "Tiny Gluttony",
-    "advancement.thorax.feed_insect.description": "Feed an insect according to its diet and take any byproducts for yourself.",
+    "advancement.thorax.feed_insect.description": "Feed an insect according to its diet and harvest the leftovers!",
     "advancement.thorax.use_chitin.title": "Iron Shell",
-    "advancement.thorax.use_chitin.description": "Make a bug damage-resistant with Chitin.",
+    "advancement.thorax.use_chitin.description": "Make an insect damage-resistant with Chitin!",
     "advancement.thorax.bug_box.title": "Field Work",
     "advancement.thorax.bug_box.description": "Fill a Bug Box with nature items, wait, and check for a bug!",
     "advancement.thorax.trickster.title": "Devilish Deceptor",
@@ -252,12 +254,13 @@
     "advancement.thorax.use_bubble_wand.title": "No Hummingbirds, Please",
     "advancement.thorax.use_bubble_wand.description": "Use a Bubble Wand and hope no hummingbirds are nearby.",
 
-    "subtitles.entity.thorax.bug.squish": "Bug squished",
-    "subtitles.entity.thorax.bug.splat": "Splat!",
-    "subtitles.entity.thorax.bug.drown": "Bug drowns",
-    "subtitles.entity.thorax.bug.burn": "Bug burns",
-    "subtitles.entity.thorax.bug.reinforce": "Bug reinforced",
-    "subtitles.entity.thorax.bug.protected": "Bug is protected",
+    "subtitles.thorax.entity.bug.squish": "Bug squished",
+    "subtitles.thorax.entity.bug.splat": "Splat!",
+    "subtitles.thorax.entity.bug.catch": "Bug caught",
+    "subtitles.thorax.entity.bug.drown": "Bug drowns",
+    "subtitles.thorax.entity.bug.burn": "Bug burns",
+    "subtitles.thorax.entity.bug.reinforce": "Bug reinforced",
+    "subtitles.thorax.entity.bug.protected": "Bug is protected",
     
     "trim_material.thorax.chitin": "Chitin Material",
     
@@ -280,7 +283,7 @@
     "item.thorax.bug.essence.radiance.symbol": "D ",
     
     "statistics.thorax.bugs_caught": "Bugs Caught",
-    "statistics.thorax.bugs_fed": "Byproducts Collected",
+    "statistics.thorax.bugs_fed": "Leftovers Collected",
     "statistics.thorax.bug_boxes": "Bug Boxes Opened",
     "statistics.thorax.monolith_usage": "Offerings Made",
     "statistics.thorax.completion": "Completion",

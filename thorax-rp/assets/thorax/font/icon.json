@@ -10,6 +10,24 @@
 			]
 		},
 		{
+			"type": "bitmap",
+			"file": "thorax:gui/title.png",
+			"ascent": 8,
+			"height": 18,
+			"chars": [
+				"1"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "thorax:gui/skin.png",
+			"ascent": 8,
+			"height": 8,
+			"chars": [
+				"2"
+			]
+		},
+		{
 			"type": "space",
 			"advances": {
 				" ": 2
