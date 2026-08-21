@@ -1,6 +1,12 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "thorax:item/bug/luna_moth"
+    "model": "thorax:item/bug/luna_moth",
+    "tints": [
+      {
+        "type": "constant",
+        "value": 16710654
+      }
+    ]
   }
 }
