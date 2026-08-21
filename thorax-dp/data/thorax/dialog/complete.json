@@ -7,9 +7,9 @@
     {
       "type": "minecraft:plain_message",
       "contents": [
-        { "translate": "ui.thorax.thank_you", "with": [{"translate": "ui.thorax.future_update_name", "color": "#acf619"}] }
+        { "translate": "ui.thorax.thank_you", "with": [{"translate": "ui.thorax.future_update", "color": "#ffb01d", "font": "thallium:5"}] }
       ],
-      "width": 300
+      "width": 250
     },
     {
       "type": "minecraft:plain_message",
@@ -38,15 +38,15 @@
           "with": [ 
             [
               {
-                "text": "4  ",
+                "text": "2  ",
                 "color": "white",
                 "font": "thorax:icon",
                 "italic": false
               },
               { 
-                "translate": "contributor.bigmastah", 
-                "color": "#ff7936",
-                "font": "minecraft:default" 
+                "translate": "contributor.thalastro", 
+                "color": "#5a28ff",
+                "font": "thallium:5" 
               } 
             ]
           ]
@@ -62,8 +62,8 @@
     },
     "action": {
       "type": "show_dialog",
-      "dialog": "thorax:root"
+      "dialog": "thorax:menu"
     },
-    "width": 200
+    "width": 125
   }
 }

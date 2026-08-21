@@ -2,27 +2,27 @@
     "ui.thorax.title": "Thorax",
     "ui.thorax.version": "V1.0",
     "ui.thorax.update": "\"Field Trip\"",
+    "ui.thorax.future_update": "Golden Age",
     
-    "ui.thorax.menu": " Thorax ",
+    "ui.thorax.menu": "Thorax",
     "ui.thorax.description": "Explore a world brimming with insects!",
 
     "ui.thorax.link": "Website",
-    "ui.thorax.secret": "Thank You",
-    "ui.thorax.thank_you": "Whether you're someone I've known for a while, someone new, or someone I've never even met, thank you so much for playing Thorax and getting full completion! As a special treat, I'll tell you the name of 1.1! %s, coming out... when it's done...",
+    "ui.thorax.secret": "Thank You!",
+    "ui.thorax.thank_you": "Well, hello there! Thank you so much for playing Thorax and getting 100%% completion! I know the pack isn't super big yet, but I'm super happy with it! As a special treat, I'll tell you the name of the upcoming 1.1 update! %s, coming out... when it's ready!",
     "ui.thorax.sign_off": "Signing off, %s",
 
     "contributor.thalastro": "Thalastro",
     "contributor.thorax.thalastro.description": "Developer",
-    "contributor.lead": "Lead_Is_Toxic",
-    "contributor.thorax.lead.description": "Contributing Artist",
+    "contributor.lead": "lead is toxic",
+    "contributor.thorax.lead.description": "Artist",
     "contributor.ninesnow": "ninesnow",
-    "contributor.thorax.ninesnow.description": "Contributing Artist",
+    "contributor.thorax.ninesnow.description": "Artist",
     "contributor.fracturedflux": "FracturedFlux",
-    "contributor.thorax.fracturedflux.description": "Contributing Artist",
+    "contributor.thorax.fracturedflux.description": "Artist",
     "contributor.toasteddragon": "ToastedDragon",
-    "contributor.thorax.toasteddragon.description": "Contributing Artist",
-    "credits.thorax.community": "And a big thanks to everyone in %s!",
-    "credits.thorax.community.starstead": "Starstead",
+    "contributor.thorax.toasteddragon.description": "Artist",
+    "ui.thorax.credits": "A big thank you to the people that made %s possible and also to YOU!",
 
     "item.thorax.cabbage_butterfly": "Cabbage Butterfly",
     "item.thorax.cabbage_butterfly.scientific_name": "Pieris rapae",
@@ -132,11 +132,11 @@
     "item.thorax.bubble_wand.description.3": "Fill with %s.",
     "item.thorax.bubble_wand.description.4": "bubble mix",
 
-    "subtitles.item.thorax.bubble_wand.use": "Bubble Wand used",
-    "subtitles.item.thorax.bubble_wand.finish": "Bubble blown",
+    "subtitles.thorax.bubble_wand.use": "Bubble Wand used",
+    "subtitles.thorax.bubble_wand.finish": "Bubble blown",
 
-    "subtitles.thorax.entity.bubble.catch": "Bubble catches bug",
-    "subtitles.thorax.entity.bubble.pop": "Bubble pops",
+    "subtitles.thorax.bubble.catch": "Bubble catches bug",
+    "subtitles.thorax.bubble.pop": "Bubble pops",
 
     "item.thorax.enraged_trickster": "Enraged Trickster",
     "item.thorax.enraged_trickster.description": "%s to release",
@@ -254,13 +254,13 @@
     "advancement.thorax.use_bubble_wand.title": "No Hummingbirds, Please",
     "advancement.thorax.use_bubble_wand.description": "Use a Bubble Wand and hope no hummingbirds are nearby.",
 
-    "subtitles.thorax.entity.bug.squish": "Bug squished",
-    "subtitles.thorax.entity.bug.splat": "Splat!",
-    "subtitles.thorax.entity.bug.catch": "Bug caught",
-    "subtitles.thorax.entity.bug.drown": "Bug drowns",
-    "subtitles.thorax.entity.bug.burn": "Bug burns",
-    "subtitles.thorax.entity.bug.reinforce": "Bug reinforced",
-    "subtitles.thorax.entity.bug.protected": "Bug is protected",
+    "subtitles.thorax.bug.squish": "Bug squished",
+    "subtitles.thorax.bug.splat": "Splat!",
+    "subtitles.thorax.bug.catch": "Bug caught",
+    "subtitles.thorax.bug.drown": "Bug drowns",
+    "subtitles.thorax.bug.burn": "Bug burns",
+    "subtitles.thorax.bug.reinforce": "Bug reinforced",
+    "subtitles.thorax.bug.protected": "Bug is protected",
     
     "trim_material.thorax.chitin": "Chitin Material",
     
@@ -284,8 +284,6 @@
     
     "statistics.thorax.bugs_caught": "Bugs Caught",
     "statistics.thorax.bugs_fed": "Leftovers Collected",
-    "statistics.thorax.bug_boxes": "Bug Boxes Opened",
-    "statistics.thorax.monolith_usage": "Offerings Made",
     "statistics.thorax.completion": "Completion",
     
     "jade.modName.thorax": "Thorax",

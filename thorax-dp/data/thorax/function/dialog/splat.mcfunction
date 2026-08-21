@@ -1,1 +1,0 @@
-playsound thorax:entity.bug.splat master @s ~ ~ ~ 1

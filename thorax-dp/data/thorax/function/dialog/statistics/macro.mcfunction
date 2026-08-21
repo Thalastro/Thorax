@@ -16,21 +16,9 @@ $dialog show @s {\
         [ { "text": "B  ", "font": "thorax:statistics", "shadow_color": [0,0,0,0], },\
           { "translate": "ui.thallium.colon", "font": "minecraft:default", "shadow_color":[0.25,0.25,0.25,1],\
             "with": [\
-            { "translate": "statistics.thorax.bugs_fed", "font": "minecraft:default" }, "$(bugs_fed)" ] } ],\
-            "\n",\
-            "\n",\
-        [ { "text": "C  ", "font": "thorax:statistics", "shadow_color": [0,0,0,0], },\
-          { "translate": "ui.thallium.colon", "font": "minecraft:default", "shadow_color":[0.25,0.25,0.25,1],\
-            "with": [\
-            { "translate": "statistics.thorax.pollen_usage", "font": "minecraft:default" }, "$(pollen_usage)" ] } ],\
-            "\n",\
-            "\n",\
-        [ { "text": "D  ", "font": "thorax:statistics", "shadow_color": [0,0,0,0], },\
-          { "translate": "ui.thallium.colon", "font": "minecraft:default", "shadow_color":[0.25,0.25,0.25,1],\
-            "with": [\
-            { "translate": "statistics.thorax.monolith_usage", "font": "minecraft:default" }, "$(monolith_usage)" ] } ],\
+            { "translate": "statistics.thorax.bugs_fed", "font": "minecraft:default" }, "$(bugs_fed)" ] } ]\
       ],\
-      "width": 300\
+      "width": 200\
     },\
     {\
       "type": "minecraft:plain_message",\
@@ -49,8 +37,8 @@ $dialog show @s {\
     },\
     "action": {\
       "type": "minecraft:show_dialog",\
-      "dialog": "thorax:root"\
+      "dialog": "thorax:menu"\
     },\
-    "width": 200\
+    "width": 125\
   }\
 }

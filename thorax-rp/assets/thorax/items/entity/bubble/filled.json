@@ -1,6 +1,12 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "thorax:entity/bubble/filled"
+    "model": "thorax:entity/bubble/filled",
+    "tints": [
+      {
+        "type": "constant",
+        "value": 16710654
+      }
+    ]
   }
 }

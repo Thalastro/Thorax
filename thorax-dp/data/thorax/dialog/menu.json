@@ -2,7 +2,7 @@
   "type": "minecraft:multi_action",
   "title": [
     {
-      "text": "0 ",
+      "text": "0  ",
       "color": "white",
       "font": "thorax:icon",
       "italic": false
@@ -10,10 +10,11 @@
     {
       "translate": "ui.thorax.menu",
       "font": "thallium:5",
+      "underlined": true,
       "italic": false
     },
     {
-      "text": " 0",
+      "text": "  0",
       "color": "white",
       "font": "thorax:icon",
       "italic": false
@@ -105,16 +106,6 @@
         "command": "trigger thorax.menu set 2"
       },
       "width": 125
-    },
-    {
-      "label": {
-        "translate": "ui.thorax.link"
-      },
-      "action": {
-        "type": "open_url",
-        "url": "https://modrinth.com/project/thorax"
-      },
-      "width": 125
     }
   ],
   "exit_action": {
@@ -125,6 +116,6 @@
       "type": "minecraft:show_dialog",
       "dialog": "smithed:data_packs"
     },
-    "width": 200
+    "width": 125
   }
 }

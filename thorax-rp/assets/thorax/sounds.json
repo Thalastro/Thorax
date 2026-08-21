@@ -12,14 +12,14 @@
             "mob/pufferfish/blow_up1",
             "mob/pufferfish/blow_up2"
         ],
-        "subtitle": "subtitles.item.thorax.bubble_wand.use"
+        "subtitle": "subtitles.thorax.bubble_wand.use"
     },
     "item.bubble_wand.end": {
         "sounds": [
             "mob/pufferfish/blow_out1",
             "mob/pufferfish/blow_out2"
         ],
-        "subtitle": "subtitles.item.thorax.bubble_wand.finish"
+        "subtitle": "subtitles.thorax.bubble_wand.finish"
     },
     "entity.bubble.pop": {
         "sounds": [
