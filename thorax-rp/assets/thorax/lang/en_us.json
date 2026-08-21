@@ -22,7 +22,7 @@
     "contributor.thorax.fracturedflux.description": "Artist",
     "contributor.toasteddragon": "ToastedDragon",
     "contributor.thorax.toasteddragon.description": "Artist",
-    "ui.thorax.credits": "A big thank you to the people that made %s possible and also to YOU!",
+    "ui.thorax.credits": "Thank you to the people that made %s possible and also to you!",
 
     "item.thorax.cabbage_butterfly": "Cabbage Butterfly",
     "item.thorax.cabbage_butterfly.scientific_name": "Pieris rapae",
@@ -126,7 +126,6 @@
     "subtitles.item.thorax.pollen.apply": "Pollen applied",
 
     "item.thorax.bubble_wand": "Bubble Wand",
-    "item.thorax.bubble_mix": "Bubble Mix",
     "item.thorax.bubble_wand.description.1": "%s to blow %s.",
     "item.thorax.bubble_wand.description.2": "bubbles",
     "item.thorax.bubble_wand.description.3": "Fill with %s.",

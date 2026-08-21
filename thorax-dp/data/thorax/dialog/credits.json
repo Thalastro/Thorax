@@ -22,22 +22,6 @@
   "body": [
     {
       "type": "minecraft:plain_message",
-      "width": 200,
-      "contents": [
-        {
-          "translate": "ui.thorax.credits",
-          "with": [
-            {
-              "translate": "ui.thorax.title",
-              "font": "thallium:5",
-              "color": "#1cd84e"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "minecraft:plain_message",
       "contents": [
         { "translate": "ui.thallium.hyphen",
           "with": [ { "translate": "contributor.thalastro", "color": "#5a28ff", "font": "thallium:5" }, { "translate": "contributor.thorax.thalastro.description", "font": "thallium:5" } ],
@@ -65,6 +49,22 @@
           "hover_event": { "action": "show_text", "value": { "text": "ToastedDragon's Modrinth" } } }
       ],
       "width": 250
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 200,
+      "contents": [
+        {
+          "translate": "ui.thorax.credits",
+          "with": [
+            {
+              "translate": "ui.thorax.title",
+              "font": "thallium:5",
+              "color": "#1cd84e"
+            }
+          ]
+        }
+      ]
     },
     {
       "type": "minecraft:plain_message",
