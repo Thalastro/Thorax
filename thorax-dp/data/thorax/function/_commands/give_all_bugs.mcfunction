@@ -10,7 +10,6 @@ loot give @s loot thorax:item/bug/luna_moth
 loot give @s loot thorax:item/bug/caccophomoth
 loot give @s loot thorax:item/bug/praying_mantis
 loot give @s loot thorax:item/bug/orchid_mantis
-loot give @s loot thorax:item/bug/gilded_mantis
 loot give @s loot thorax:item/bug/green_darner
 loot give @s loot thorax:item/bug/azure_damselfly
 loot give @s loot thorax:item/bug/crystal_dasher
@@ -21,4 +20,3 @@ loot give @s loot thorax:item/bug/pond_skater
 loot give @s loot thorax:item/bug/sea_strider
 loot give @s loot thorax:item/bug/walking_stick
 loot give @s loot thorax:item/bug/walking_leaf
-loot give @s loot thorax:item/bug/red_maiden
