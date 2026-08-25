@@ -99,10 +99,6 @@
 
     "item.thorax.bug_net": "Bug Net",
     "item.thorax.xanite_bug_net": "Xanite Bug Net",
-
-    "item.thorax.bug_guts": "Bug Guts",
-    "item.thorax.chitin": "Chitin",
-    "subtitles.thorax.chitin.eat": "Crunchy eating",
     
     "item.thorax.insect_itinerary": "Insect Itinerary",
     "item.thorax.insect_itinerary.description.1": "Tracks %s you have caught",
@@ -286,5 +282,45 @@
     "statistics.thorax.completion": "Completion",
     
     "jade.modName.thorax": "Thorax",
-    "itemGroup.thorax": "Thorax"
+    "itemGroup.thorax": "Thorax",
+    
+
+    "subtitles.thorax.chitin.eat": "Crunchy eating",
+
+    "thorax.source": "Thorax",
+    "book.thorax.source": "\ue001",
+    
+    "item.thorax.bug_guts": "Bug Guts",
+    "book.item.thorax.bug_guts": "\uc001",
+    "item.thorax.chitin": "Chitin",
+    "book.item.thorax.chitin": "\uc002",
+    "item.thorax.diced_bug_guts": "Diced Bug Guts",
+    "book.item.thorax.diced_bug_guts": "\uc003",
+    "item.thorax.powdered_chitin": "Powdered Chitin",
+    "book.item.thorax.powdered_chitin": "\uc004",
+    "item.thorax.electro_gland": "Electro Gland",
+    "book.item.thorax.electro_gland": "\uc005",
+    "ingredient.thorax.any_pollen": "Any Pollen",
+    "book.ingredient.thorax.any_pollen": "\uc006",
+    "ingredient.thorax.any_butterfly": "Any Butterfly",
+    "book.ingredient.thorax.any_butterfly": "\uc007",
+
+    "item.thorax.gummy_snake": "Gummy Snake",
+    "book.item.thorax.gummy_snake": "\uc030",
+    "item.thorax.crunchdog": "Crunchdog",
+    "book.item.thorax.crunchdog": "\uc031",
+    "item.thorax.pollen_puffs": "Pollen Puffs",
+    "book.item.thorax.pollen_puffs": "\uc032",
+    "item.thorax.dusk_pollen_puffs": "Dusk Pollen Puffs",
+    "item.thorax.fragrant_pollen_puffs": "Fragrant Pollen Puffs",
+    "item.thorax.gutloaf": "Gutloaf",
+    "book.item.thorax.gutloaf": "\uc033",
+    "item.thorax.glazed_gutloaf": "Glazed Gutloaf",
+    "book.item.thorax.glazed_gutloaf": "\uc034",
+    "item.thorax.earth_and_worms": "Earth & Worms",
+    "book.item.thorax.earth_and_worms": "\uc035",
+    "item.thorax.butterfly_parfait": "Butterfly Parfait",
+    "book.item.thorax.butterfly_parfait": "\uc036",
+    "item.thorax.electro_wine": "Electro Wine",
+    "book.item.thorax.electro_wine": "\uc037"
 }

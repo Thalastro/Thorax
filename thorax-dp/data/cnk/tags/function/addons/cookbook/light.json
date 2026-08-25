@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "thorax:addon/cnk/cookbook/pollen_puffs",
+        "thorax:addon/cnk/cookbook/crunchdog"
+    ]
+}

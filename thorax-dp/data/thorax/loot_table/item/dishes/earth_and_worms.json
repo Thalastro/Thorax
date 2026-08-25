@@ -14,7 +14,8 @@
           "function": "minecraft:set_components",
           "components": {
             "minecraft:item_name": {
-              "translate": "item.thorax.earth_and_worms"
+              "translate": "item.thorax.earth_and_worms",
+              "fallback": "Earth & Worms"
             },
             "minecraft:lore": [
               [
