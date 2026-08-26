@@ -1,0 +1,25 @@
+{
+  "parent": "cnk:cookbook/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+                "custom_data": {
+                    "thorax": {
+                        "id": "glazed_gutloaf"
+                    }
+                }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "thorax:addon/cnk/cookbook/grant/glazed_gutloaf"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "parent": "cnk:cookbook/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+                "custom_data": {
+                    "thorax": {
+                        "id": "pollen_puffs"
+                    }
+                }
+            }
+          }
+        ]
+      }
+    },
+    "requirement2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+                "custom_data": {
+                    "thorax": {
+                        "id": "dusk_pollen_puffs"
+                    }
+                }
+            }
+          }
+        ]
+      }
+    },
+    "requirement3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+                "custom_data": {
+                    "thorax": {
+                        "id": "fragrant_pollen_puffs"
+                    }
+                }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "requirement",
+      "requirement2",
+      "requirement3"
+    ]
+  ],
+  "rewards": {
+    "function": "thorax:addon/cnk/cookbook/grant/pollen_puffs"
+  }
+}

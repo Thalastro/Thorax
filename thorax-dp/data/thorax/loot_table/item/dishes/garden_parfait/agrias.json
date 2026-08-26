@@ -14,7 +14,7 @@
           "function": "minecraft:set_components",
           "components": {
             "minecraft:item_name": {
-              "translate": "item.thorax.butterfly_parfait"
+              "translate": "item.thorax.garden_parfait"
             },
             "minecraft:lore": [
               [
@@ -34,11 +34,11 @@
             ],
             "minecraft:custom_data": {
               "thorax": {
-                "id": "butterfly_parfait"
+                "id": "garden_parfait"
               },
               "cnk": {
                 "placeable": {
-                  "model": "thorax:dishes/placeable/butterfly_parfait/agrias"
+                  "model": "thorax:dishes/placeable/garden_parfait/agrias"
                 }
               },
               "smithed": {
@@ -48,7 +48,7 @@
                 }
               }
             },
-            "minecraft:item_model": "thorax:dishes/butterfly_parfait/agrias",
+            "minecraft:item_model": "thorax:dishes/garden_parfait/agrias",
             "minecraft:tooltip_style": "thorax:main",
             "minecraft:rarity": "uncommon",
             "minecraft:consumable": {

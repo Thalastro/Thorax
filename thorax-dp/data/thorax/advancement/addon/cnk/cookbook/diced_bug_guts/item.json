@@ -1,0 +1,25 @@
+{
+  "parent": "cnk:cookbook/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+                "custom_data": {
+                    "thorax": {
+                        "id": "diced_bug_guts"
+                    }
+                }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "thorax:addon/cnk/cookbook/grant/diced_bug_guts"
+  }
+}

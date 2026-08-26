@@ -1,0 +1,102 @@
+{
+  "parent": "cnk:cookbook/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+                "custom_data": {
+                    "thorax": {
+                        "id": "cabbage_butterfly"
+                    }
+                }
+            }
+          }
+        ]
+      }
+    },
+    "requirement2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+                "custom_data": {
+                    "thorax": {
+                        "id": "agrias_butterfly"
+                    }
+                }
+            }
+          }
+        ]
+      }
+    },
+    "requirement3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+                "custom_data": {
+                    "thorax": {
+                        "id": "monarch_butterfly"
+                    }
+                }
+            }
+          }
+        ]
+      }
+    },
+    "requirement4": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+                "custom_data": {
+                    "thorax": {
+                        "id": "blazing_daggerwing"
+                    }
+                }
+            }
+          }
+        ]
+      }
+    },
+    "requirement5": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+                "custom_data": {
+                    "thorax": {
+                        "id": "arctic_apollo"
+                    }
+                }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "requirement",
+      "requirement2",
+      "requirement3",
+      "requirement4",
+      "requirement5"
+    ]
+  ],
+  "rewards": {
+    "function": "thorax:addon/cnk/cookbook/grant/any_butterfly"
+  }
+}

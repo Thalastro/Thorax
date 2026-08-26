@@ -1,0 +1,19 @@
+{
+  "parent": "cnk:cookbook/toasts",
+  "display": {
+    "title": [{"translate":"book.cnk.toast.background","font":"cnk.book:advancement"},{"translate":"book.cnk.toast.unlock.ingredient","font":"cnk.book:advancement_text","color":"#7b613a"}],
+    "icon": {
+      "id": "minecraft:poisonous_potato",
+      "components": {
+        "item_model": "thorax:dishes/diced_bug_guts"
+      }
+    },
+    "description": "",
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

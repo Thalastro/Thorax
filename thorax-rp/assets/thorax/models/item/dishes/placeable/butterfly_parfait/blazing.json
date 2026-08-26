@@ -1,7 +1,0 @@
-{
-    "parent": "thorax:item/dishes/placeable/butterfly_parfait/agrias",
-    "textures": {
-        "0": "thorax:block/addon/butterfly_parfait/blazing",
-		"particle": "thorax:block/addon/butterfly_parfait/blazing"
-    }
-}

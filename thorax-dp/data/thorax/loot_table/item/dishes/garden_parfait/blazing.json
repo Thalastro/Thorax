@@ -14,7 +14,7 @@
           "function": "minecraft:set_components",
           "components": {
             "minecraft:item_name": {
-              "translate": "item.thorax.butterfly_parfait"
+              "translate": "item.thorax.garden_parfait"
             },
             "minecraft:lore": [
               [
@@ -34,11 +34,11 @@
             ],
             "minecraft:custom_data": {
               "thorax": {
-                "id": "butterfly_parfait"
+                "id": "garden_parfait"
               },
               "cnk": {
                 "placeable": {
-                  "model": "thorax:dishes/placeable/butterfly_parfait/blazing"
+                  "model": "thorax:dishes/placeable/garden_parfait/blazing"
                 }
               },
               "smithed": {
@@ -48,7 +48,7 @@
                 }
               }
             },
-            "minecraft:item_model": "thorax:dishes/butterfly_parfait/blazing",
+            "minecraft:item_model": "thorax:dishes/garden_parfait/blazing",
             "minecraft:tooltip_style": "thorax:main",
             "minecraft:rarity": "uncommon",
             "minecraft:consumable": {
