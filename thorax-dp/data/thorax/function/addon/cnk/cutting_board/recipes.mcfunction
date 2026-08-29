@@ -1,0 +1,2 @@
+execute if data storage cnk:temp cutting_board.item{components:{"minecraft:custom_data":{thorax:{id:"bug_guts"}}}} run return run function thorax:addon/cnk/cutting_board/recipes/diced_bug_guts
+execute if data storage cnk:temp cutting_board.item{components:{"minecraft:custom_data":{thorax:{id:"cathode_scorpion"}}}} run return run function thorax:addon/cnk/cutting_board/recipes/electro_gland
