@@ -1,7 +1,7 @@
 {
     "replace": false,
     "values": [
-        "thorax:addon/cnk/cookbook/earth_and_worms",
-        "thorax:addon/cnk/cookbook/garden_parfait"
+        "thorax:addon/cnk/cookbook/pages/earth_and_worms",
+        "thorax:addon/cnk/cookbook/pages/garden_parfait"
     ]
 }

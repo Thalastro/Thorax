@@ -14,7 +14,7 @@
           "function": "minecraft:set_components",
           "components": {
             "minecraft:item_name": {
-              "translate": "item.thorax.chitin_powder"
+              "translate": "item.thorax.powdered_chitin"
             },
             "minecraft:lore": [
               [
@@ -34,7 +34,7 @@
             ],
             "minecraft:custom_data": {
               "thorax": {
-                "id": "chitin_powder"
+                "id": "powdered_chitin"
               },
               "smithed": {
                 "ignore": {
@@ -43,7 +43,7 @@
                 }
               }
             },
-            "minecraft:item_model": "thorax:dishes/chitin_powder",
+            "minecraft:item_model": "thorax:dishes/powdered_chitin",
             "minecraft:tooltip_style": "thorax:main",
             "minecraft:rarity": "common",
             "minecraft:max_stack_size": 64,

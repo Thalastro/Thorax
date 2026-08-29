@@ -1,6 +1,6 @@
 {
 	"parent": "minecraft:item/generated",
 	"textures": {
-		"layer0": "thorax:item/dishes/gutloaf/normal"
+		"layer0": "thorax:item/dishes/icon/any_pollen"
 	}
 }

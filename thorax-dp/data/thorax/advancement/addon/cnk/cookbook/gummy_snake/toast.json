@@ -5,7 +5,7 @@
     "icon": {
       "id": "minecraft:poisonous_potato",
       "components": {
-        "item_model": "thorax:dishes/diced_bug_guts"
+        "item_model": "thorax:dishes/gummy_snake"
       }
     },
     "description": "",

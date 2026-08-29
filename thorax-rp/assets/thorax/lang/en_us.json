@@ -319,8 +319,11 @@
     "book.item.thorax.glazed_gutloaf": "\uc034",
     "item.thorax.earth_and_worms": "Earth & Worms",
     "book.item.thorax.earth_and_worms": "\uc035",
-    "item.thorax.butterfly_parfait": "Butterfly Parfait",
-    "book.item.thorax.butterfly_parfait": "\uc036",
+    "item.thorax.garden_parfait": "Garden Parfait",
+    "book.item.thorax.garden_parfait": "\uc036",
     "item.thorax.electro_wine": "Electro Wine",
-    "book.item.thorax.electro_wine": "\uc037"
+    "book.item.thorax.electro_wine": "\uc037",
+
+    "item.thorax.bug_milk": "Bug Milk",
+    "item.thorax.bug_milk_bottle": "Bug Milk Bottle"
 }

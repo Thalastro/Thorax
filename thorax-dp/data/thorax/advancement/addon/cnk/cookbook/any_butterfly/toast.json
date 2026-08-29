@@ -5,7 +5,7 @@
     "icon": {
       "id": "minecraft:poisonous_potato",
       "components": {
-        "item_model": "thorax:dishes/any_butterfly"
+        "item_model": "thorax:bug/cabbage_butterfly"
       }
     },
     "description": "",

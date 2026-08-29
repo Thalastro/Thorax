@@ -1,6 +1,6 @@
 {
     "replace": false,
     "values": [
-        "thorax:addon/cnk/cookbook/gummy_snake"
+        "thorax:addon/cnk/cookbook/pages/gummy_snake"
     ]
 }

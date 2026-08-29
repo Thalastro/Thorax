@@ -9,13 +9,13 @@
         {"type":"bitmap","file":"thorax:item/dishes/icon/any_butterfly.png","ascent":15,"height":16,"chars":["\uc007"]},
 
         {"type":"bitmap","file":"thorax:item/dishes/icon/gummy_snake.png","ascent":15,"height":16,"chars":["\uc030"]},
-        {"type":"bitmap","file":"thorax:item/dishes/icon/crustdog.png","ascent":15,"height":16,"chars":["\uc031"]},
+        {"type":"bitmap","file":"thorax:item/dishes/icon/crunchdog.png","ascent":15,"height":16,"chars":["\uc031"]},
         {"type":"bitmap","file":"thorax:item/dishes/icon/pollen_puffs.png","ascent":15,"height":16,"chars":["\uc032"]},
         {"type":"bitmap","file":"thorax:item/dishes/icon/gutloaf.png","ascent":15,"height":16,"chars":["\uc033"]},
         {"type":"bitmap","file":"thorax:item/dishes/icon/glazed_gutloaf.png","ascent":15,"height":16,"chars":["\uc034"]},
-        {"type":"bitmap","file":"thorax:item/dishes/icon/butterfly_parfait.png","ascent":15,"height":16,"chars":["\uc035"]},
-        {"type":"bitmap","file":"thorax:item/dishes/icon/earth_and_worms.png","ascent":15,"height":16,"chars":["\uc036"]},
+        {"type":"bitmap","file":"thorax:item/dishes/icon/earth_and_worms.png","ascent":15,"height":16,"chars":["\uc035"]},
+                {"type":"bitmap","file":"thorax:item/dishes/icon/garden_parfait.png","ascent":15,"height":16,"chars":["\uc036"]},
         {"type":"bitmap","file":"thorax:item/dishes/icon/electro_wine.png","ascent":15,"height":16,"chars":["\uc037"]},
-        {"type":"bitmap","file":"thorax:item/dishes/indicator.png","ascent":6,"height":8,"chars":["\ue001"]}
+        {"type":"bitmap","file":"thorax:gui/sprites/cnk_indicator.png","ascent":6,"height":8,"chars":["\ue001"]}
     ]
 }

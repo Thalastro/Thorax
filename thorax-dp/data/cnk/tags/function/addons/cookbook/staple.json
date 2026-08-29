@@ -1,7 +1,7 @@
 {
     "replace": false,
     "values": [
-        "thorax:addon/cnk/cookbook/diced_bug_guts",
-        "thorax:addon/cnk/cookbook/powered_chitin"
+        "thorax:addon/cnk/cookbook/pages/diced_bug_guts",
+        "thorax:addon/cnk/cookbook/pages/powered_chitin"
     ]
 }

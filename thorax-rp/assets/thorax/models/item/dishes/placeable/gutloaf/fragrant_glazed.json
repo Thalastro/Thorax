@@ -1,7 +1,0 @@
-{
-    "parent": "thorax:item/dishes/placeable/gutloaf/glazed",
-    "textures": {
-        "0": "thorax:block/addon/gutloaf/fragrant_glazed",
-		"particle": "thorax:block/addon/gutloaf/fragrant_glazed"
-    }
-}
