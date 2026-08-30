@@ -27,7 +27,8 @@
     {
       "type": "minecraft:plain_message",
       "contents": [
-        { "translate": "1", "font": "thorax:icon", "color": "white" }
+        { "translate": "1", "font": "thorax:icon", "color": "white" },
+        "\n","\n","\n"
       ],
       "width": 192
     },

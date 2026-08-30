@@ -36,6 +36,11 @@
               "thorax": {
                 "id": "gutloaf"
               },
+              "cnk": {
+                "placeable": {
+                  "model": "thorax:dishes/placeable/gutloaf"
+                }
+              },
               "smithed": {
                 "ignore": {
                   "functionality": true,

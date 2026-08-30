@@ -13,7 +13,7 @@
 			"type": "bitmap",
 			"file": "thorax:gui/title.png",
 			"ascent": 8,
-			"height": 18,
+			"height": 44,
 			"chars": [
 				"1"
 			]
