@@ -20,13 +20,13 @@ Thorax is a large datapack that adds 20+ insects to your world! Exploration is h
 
 # Credits
 
-[Thalastro](https://modrinth.com/user/Thalastro) - Developer & Artist
+[Thalastro](https://modrinth.com/user/Thalastro) - Lead Developer & Artist
+
+[LeadisToxic](https://modrinth.com/user/LeadisToxic) - Developer & Artist
 
 ## Contributing Artists
 
 [ninesnow](https://modrinth.com/user/ninesnow) - Various Item Textures, Scorpions
-
-[LeadisToxic](https://modrinth.com/user/LeadisToxic) - Essence and Diet Icons
 
 [FracturedFlux](https://modrinth.com/user/FracturedFlux) - Ladybugs
 
