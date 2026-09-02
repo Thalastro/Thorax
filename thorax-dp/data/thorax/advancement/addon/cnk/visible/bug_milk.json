@@ -1,0 +1,54 @@
+{
+  "parent": "thorax:addon/cnk/visible/all_foods",
+    "criteria": {
+        "thorax:bug_milk": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "poisonous_potato",
+                    "predicates": {
+                        "custom_data": {
+                            "thorax": {
+                                "id": "bug_milk"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "thorax:bug_milk_bottle": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "poisonous_potato",
+                    "predicates": {
+                        "custom_data": {
+                            "thorax": {
+                                "id": "bug_milk_bottle"
+                            }
+                        }
+                    }
+                } 
+            }
+        }
+    },
+    "display": {
+        "title": {"translate": "advancement.thorax.bug_milk.title"},
+        "description": [{"translate": "advancement.thorax.bug_milk.description"},
+        "\n\n",
+        {"text": "0 ", "color": "white", "font": "thorax:icon", "italic": false},
+        {"translate": "ui.thorax.title", "color": "white", "font": "thorax:tooltip", "italic": false}
+    ],
+        "icon": {
+            "id": "poisonous_potato",
+            "components": {"item_model":"thorax:dishes/bug_milk_bottle"}
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+  "requirements": [
+    ["thorax:bug_milk","thorax:bug_milk_bottle"]
+  ]
+}

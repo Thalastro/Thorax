@@ -1,7 +1,7 @@
 {
     "parent": "thorax:item/dishes/placeable/garden_parfait/agrias",
     "textures": {
-        "0": "thorax:block/addon/garden_parfait/arctic",
-		"particle": "thorax:block/addon/garden_parfait/arctic"
+        "0": "thorax:item/dishes/placeable/garden_parfait/arctic",
+		"particle": "thorax:item/dishes/placeable/garden_parfait/arctic"
     }
 }

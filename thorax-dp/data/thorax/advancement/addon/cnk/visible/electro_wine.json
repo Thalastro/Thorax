@@ -1,0 +1,38 @@
+{
+  "parent": "thorax:addon/cnk/visible/all_foods",
+    "criteria": {
+        "thorax:electro_wine": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": "poisonous_potato",
+                    "predicates": {
+                            "custom_data": {
+                                "thorax": {
+                                    "id": "electro_wine"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "title": {"translate": "advancement.thorax.electro_wine.title"},
+        "description": [{"translate": "advancement.thorax.electro_wine.description"},
+        "\n\n",
+        {"text": "0 ", "color": "white", "font": "thorax:icon", "italic": false},
+        {"translate": "ui.thorax.title", "color": "white", "font": "thorax:tooltip", "italic": false}
+    ],
+        "icon": {
+            "id": "poisonous_potato",
+            "components": {"item_model":"thorax:dishes/electro_wine"}
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    }
+}

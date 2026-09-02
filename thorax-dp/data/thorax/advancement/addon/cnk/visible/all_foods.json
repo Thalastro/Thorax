@@ -1,0 +1,214 @@
+{
+  "parent": "cnk:visible/root",
+    "criteria": {
+        "thorax:diced_bug_guts": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "poisonous_potato",
+                        "predicates": {
+                            "custom_data": {
+                                "thorax": {
+                                    "id": "diced_bug_guts"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "thorax:powdered_chitin": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "poisonous_potato",
+                        "predicates": {
+                            "custom_data": {
+                                "thorax": {
+                                    "id": "powdered_chitin"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "thorax:crunchdog": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "poisonous_potato",
+                        "predicates": {
+                            "custom_data": {
+                                "thorax": {
+                                    "id": "crunchdog"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "thorax:gutloaf": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "poisonous_potato",
+                        "predicates": {
+                            "custom_data": {
+                                "thorax": {
+                                    "id": "gutloaf"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "thorax:glazed_gutloaf": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "poisonous_potato",
+                        "predicates": {
+                            "custom_data": {
+                                "thorax": {
+                                    "id": "glazed_gutloaf"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "thorax:gummy_snake": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "poisonous_potato",
+                        "predicates": {
+                            "custom_data": {
+                                "thorax": {
+                                    "id": "gummy_snake"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "thorax:earth_and_worms": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "poisonous_potato",
+                        "predicates": {
+                            "custom_data": {
+                                "thorax": {
+                                    "id": "earth_and_worms"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "thorax:pollen_puffs": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "poisonous_potato",
+                        "predicates": {
+                            "custom_data": {
+                                "thorax": {
+                                    "id": "pollen_puffs"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "thorax:dusk_pollen_puffs": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "poisonous_potato",
+                        "predicates": {
+                            "custom_data": {
+                                "thorax": {
+                                    "id": "dusk_pollen_puffs"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "thorax:fragrant_pollen_puffs": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "poisonous_potato",
+                        "predicates": {
+                            "custom_data": {
+                                "thorax": {
+                                    "id": "fragrant_pollen_puffs"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "thorax:garden_parfait": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "poisonous_potato",
+                        "predicates": {
+                            "custom_data": {
+                                "thorax": {
+                                    "id": "garden_parfait"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "title": {"translate": "advancement.thorax.all_foods.title"},
+        "description": [{"translate": "advancement.thorax.all_foods.description"},
+        "\n\n",
+        {"text": "0 ", "color": "white", "font": "thorax:icon", "italic": false},
+        {"translate": "ui.thorax.title", "color": "white", "font": "thorax:tooltip", "italic": false}
+    ],
+        "icon": {
+            "id": "poisonous_potato",
+            "components": {"item_model":"thorax:dishes/gummy_snake"}
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+  "requirements": [
+    ["thorax:diced_bug_guts"],["thorax:powdered_chitin"],["thorax:crunchdog"],
+    ["thorax:gutloaf"],["thorax:glazed_gutloaf"],["thorax:gummy_snake"],
+    ["thorax:earth_and_worms"],["thorax:garden_parfait"],
+    ["thorax:pollen_puffs","thorax:dusk_pollen_puffs","thorax:fragrant_pollen_puffs"]
+  ]
+}

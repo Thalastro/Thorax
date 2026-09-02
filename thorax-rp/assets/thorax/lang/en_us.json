@@ -3,9 +3,9 @@
     "ui.thorax.version": "V1.0",
     "ui.thorax.update": "\"Field Trip\"",
     "ui.thorax.future_update": "Golden Age",
-    
-    "ui.thorax.menu": "Thorax",
+    "ui.thorax.menu": "Menu",
     "ui.thorax.description": "Explore a world brimming with insects!",
+    "ui.thorax.statistics": "Statistics",
 
     "ui.thorax.link": "Website",
     "ui.thorax.secret": "Thank You!",
@@ -22,7 +22,7 @@
     "contributor.thorax.fracturedflux.description": "Artist",
     "contributor.toasteddragon": "ToastedDragon",
     "contributor.thorax.toasteddragon.description": "Artist",
-    "ui.thorax.credits": "Thank you to the people that made %s possible and also to you!",
+    "ui.thorax.credits": "Thank you to the people that contributed to %s, It wouldn't have been possible without you! ",
 
     "item.thorax.cabbage_butterfly": "Cabbage Butterfly",
     "item.thorax.cabbage_butterfly.scientific_name": "Pieris rapae",
@@ -248,6 +248,13 @@
     "advancement.thorax.artifact.description": "Use a Monolith Artifact to enhance your devotion.",
     "advancement.thorax.use_bubble_wand.title": "No Hummingbirds, Please",
     "advancement.thorax.use_bubble_wand.description": "Use a Bubble Wand and hope no hummingbirds are nearby.",
+    
+    "advancement.thorax.all_foods.title": "Gritty Gourmand",
+    "advancement.thorax.all_foods.description": "Cook every Thorax dish in the cookbook",
+    "advancement.thorax.bug_milk.title": "Is it healthy to drink bug milk?",
+    "advancement.thorax.bug_milk.description": "We go outside and catch as many bugs as possible in the blender with water it tastes so bad and gives me the worst diarrhea ever and even my turtle drinks it and vomits it back up I thought bugs are healthy but the more bugs I drink the worse I I feel",
+    "advancement.thorax.electro_wine.title": "Shocking Sauvignon",
+    "advancement.thorax.electro_wine.description": "Brew the secret recipe for Electro Wine",
 
     "subtitles.thorax.bug.squish": "Bug squished",
     "subtitles.thorax.bug.splat": "Splat!",

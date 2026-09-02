@@ -1,8 +1,25 @@
 $dialog show @s {\
   "type": "minecraft:notice",\
-  "title": {\
-    "translate": "gui.stats"\
-  },\
+  "title": [\
+    {\
+      "text": "0  ",\
+      "color": "white",\
+      "font": "thorax:icon",\
+      "italic": false\
+    },\
+    {\
+      "translate": "ui.thorax.statistics",\
+      "font": "thallium:5",\
+      "underlined": true,\
+      "italic": false\
+    },\
+    {\
+      "text": "  0",\
+      "color": "white",\
+      "font": "thorax:icon",\
+      "italic": false\
+    }\
+  ],\
   "body": [\
     {\
       "type": "minecraft:plain_message",\
@@ -23,9 +40,9 @@ $dialog show @s {\
     {\
       "type": "minecraft:plain_message",\
       "contents": [\
-          { "translate": "ui.thallium.colon", "color": "#ffd43b", "font": "minecraft:default", "underlined": true, "shadow_color":[0.25,0.15,0,1], "click_event": { "action": "show_dialog", "dialog": "thorax:complete" }, \
+          { "translate": "ui.thallium.colon", "color": "#ffd43b", "font": "thallium:5", "underlined": true, "shadow_color":[0.25,0.15,0,1], "click_event": { "action": "show_dialog", "dialog": "thorax:complete" }, \
             "with": [\
-            { "translate": "statistics.thorax.completion" }, { "translate": "ui.thallium.percentage", "with": [ "$(completion)" ] } ] },\
+            { "translate": "statistics.thorax.completion", "font": "thallium:5" }, { "translate": "ui.thallium.percentage", "font": "thallium:5", "with": [ "$(completion)" ] } ] },\
       ],\
       "width": 250\
     },\
