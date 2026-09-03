@@ -4,9 +4,9 @@
     "ui.thorax.update": "\"Field Trip\"",
     "ui.thorax.future_update": "Golden Age",
     "ui.thorax.menu": "Menu",
-    "ui.thorax.description": "Explore a world brimming with insects!",
+    "ui.thorax.description": "Explore a world brimming with insects and embark on a chitinous conquest!",
+    "ui.thorax.gallery": "Gallery",
     "ui.thorax.statistics": "Statistics",
-
     "ui.thorax.link": "Website",
     "ui.thorax.secret": "Thank You!",
     "ui.thorax.thank_you": "Well, hello there! Thank you so much for playing Thorax and getting 100%% completion! I know the pack isn't super big yet, but I'm super happy with it! As a special treat, I'll tell you the name of the upcoming 1.1 update! %s, coming out... when it's ready!",
@@ -291,8 +291,8 @@
     "jade.modName.thorax": "Thorax",
     "itemGroup.thorax": "Thorax",
     
-
     "subtitles.thorax.chitin.eat": "Crunchy eating",
+    "subtitles.thorax.electro_wine.throw": "Bottle thrown",
 
     "thorax.source": "Thorax",
     "book.thorax.source": "\ue001",
@@ -332,5 +332,7 @@
     "book.item.thorax.electro_wine": "\uc037",
 
     "item.thorax.bug_milk": "Bug Milk",
-    "item.thorax.bug_milk_bottle": "Bug Milk Bottle"
+    "item.thorax.bug_milk_bottle": "Bug Milk Bottle",
+    
+    "item.thorax.calendar.format": "Year %1$s, Day %2$s"
 }

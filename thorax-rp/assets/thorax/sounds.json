@@ -97,5 +97,13 @@
             "enchant/soulspeed/soulspeed11"
         ],
         "subtitle": "subtitles.thorax.monolith.reject"
+    },
+    "item.electro_wine.throw": {
+        "sounds": [
+            "entity/witch/throw1",
+            "entity/witch/throw2",
+            "entity/witch/throw3"
+        ],
+        "subtitle": "subtitles.thorax.electro_wine.throw"
     }
 }

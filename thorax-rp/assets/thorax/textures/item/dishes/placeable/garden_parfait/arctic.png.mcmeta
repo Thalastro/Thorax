@@ -2,8 +2,12 @@
     "animation": {
         "frames": [
             {
+                "index": 1,
+                "time": 2
+            },
+            {
                 "index": 0,
-                "time": 7
+                "time": 10
             },
             {
                 "index": 1,
@@ -19,7 +23,7 @@
             },
             {
                 "index": 4,
-                "time": 22
+                "time": 20
             },
             {
                 "index": 3,
@@ -28,10 +32,6 @@
             {
                 "index": 2,
                 "time": 1
-            },
-            {
-                "index": 1,
-                "time": 2
             }
         ]
     }

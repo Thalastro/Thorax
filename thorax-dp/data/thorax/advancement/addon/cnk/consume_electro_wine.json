@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:poisonous_potato",
+          "predicates": {
+            "minecraft:custom_data": {"thorax":{"id":"electro_wine"}}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "thorax:addon/cnk/distiller/drinks/electro_wine/effect/main"
+  }
+}
