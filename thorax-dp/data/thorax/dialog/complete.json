@@ -64,6 +64,6 @@
       "type": "show_dialog",
       "dialog": "thorax:menu"
     },
-    "width": 125
+    "width": 200
   }
 }

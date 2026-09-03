@@ -6,6 +6,7 @@
     "ui.thorax.menu": "Menu",
     "ui.thorax.description": "Explore a world brimming with insects and embark on a chitinous conquest!",
     "ui.thorax.gallery": "Gallery",
+    "ui.thorax.credits": "Credits",
     "ui.thorax.statistics": "Statistics",
     "ui.thorax.link": "Website",
     "ui.thorax.secret": "Thank You!",
@@ -22,7 +23,7 @@
     "contributor.thorax.fracturedflux.description": "Artist",
     "contributor.toasteddragon": "ToastedDragon",
     "contributor.thorax.toasteddragon.description": "Artist",
-    "ui.thorax.credits": "Thank you to the people that contributed to %s, It wouldn't have been possible without you! ",
+    "ui.thorax.credits_text": "Thank you to the people that contributed to %s, It wouldn't have been possible without you! ",
 
     "item.thorax.cabbage_butterfly": "Cabbage Butterfly",
     "item.thorax.cabbage_butterfly.scientific_name": "Pieris rapae",
@@ -293,6 +294,7 @@
     
     "subtitles.thorax.chitin.eat": "Crunchy eating",
     "subtitles.thorax.electro_wine.throw": "Bottle thrown",
+    "subtitles.thorax.electro_wine.land": "Electricity primes",
 
     "thorax.source": "Thorax",
     "book.thorax.source": "\ue001",

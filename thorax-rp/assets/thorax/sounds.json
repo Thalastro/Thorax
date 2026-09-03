@@ -105,5 +105,11 @@
             "entity/witch/throw3"
         ],
         "subtitle": "subtitles.thorax.electro_wine.throw"
+    },
+    "item.electro_wine.land": {
+        "sounds": [
+            "block/trial_spawner/about_to_spawn_item"
+        ],
+        "subtitle": "subtitles.thorax.electro_wine.land"
     }
 }

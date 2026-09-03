@@ -10,7 +10,9 @@ $loot $(give_or_spawn) loot { \
             { \
               "function": "minecraft:set_components", \
               "components": { \
-                "minecraft:max_stack_size": 1, \
+                "minecraft:rarity": "rare",\
+                "minecraft:max_stack_size": 1,\
+                "minecraft:tooltip_style": "thorax:main",\
                 "minecraft:item_name": {"translate":"item.thorax.electro_wine","fallback":"Electro Wine"}, \
                 "minecraft:item_model": "thorax:dishes/electro_wine", \
                 "!minecraft:food": {}, \
@@ -27,7 +29,7 @@ $loot $(give_or_spawn) loot { \
                   ] \
                 }, \
                 "minecraft:lore": [[{"translate":"0 ","font":"thorax:icon","color":"white","italic":false},{"translate":"ui.thorax.title","font":"thorax:tooltip","color":"white","italic":false}],{"translate":"item.thorax.calendar.format","with":["$(year)","$(day)"],"color":"blue","italic":false}], \
-                "minecraft:custom_data": {"thorax":{"id":"electro_wine"}"cnk":{"wine":{"time":$(gametime),"color":$(color)}},"smithed":{"ignore":{"functionality":true,"crafting":true}}} \
+                "minecraft:custom_data": {"thorax":{"id":"electro_wine"},"cnk":{"wine":{"time":$(gametime),"color":$(color)}},"smithed":{"ignore":{"functionality":true,"crafting":true}}} \
               } \
             } \
           ] \

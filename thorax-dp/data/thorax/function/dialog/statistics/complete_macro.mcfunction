@@ -56,6 +56,6 @@ $dialog show @s {\
       "type": "minecraft:show_dialog",\
       "dialog": "thorax:menu"\
     },\
-    "width": 125\
+    "width": 200\
   }\
 }

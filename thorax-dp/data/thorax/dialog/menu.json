@@ -90,21 +90,31 @@
   "actions": [
     {
       "label": {
-        "translate": "ui.thallium.credits"
-      },
-      "action": {
-        "type": "show_dialog",
-        "dialog": "thorax:credits"
-      },
-      "width": 125
-    },
-    {
-      "label": {
         "translate": "gui.stats"
       },
       "action": {
         "type": "run_command",
         "command": "trigger thorax.menu set 2"
+      },
+      "width": 125
+    },
+    {
+      "label": {
+        "translate": "ui.thorax.gallery"
+      },
+      "action": {
+        "type": "show_dialog",
+        "dialog": "thorax:gallery"
+      },
+      "width": 125
+    },
+    {
+      "label": {
+        "translate": "ui.thorax.credits"
+      },
+      "action": {
+        "type": "show_dialog",
+        "dialog": "thorax:credits"
       },
       "width": 125
     }
@@ -117,6 +127,6 @@
       "type": "minecraft:show_dialog",
       "dialog": "smithed:data_packs"
     },
-    "width": 125
+    "width": 200
   }
 }
