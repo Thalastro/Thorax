@@ -100,11 +100,11 @@
     },
     {
       "label": {
-        "translate": "ui.thorax.gallery"
+        "translate": "ui.thorax.settings"
       },
       "action": {
         "type": "show_dialog",
-        "dialog": "thorax:gallery"
+        "dialog": "thorax:settings"
       },
       "width": 125
     },

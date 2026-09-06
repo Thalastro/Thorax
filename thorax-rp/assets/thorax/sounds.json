@@ -56,6 +56,48 @@
         ],
         "subtitle": "subtitles.thorax.bug.protected"
     },
+    "block.terrarium.insert_bug": {
+        "sounds": [
+            "block/decorated_pot/insert1",
+            "block/decorated_pot/insert2",
+            "block/decorated_pot/insert3",
+            "block/decorated_pot/insert4"
+        ],
+        "subtitle": "subtitles.thorax.terrarium.insert_bug"
+    },
+    "block.terrarium.remove_bug": {
+        "sounds": [
+            "block/decorated_pot/insert1",
+            "block/decorated_pot/insert2",
+            "block/decorated_pot/insert3",
+            "block/decorated_pot/insert4"
+        ],
+        "subtitle": "subtitles.thorax.terrarium.remove_bug"
+    },
+    "block.terrarium.set_decor": {
+        "sounds": [
+            "item/bonemeal/bonemeal1",
+            "item/bonemeal/bonemeal2",
+            "item/bonemeal/bonemeal3",
+            "item/bonemeal/bonemeal4",
+            "item/bonemeal/bonemeal5"
+        ],
+        "subtitle": "subtitles.thorax.terrarium.set_decor"
+    },
+    "block.terrarium.remove_decor": {
+        "sounds": [
+            "mob/sheep/shear"
+        ],
+        "subtitle": "subtitles.thorax.terrarium.remove_decor"
+    },
+    "block.terrarium.set_glass": {
+        "sounds": [
+            "block/grindstone/grindstone1",
+            "block/grindstone/grindstone2",
+            "block/grindstone/grindstone3"
+        ],
+        "subtitle": "subtitles.thorax.terrarium.set_glass"
+    },
     "block.monolith.speak": {
         "sounds": [
             "enchant/soulspeed/soulspeed1",

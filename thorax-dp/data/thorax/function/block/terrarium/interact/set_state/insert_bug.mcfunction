@@ -1,4 +1,4 @@
-$data modify entity @s item.components."minecraft:custom_model_data".strings append value $(id)
+$data modify entity @s item.components."minecraft:custom_model_data".strings[2] set value $(id)
 data modify entity @s item.components."minecraft:custom_data".thorax.stored_item set from storage thorax:temp root.item
 data modify entity @s item.components."minecraft:custom_data".thorax.stored_item.count set value 1
 
@@ -13,7 +13,6 @@ execute if data entity @s item.components."minecraft:custom_data".thorax.stored_
 tag @s add thorax.block.terrarium.has_bug
 
 scoreboard players set #thorax.has_changed_state thorax.dummy 1
-execute unless score #thorax.quick_replace thorax.dummy matches 1 run scoreboard players set #thorax.should_consume_item thorax.dummy 1
 
-playsound thorax:entity.terrarium.insert_bug block @a[distance=..16]
-particle minecraft:dust{scale:1,color:[1.0,1.0,1.0]} ~ ~-0.1 ~ 0.15 0.15 0.15 0 5
+playsound thorax:block.terrarium.insert_bug block @a[distance=..16]
+particle minecraft:dust{scale:1,color:[1.0,1.0,1.0]} ~ ~-0.65 ~ 0.2 0.25 0.2 0 8

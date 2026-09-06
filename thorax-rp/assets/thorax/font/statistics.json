@@ -3,28 +3,10 @@
         {
             "type": "bitmap",
             "file": "thorax:gui/sprites/statistics.png",
-            "height": 9,
-            "ascent": 8,
+            "height": 16,
+            "ascent": 10,
             "chars": [
-                "ABCD"
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "thorax:gui/sprites/title.png",
-            "height": 110,
-            "ascent": 4,
-            "chars": [
-                "X"
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "thorax:gui/thank_you.png",
-            "height": 64,
-            "ascent": 16,
-            "chars": [
-                "Z"
+                "AB"
             ]
         },
 		{

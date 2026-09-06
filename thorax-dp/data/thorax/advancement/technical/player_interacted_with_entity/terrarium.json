@@ -5,7 +5,7 @@
         "conditions": {
             "entity": {
                 "entity_type": "minecraft:interaction",
-                "entity_tags": {"any_of": ["thorax.entity.terrarium"]}
+                "entity_tags": {"any_of": ["thorax.block.terrarium"]}
             }
         }
     }

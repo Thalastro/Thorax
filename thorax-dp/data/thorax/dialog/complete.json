@@ -1,34 +1,32 @@
 {
   "type": "minecraft:notice",
-  "title": {
-    "translate": "ui.thorax.secret"
-  },
+  "title": [
+    {
+      "text": "0  ",
+      "color": "white",
+      "font": "thorax:icon",
+      "italic": false
+    },
+    {
+      "translate": "ui.thorax.secret",
+      "font": "thallium:5",
+      "underlined": true,
+      "italic": false
+    },
+    {
+      "text": "  0",
+      "color": "white",
+      "font": "thorax:icon",
+      "italic": false
+    }
+  ],
   "body": [
     {
       "type": "minecraft:plain_message",
       "contents": [
-        { "translate": "ui.thorax.thank_you", "with": [{"translate": "ui.thorax.future_update", "color": "#ffb01d", "font": "thallium:5"}] }
+        { "translate": "ui.thorax.thank_you"}
       ],
-      "width": 250
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": [
-        { "translate": "Z", "font": "thorax:statistics", "color": "white" }
-      ],
-      "width": 192
-    },
-    {
-        "type": "plain_message",
-        "contents": {
-            "text": ""
-        }
-    },
-    {
-        "type": "plain_message",
-        "contents": {
-            "text": ""
-        }
+      "width": 200
     },
     {
       "type": "minecraft:plain_message",

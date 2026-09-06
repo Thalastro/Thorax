@@ -1,0 +1,23 @@
+{
+  "parent": "thorax:entomology/terrarium",
+    "criteria": {
+        "thorax:impossible": {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "title": {"translate": "advancement.thorax.decorate.title"},
+        "description": [{"translate": "advancement.thorax.decorate.description"},
+        "\n\n",
+        {"text": "0 ", "color": "white", "font": "thorax:icon", "italic": false},
+        {"translate": "ui.thorax.title", "color": "white", "font": "thorax:tooltip", "italic": false}
+    ],
+        "icon": {
+            "id": "green_dye"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    }
+}

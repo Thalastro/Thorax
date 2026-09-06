@@ -29,5 +29,5 @@ execute if entity @s[advancements={thorax:completion/catch_crystal_dasher=true}]
 execute if entity @s[advancements={thorax:completion/catch_bark_scorpion=true}] run scoreboard players add @s thorax.completion 2
 execute if entity @s[advancements={thorax:completion/catch_cathode_scorpion=true}] run scoreboard players add @s thorax.completion 2
 
-execute unless score @s thorax.completion matches 200.. run return fail
+execute unless score @s thorax.completion matches 100.. run return fail
 execute if entity @s[advancements={thorax:completion/catch_red_maiden=true}] run scoreboard players add @s thorax.completion 1

@@ -1,5 +1,5 @@
 {
-  "parent": "thorax:entomology/insect_itinerary",
+  "parent": "thorax:entomology/catch_all_bugs",
     "criteria": {
         "thorax:impossible": {
             "trigger": "impossible"
