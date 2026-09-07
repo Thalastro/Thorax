@@ -1,0 +1,24 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "thorax:item/pollen",
+                    "weight": 80
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "thorax:item/dusk_pollen",
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "thorax:item/fragrant_pollen",
+                    "weight": 10
+                }
+            ]
+        }
+    ]
+}

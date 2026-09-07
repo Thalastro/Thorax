@@ -1,0 +1,1 @@
+summon experience_orb ~ ~1 ~ {Count:2,Value:3}

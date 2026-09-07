@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 3,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "thorax:item/bug_guts",
+                    "weight": 85
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "thorax:item/chitin",
+                    "weight": 15
+                }
+            ]
+        }
+    ]
+}
