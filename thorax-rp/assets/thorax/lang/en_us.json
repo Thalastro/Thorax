@@ -150,13 +150,6 @@
     "item.thorax.xanite_effigy": "Xanite Effigy",
     "item.thorax.xanite_effigy.description.1": "%s a Monolith to %s its loot.",
     "item.thorax.xanite_effigy.description.2": "duplicate",
-    
-    "item.thorax.pollen_pouch": "Pollen Pouch",
-    "item.thorax.pollen_pouch.description": " Pollen effects last longer",
-    "item.thorax.dawn_lotus": "Dawn Lotus",
-    "item.thorax.dawn_lotus.description": " Boosts speed when in sunlight",
-    "item.thorax.serpent_cuff": "Serpent Cuff",
-    "item.thorax.serpent_cuff.description": " Siphons negative effects and applies them to targets",
 
     "item.thorax.expedition_map": "Expedition Map",
     "item.thorax.golden_isles_map": "Paradise Expedition Map",

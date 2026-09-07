@@ -1,4 +1,4 @@
-tag @s remove thorax.terrarium.digesting
-tag @s add thorax.terrarium.digested
+tag @s remove thorax.block.terrarium.digesting
+tag @s add thorax.block.terrarium.digested
 
-playsound thorax:block.terrarium.bug_finish_digest block @a[distance=..16]
+playsound thorax:block.terrarium.finished block @a[distance=..16] ~ ~ ~ 1

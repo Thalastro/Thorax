@@ -1,0 +1,2 @@
+execute if entity @s[tag=thorax.block.terrarium.eat] run return run function thorax:block/terrarium/interact/set_state/feed/fail/failed_chance
+function thorax:block/terrarium/interact/set_state/feed/fail/wrong_item

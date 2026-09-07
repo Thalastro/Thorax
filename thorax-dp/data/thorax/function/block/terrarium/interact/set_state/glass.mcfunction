@@ -19,8 +19,10 @@ execute if data entity @s item.components."minecraft:custom_data".thorax.glass_i
 execute if data entity @s item.components."minecraft:custom_data".thorax.glass_item{id:"minecraft:gray_dye"} run data modify entity @s item.components."minecraft:custom_model_data".strings[1] set value gray
 execute if data entity @s item.components."minecraft:custom_data".thorax.glass_item{id:"minecraft:black_dye"} run data modify entity @s item.components."minecraft:custom_model_data".strings[1] set value black
 execute if data entity @s item.components."minecraft:custom_data".thorax.glass_item{id:"minecraft:amethyst_shard"} run data modify entity @s item.components."minecraft:custom_model_data".strings[1] set value tinted
+execute if data entity @s item.components."minecraft:custom_data".thorax.glass_item{id:"minecraft:phantom_membrane"} run data modify entity @s item.components."minecraft:custom_model_data".strings[1] set value empty
 
 scoreboard players set #thorax.has_changed_state thorax.dummy 1
+scoreboard players set #thorax.should_consume_item thorax.dummy 1
 scoreboard players set #thorax.decorated thorax.dummy 1
 
 playsound thorax:block.terrarium.set_glass block @a[distance=..16]
