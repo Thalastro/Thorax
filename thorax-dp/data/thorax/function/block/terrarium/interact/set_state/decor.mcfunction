@@ -1,5 +1,3 @@
-execute if entity @s[tag=thorax.block.terrarium.decorated] run return fail
-
 data modify entity @s item.components."minecraft:custom_data".thorax.decor_item set from storage thorax:temp root.item
 data modify entity @s item.components."minecraft:custom_data".thorax.decor_item.count set value 1
 

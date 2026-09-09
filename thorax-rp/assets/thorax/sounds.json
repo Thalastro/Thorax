@@ -98,6 +98,41 @@
         ],
         "subtitle": "subtitles.thorax.terrarium.set_glass"
     },
+    "block.terrarium.feed": {
+        "sounds": [
+            "random/eat1",
+            "random/eat2",
+            "random/eat3"
+        ],
+        "subtitle": "subtitles.thorax.terrarium.feed"
+    },
+    "block.terrarium.full": {
+        "sounds": [
+            "random/burp"
+        ],
+        "subtitle": "subtitles.thorax.terrarium.full"
+    },
+    "block.terrarium.finish": {
+        "sounds": [
+            "random/burp"
+        ],
+        "subtitle": "subtitles.thorax.terrarium.finish"
+    },
+    "block.terrarium.collect": {
+        "sounds": [
+            "block/decorated_pot/insert1",
+            "block/decorated_pot/insert2",
+            "block/decorated_pot/insert3",
+            "block/decorated_pot/insert4"
+        ],
+        "subtitle": "subtitles.thorax.terrarium.collect"
+    },
+    "block.terrarium.fail": {
+        "sounds": [
+            "item/bundle/insert_fail"
+        ],
+        "subtitle": "subtitles.thorax.terrarium.fail"
+    },
     "block.monolith.speak": {
         "sounds": [
             "enchant/soulspeed/soulspeed1",

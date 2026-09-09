@@ -8,6 +8,5 @@ tag @s remove thorax.block.terrarium.digested
 data remove entity @s item.components."minecraft:custom_data".thorax.digesting_item
 
 scoreboard players set #thorax.collected thorax.dummy 1
-
-playsound thorax:block.terrarium.remove_leftovers block @a[distance=..16]
-particle minecraft:dust{scale:1,color:[1.0,1.0,1.0]} ~ ~ ~ 0.15 0.5 0.15 0.2 5
+playsound thorax:block.terrarium.collect block @a[distance=..16]
+particle minecraft:dust{scale:1,color:[1.0,1.0,1.0]} ~ ~-0.5 ~ 0.15 0.5 0.15 0.2 5

@@ -1,8 +1,8 @@
 # Checks state and diverts to proper function
 
 # Clicked with Decor Item, Modify
-execute if score #thorax.decor thorax.dummy matches 1 run return run function thorax:block/terrarium/interact/set_state/decor
-execute if score #thorax.decor thorax.dummy matches 2 run return run function thorax:block/terrarium/interact/set_state/remove_decor
+execute if score #thorax.decor thorax.dummy matches 1 if entity @s[tag=!thorax.block.terrarium.decorated] run return run function thorax:block/terrarium/interact/set_state/decor
+execute if score #thorax.decor thorax.dummy matches 2 if entity @s[tag=thorax.block.terrarium.decorated] run return run function thorax:block/terrarium/interact/set_state/remove_decor
 
 # Clicked with Glass Item, Modify
 execute if score #thorax.glass thorax.dummy matches 1.. run return run function thorax:block/terrarium/interact/set_state/glass

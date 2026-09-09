@@ -1,2 +1,2 @@
-loot spawn ~ ~1 ~ loot thorax:gameplay/terrarium/carnivore/uncommon
-summon experience_orb ~ ~1 ~ {Count:3,Value:3}
+loot spawn ~ ~0.5 ~ loot thorax:gameplay/terrarium/carnivore/uncommon
+summon experience_orb ~ ~0.5 ~ {Count:3,Value:3}

@@ -1,5 +1,5 @@
 execute if data entity @s item.components."minecraft:custom_data".thorax.digesting_item.components."minecraft:custom_data".thorax{id:"bug_guts"} run return run function thorax:block/terrarium/digest/carnivore/guts
-execute if data entity @s item.components."minecraft:custom_data".thorax.digesting_item.components."minecraft:custom_data".thorax.bug{rarity:"common"} run return run function thorax:block/terrarium/digest/carnivore/common
-execute if data entity @s item.components."minecraft:custom_data".thorax.digesting_item.components."minecraft:custom_data".thorax.bug{rarity:"uncommon"} run return run function thorax:block/terrarium/digest/carnivore/uncommon
-execute if data entity @s item.components."minecraft:custom_data".thorax.digesting_item.components."minecraft:custom_data".thorax.bug{rarity:"rare"} run return run function thorax:block/terrarium/digest/carnivore/rare
-execute if data entity @s item.components."minecraft:custom_data".thorax.digesting_item.components."minecraft:custom_data".thorax.bug{rarity:"epic"} run return run function thorax:block/terrarium/digest/carnivore/epic
+execute if data entity @s item.components."minecraft:custom_data".thorax.digesting_item.components{"minecraft:rarity":"uncommon"} run return run function thorax:block/terrarium/digest/carnivore/uncommon
+execute if data entity @s item.components."minecraft:custom_data".thorax.digesting_item.components{"minecraft:rarity":"rare"} run return run function thorax:block/terrarium/digest/carnivore/rare
+execute if data entity @s item.components."minecraft:custom_data".thorax.digesting_item.components{"minecraft:rarity":"epic"} run return run function thorax:block/terrarium/digest/carnivore/epic
+function thorax:block/terrarium/digest/carnivore/common

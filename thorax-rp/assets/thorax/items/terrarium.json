@@ -246,7 +246,7 @@
                   "type": "minecraft:model",
                   "model": "thorax:block/terrarium/bug/cabbage_butterfly",
                   "transformation": {
-                    "translation": [0,0.3,0],
+                    "translation": [0,0.125,0],
                     "left_rotation": [0,0,0,1],
                     "right_rotation": [0,0,0,1],
                     "scale": [1,1,1]
@@ -312,7 +312,7 @@
                   "type": "minecraft:model",
                   "model": "thorax:block/terrarium/bug/blazing_daggerwing",
                   "transformation": {
-                    "translation": [0,0.3,0],
+                    "translation": [0,0.125,0],
                     "left_rotation": [0,0,0,1],
                     "right_rotation": [0,0,0,1],
                     "scale": [1,1,1]
@@ -334,7 +334,7 @@
                   "type": "minecraft:model",
                   "model": "thorax:block/terrarium/bug/arctic_apollo",
                   "transformation": {
-                    "translation": [0,0.3,0],
+                    "translation": [0,0.125,0],
                     "left_rotation": [0,0,0,1],
                     "right_rotation": [0,0,0,1],
                     "scale": [1,1,1]
@@ -356,7 +356,7 @@
                   "type": "minecraft:model",
                   "model": "thorax:block/terrarium/bug/miller_moth",
                   "transformation": {
-                    "translation": [0,0.3,0],
+                    "translation": [0,0.125,0],
                     "left_rotation": [0,0,0,1],
                     "right_rotation": [0,0,0,1],
                     "scale": [1,1,1]
@@ -378,7 +378,7 @@
                   "type": "minecraft:model",
                   "model": "thorax:block/terrarium/bug/hawk_moth",
                   "transformation": {
-                    "translation": [0,0.3,0],
+                    "translation": [0,0.125,0],
                     "left_rotation": [0,0,0,1],
                     "right_rotation": [0,0,0,1],
                     "scale": [1,1,1]
@@ -400,7 +400,7 @@
                   "type": "minecraft:model",
                   "model": "thorax:block/terrarium/bug/luna_moth",
                   "transformation": {
-                    "translation": [0,0.3,0],
+                    "translation": [0,0.125,0],
                     "left_rotation": [0,0,0,1],
                     "right_rotation": [0,0,0,1],
                     "scale": [1,1,1]
@@ -422,7 +422,7 @@
                   "type": "minecraft:model",
                   "model": "thorax:block/terrarium/bug/rosy_maple_moth",
                   "transformation": {
-                    "translation": [0,0.3,0],
+                    "translation": [0,0.125,0],
                     "left_rotation": [0,0,0,1],
                     "right_rotation": [0,0,0,1],
                     "scale": [1,1,1]
@@ -444,7 +444,7 @@
                   "type": "minecraft:model",
                   "model": "thorax:block/terrarium/bug/caccophomoth",
                   "transformation": {
-                    "translation": [0,0.3,0],
+                    "translation": [0,0.125,0],
                     "left_rotation": [0,0,0,1],
                     "right_rotation": [0,0,0,1],
                     "scale": [1,1,1]
@@ -505,7 +505,7 @@
                   "type": "minecraft:model",
                   "model": "thorax:block/terrarium/bug/green_darner",
                   "transformation": {
-                    "translation": [0,0.3,0],
+                    "translation": [0,0.125,0],
                     "left_rotation": [0,0,0,1],
                     "right_rotation": [0,0,0,1],
                     "scale": [1,1,1]
@@ -527,7 +527,7 @@
                   "type": "minecraft:model",
                   "model": "thorax:block/terrarium/bug/azure_damselfly",
                   "transformation": {
-                    "translation": [0,0.3,0],
+                    "translation": [0,0.125,0],
                     "left_rotation": [0,0,0,1],
                     "right_rotation": [0,0,0,1],
                     "scale": [1,1,1]
@@ -549,7 +549,7 @@
                   "type": "minecraft:model",
                   "model": "thorax:block/terrarium/bug/crystal_dasher",
                   "transformation": {
-                    "translation": [0,0.3,0],
+                    "translation": [0,0.125,0],
                     "left_rotation": [0,0,0,1],
                     "right_rotation": [0,0,0,1],
                     "scale": [1,1,1]
@@ -659,7 +659,7 @@
               "type": "minecraft:model",
               "model": "thorax:block/terrarium/bug/red_maiden",
               "transformation": {
-                "translation": [0,0.15,0],
+                "translation": [0,-0.05,0],
                 "left_rotation": [0,0,0,1],
                 "right_rotation": [0,0,0,1],
                 "scale": [1,1,1]

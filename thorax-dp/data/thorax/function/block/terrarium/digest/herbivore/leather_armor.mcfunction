@@ -1,2 +1,2 @@
-loot spawn ~ ~1 ~ loot thorax:gameplay/terrarium/herbivore/leather_armor
-summon experience_orb ~ ~1 ~ {Count:3,Value:5}
+loot spawn ~ ~0.5 ~ loot thorax:gameplay/terrarium/herbivore/leather_armor
+summon experience_orb ~ ~0.5 ~ {Count:3,Value:5}

@@ -6,7 +6,7 @@
                 {
                     "type": "minecraft:loot_table",
                     "value": "thorax:item/bug_guts",
-                    "weight": 95
+                    "weight": 85
                 },
                 {
                     "type": "minecraft:loot_table",
