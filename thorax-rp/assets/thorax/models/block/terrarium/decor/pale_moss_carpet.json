@@ -1,0 +1,7 @@
+{
+    "parent": "thorax:block/terrarium/decor/leaf_litter",
+    "textures": {
+        "0": "thorax:block/terrarium/decor/pale_moss_carpet",
+		"particle": "thorax:block/terrarium/decor/pale_moss_carpet"
+    }
+}

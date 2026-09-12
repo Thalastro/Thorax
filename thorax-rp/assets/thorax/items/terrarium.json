@@ -684,10 +684,38 @@
             }
           },
           {
+            "when": "wildflowers",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/decor/wildflowers"
+            }
+          },
+          {
             "when": "pink_petals",
             "model": {
               "type": "minecraft:model",
               "model": "thorax:block/terrarium/decor/pink_petals"
+            }
+          },
+          {
+            "when": "moss_carpet",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/decor/moss_carpet"
+            }
+          },
+          {
+            "when": "pale_moss_carpet",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/decor/pale_moss_carpet"
+            }
+          },
+          {
+            "when": "cobweb",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/decor/cobweb"
             }
           },
           {
@@ -698,24 +726,24 @@
             }
           },
           {
-            "when": "wildflowers",
-            "model": {
-              "type": "minecraft:model",
-              "model": "thorax:block/terrarium/decor/wildflowers"
-            }
-          },
-          {
-            "when": "water_bottle",
-            "model": {
-              "type": "minecraft:model",
-              "model": "thorax:block/terrarium/decor/water_bottle"
-            }
-          },
-          {
             "when": "snowball",
             "model": {
               "type": "minecraft:model",
               "model": "thorax:block/terrarium/decor/snowball"
+            }
+          },
+          {
+            "when": "crimson_roots",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/decor/crimson_roots"
+            }
+          },
+          {
+            "when": "warped_roots",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/decor/warped_roots"
             }
           }
         ],
