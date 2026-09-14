@@ -1,0 +1,7 @@
+{
+    "parent": "thorax:entity/bug/walking_stick/stationary",
+    "textures": {
+		"0": "thorax:entity/bug/walking_stick/moving",
+        "particle": "thorax:entity/bug/walking_stick/moving"
+	}
+}

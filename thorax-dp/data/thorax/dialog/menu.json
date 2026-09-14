@@ -100,16 +100,6 @@
     },
     {
       "label": {
-        "translate": "ui.thorax.settings"
-      },
-      "action": {
-        "type": "show_dialog",
-        "dialog": "thorax:settings"
-      },
-      "width": 125
-    },
-    {
-      "label": {
         "translate": "ui.thorax.credits"
       },
       "action": {

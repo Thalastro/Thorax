@@ -1,0 +1,7 @@
+{
+    "parent": "thorax:entity/bug/walking_stick/stationary",
+    "textures": {
+		"0": "thorax:block/terrarium/bug/walking_stick",
+		"particle": "thorax:block/terrarium/bug/walking_stick"
+	}
+}
