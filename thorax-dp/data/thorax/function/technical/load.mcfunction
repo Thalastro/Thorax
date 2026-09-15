@@ -13,3 +13,5 @@ scoreboard objectives add thorax.statistics.bugs_fed dummy
 scoreboard objectives add thorax.completion dummy
 scoreboard objectives add thorax.menu trigger
 scoreboard players enable @a thorax.menu
+
+tellraw @a[gamemode=creative] [{"text":"0 ","color":"white","font":"thorax:icon","italic":false}, {"translate": "ui.thorax.title","color": "white","font": "thorax:tooltip","italic": false}, {"text": " loaded!","font":"minecraft:default"}]

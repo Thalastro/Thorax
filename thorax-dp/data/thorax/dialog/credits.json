@@ -8,9 +8,9 @@
       "italic": false
     },
     {
-      "translate": "ui.thallium.credits",
+      "translate": "ui.thorax.credits",
       "underlined": true,
-      "font": "thallium:5"
+      "font": "thorax:5"
     },
     {
       "text": "  0",
@@ -29,7 +29,7 @@
           "with": [
             {
               "translate": "ui.thorax.title",
-              "font": "thallium:5",
+              "font": "thorax:5",
               "color": "#1cd84e"
             }
           ]
@@ -39,28 +39,28 @@
     {
       "type": "minecraft:plain_message",
       "contents": [
-        { "translate": "ui.thallium.hyphen",
-          "with": [ { "translate": "contributor.thalastro", "color": "#5a28ff", "font": "thallium:5" }, { "translate": "contributor.thorax.thalastro.description", "font": "thallium:5" } ],
+        { "translate": "ui.thorax.hyphen",
+          "with": [ { "translate": "contributor.thalastro", "color": "#5a28ff", "font": "thorax:5" }, { "translate": "contributor.thorax.thalastro.description", "font": "thorax:5" } ],
           "click_event": { "action": "open_url", "url": "https://modrinth.com/user/Thalastro" },
           "hover_event": { "action": "show_text", "value": { "text": "Thalastro's Modrinth" } } },
           "\n", "\n",
-        { "translate": "ui.thallium.hyphen",
-          "with": [ { "translate": "contributor.lead", "color": "#c99b73", "font": "thallium:5" }, { "translate": "contributor.thorax.lead.description", "font": "thallium:5" } ],
+        { "translate": "ui.thorax.hyphen",
+          "with": [ { "translate": "contributor.lead", "color": "#c99b73", "font": "thorax:5" }, { "translate": "contributor.thorax.lead.description", "font": "thorax:5" } ],
           "click_event": { "action": "open_url", "url": "https://modrinth.com/user/LeadisToxic" },
           "hover_event": { "action": "show_text", "value": { "text": "lead_is_toxic's Modrinth" } } },
           "\n", "\n",
-        { "translate": "ui.thallium.hyphen",
-          "with": [ { "translate": "contributor.ninesnow", "color": "#ee53a6", "font": "thallium:5" }, { "translate": "contributor.thorax.ninesnow.description", "font": "thallium:5" } ],
+        { "translate": "ui.thorax.hyphen",
+          "with": [ { "translate": "contributor.ninesnow", "color": "#ee53a6", "font": "thorax:5" }, { "translate": "contributor.thorax.ninesnow.description", "font": "thorax:5" } ],
           "click_event": { "action": "open_url", "url": "https://modrinth.com/user/ninesnow" },
           "hover_event": { "action": "show_text", "value": { "text": "ninesnow's Modrinth" } } },
           "\n", "\n",
-        { "translate": "ui.thallium.hyphen",
-          "with": [ { "translate": "contributor.fracturedflux", "color": "#df428a", "font": "thallium:5" }, { "translate": "contributor.thorax.fracturedflux.description", "font": "thallium:5" } ],
+        { "translate": "ui.thorax.hyphen",
+          "with": [ { "translate": "contributor.fracturedflux", "color": "#df428a", "font": "thorax:5" }, { "translate": "contributor.thorax.fracturedflux.description", "font": "thorax:5" } ],
           "click_event": { "action": "open_url", "url": "https://modrinth.com/user/fracturedflux" },
           "hover_event": { "action": "show_text", "value": { "text": "FracturedFlux's Modrinth" } } },
           "\n", "\n",
-        { "translate": "ui.thallium.hyphen",
-          "with": [ { "translate": "contributor.toasteddragon", "color": "#4aec80", "font": "thallium:5" }, { "translate": "contributor.thorax.toasteddragon.description", "font": "thallium:5" } ],
+        { "translate": "ui.thorax.hyphen",
+          "with": [ { "translate": "contributor.toasteddragon", "color": "#4aec80", "font": "thorax:5" }, { "translate": "contributor.thorax.toasteddragon.description", "font": "thorax:5" } ],
           "click_event": { "action": "open_url", "url": "https://modrinth.com/user/toasteddragon" },
           "hover_event": { "action": "show_text", "value": { "text": "ToastedDragon's Modrinth" } } }
       ],
@@ -72,7 +72,7 @@
       "contents": [
         {
         "text": "Project Links\n\n",
-        "font": "thallium:5",
+        "font": "thorax:5",
         "underlined": true
         },
         {

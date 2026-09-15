@@ -9,7 +9,7 @@ $dialog show @s {\
     },\
     {\
       "translate": "ui.thorax.statistics",\
-      "font": "thallium:5",\
+      "font": "thorax:5",\
       "underlined": true,\
       "italic": false\
     },\
@@ -25,7 +25,7 @@ $dialog show @s {\
       "type": "minecraft:plain_message",\
       "contents": [\
         [ { "text": "A  ", "font": "thorax:statistics", "shadow_color": [0,0,0,0] },\
-          { "translate": "statistics.thorax.bugs_caught", "font": "thallium:5", "shadow_color":[0.25,0.25,0.25,1],"underlined":true},\
+          { "translate": "statistics.thorax.bugs_caught", "font": "thorax:5", "shadow_color":[0.25,0.25,0.25,1],"underlined":true},\
           { "text": "  A", "font": "thorax:statistics", "shadow_color": [0,0,0,0] },\
         ],\
             "\n",\
@@ -34,7 +34,7 @@ $dialog show @s {\
             "\n",\
             "\n",\
         [ { "text": "B  ", "font": "thorax:statistics", "shadow_color": [0,0,0,0] },\
-          { "translate": "statistics.thorax.bugs_fed", "font": "thallium:5", "shadow_color":[0.25,0.25,0.25,1],"underlined":true},\
+          { "translate": "statistics.thorax.bugs_fed", "font": "thorax:5", "shadow_color":[0.25,0.25,0.25,1],"underlined":true},\
           { "text": "  B", "font": "thorax:statistics", "shadow_color": [0,0,0,0] },\
         ],\
             "\n",\
@@ -46,9 +46,9 @@ $dialog show @s {\
     {\
       "type": "minecraft:plain_message",\
       "contents": [\
-          { "translate": "ui.thallium.colon", "color": "#ffd43b", "font": "thallium:5", "underlined": true, "shadow_color":[0.25,0.15,0,1], "click_event": { "action": "show_dialog", "dialog": "thorax:complete" }, \
+          { "translate": "ui.thorax.colon", "color": "#ffd43b", "font": "thorax:5", "underlined": true, "shadow_color":[0.25,0.15,0,1], "click_event": { "action": "show_dialog", "dialog": "thorax:complete" }, \
             "with": [\
-            { "translate": "statistics.thorax.completion", "font": "thallium:5", hover_event: {action:"show_text",value:{translate:"ui.thorax.completion_desc"}} }, { "translate": "ui.thallium.percentage", "font": "thallium:5", "with": [ "$(completion)" ] } ] },\
+            { "translate": "statistics.thorax.completion", "font": "thorax:5", hover_event: {action:"show_text",value:{translate:"ui.thorax.completion_desc"}} }, { "translate": "ui.thorax.percentage", "font": "thorax:5", "with": [ "$(completion)" ] } ] },\
       ],\
       "width": 250\
     },\

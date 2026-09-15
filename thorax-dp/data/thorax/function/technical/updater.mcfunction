@@ -1,1 +1,0 @@
-loot replace entity @s contents loot thorax:technical/updater

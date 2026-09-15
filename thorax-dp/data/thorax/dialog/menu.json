@@ -9,7 +9,7 @@
     },
     {
       "translate": "ui.thorax.menu",
-      "font": "thallium:5",
+      "font": "thorax:5",
       "underlined": true,
       "italic": false
     },
@@ -39,24 +39,24 @@
           {
             "translate": "ui.thorax.version",
             "color": "white",
-            "font": "thallium:5"
+            "font": "thorax:5"
           },
           {
             "text": " - ",
             "color": "white",
-            "font": "thallium:5"
+            "font": "thorax:5"
           },
           {
             "translate": "ui.thorax.update",
             "color": "#bcff59",
-            "font": "thallium:5"
+            "font": "thorax:5"
           }
         ],
         "\n",
         {
           "translate": "book.byAuthor",
           "color": "white",
-          "font": "thallium:5",
+          "font": "thorax:5",
           "with": [
             [
             {
@@ -67,7 +67,7 @@
             },
             {
               "translate": "contributor.thalastro",
-              "font": "thallium:5",
+              "font": "thorax:5",
               "color": "#5a28ff"
             }
           ]

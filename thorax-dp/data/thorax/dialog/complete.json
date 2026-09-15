@@ -9,7 +9,7 @@
     },
     {
       "translate": "ui.thorax.secret",
-      "font": "thallium:5",
+      "font": "thorax:5",
       "underlined": true,
       "italic": false
     },
@@ -44,7 +44,7 @@
               { 
                 "translate": "contributor.thalastro", 
                 "color": "#5a28ff",
-                "font": "thallium:5" 
+                "font": "thorax:5" 
               } 
             ]
           ]
