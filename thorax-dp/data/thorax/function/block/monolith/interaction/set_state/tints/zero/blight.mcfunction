@@ -1,1 +1,0 @@
-data modify entity @s item.components."minecraft:custom_model_data".colors[0] set value 15811890
