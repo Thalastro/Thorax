@@ -1,7 +1,7 @@
 {
 	"textures": {
 		"0": "thorax:entity/bug/praying_mantis/stationary",
-        "particle": "thorax:entity/thorax/bug/praying_mantis/stationary"
+        "particle": "thorax:entity/bug/praying_mantis/stationary"
 	},
 	"elements": [
 		{

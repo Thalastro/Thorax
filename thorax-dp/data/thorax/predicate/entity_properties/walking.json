@@ -1,12 +1,15 @@
 {
-  "condition": "minecraft:all_of",
-  "entity": "this",
-  "predicate": {
-    "minecraft:periodic_tick": 2
-  },
+  "type": "minecraft:all_of",
   "terms": [
     {
-      "condition": "minecraft:entity_properties",
+      "type": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "minecraft:periodic_tick": 2
+      }
+    },
+    {
+      "type": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
         "minecraft:movement": {
@@ -17,9 +20,9 @@
       }
     },
     {
-      "condition": "minecraft:inverted",
+      "type": "minecraft:inverted",
       "term": {
-        "condition": "minecraft:entity_properties",
+        "type": "minecraft:entity_properties",
         "entity": "this",
         "predicate": {
           "minecraft:vehicle": {}

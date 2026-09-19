@@ -1,7 +1,7 @@
 {
-  "asset_name": "chitin",
+  "palette_id": "chitin",
   "description": {
-    "color": "#8f748c",
-    "translate": "trim_material.thorax.chitin"
+    "translate": "trim_material.thorax.chitin",
+    "color": "#8f748c"
   }
 }

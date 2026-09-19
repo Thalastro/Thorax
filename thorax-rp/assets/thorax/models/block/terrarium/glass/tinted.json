@@ -2,6 +2,6 @@
     "parent": "thorax:block/terrarium/glass/normal",
     "textures": {
         "0": "thorax:block/terrarium/glass/tinted",
-        "particle": "block/tinted_stained_glass"
+        "particle": "block/tinted_glass"
     }
 }
