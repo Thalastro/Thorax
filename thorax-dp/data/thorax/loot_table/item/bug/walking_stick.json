@@ -9,9 +9,9 @@
           "name": "minecraft:poisonous_potato"
         }
       ],
-      "functions": [
+      "modifier": [
         {
-          "function": "minecraft:set_components",
+          "type": "minecraft:set_components",
           "components": {
             "minecraft:item_name": {
               "translate": "item.thorax.walking_stick",
@@ -67,6 +67,7 @@
                 "id": "walking_stick",
                 "bug": {
                   "terrarium_loot_table": "thorax:items/bug/walking_stick",
+                  "rarity": "uncommon",
                   "essence": "harmony",
                   "diet": "herbivore"
                 }

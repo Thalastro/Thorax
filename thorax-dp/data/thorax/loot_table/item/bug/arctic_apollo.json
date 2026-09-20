@@ -9,9 +9,9 @@
           "name": "minecraft:poisonous_potato"
         }
       ],
-      "functions": [
+      "modifier": [
         {
-          "function": "minecraft:set_components",
+          "type": "minecraft:set_components",
           "components": {
             "minecraft:item_name": {
               "translate": "item.thorax.arctic_apollo",
@@ -67,6 +67,7 @@
                 "id": "arctic_apollo",
                 "bug": {
                   "terrarium_loot_table": "thorax:items/bug/arctic_apollo",
+                  "rarity": "rare",
                   "essence": "obscurity",
                   "diet": "pollinator"
                 }

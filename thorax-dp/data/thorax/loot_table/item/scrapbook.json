@@ -9,9 +9,9 @@
           "name": "minecraft:written_book"
         }
       ],
-      "functions": [
+      "modifier": [
         {
-          "function": "minecraft:set_components",
+          "type": "minecraft:set_components",
           "components": {
             "minecraft:item_name": {
               "translate": "item.thorax.scrapbook"

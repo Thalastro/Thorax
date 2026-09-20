@@ -15,7 +15,7 @@
                 {
                     "type": "minecraft:loot_table",
                     "value": "thorax:item/fragrant_pollen",
-                    "condition": "thorax:random_chance/20"
+                    "condition": "thorax:random_chance/25"
                 }
             ]
         }

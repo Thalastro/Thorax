@@ -9,9 +9,9 @@
           "name": "minecraft:poisonous_potato"
         }
       ],
-      "functions": [
+      "modifier": [
         {
-          "function": "minecraft:set_components",
+          "type": "minecraft:set_components",
           "components": {
             "minecraft:item_name": {
               "translate": "item.thorax.crystal_dasher",
@@ -67,6 +67,7 @@
                 "id": "crystal_dasher",
                 "bug": {
                   "terrarium_loot_table": "thorax:items/bug/crystal_dasher",
+                  "rarity": "rare",
                   "essence": "harmony",
                   "diet": "herbivore"
                 }

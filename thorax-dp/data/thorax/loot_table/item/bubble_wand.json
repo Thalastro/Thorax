@@ -9,9 +9,9 @@
           "name": "minecraft:poisonous_potato"
         }
       ],
-      "functions": [
+      "modifier": [
         {
-          "function": "minecraft:set_components",
+          "type": "minecraft:set_components",
           "components": {
             "minecraft:item_name": {
               "translate": "item.thorax.bubble_wand"
@@ -31,24 +31,24 @@
                   "italic": false
                 }
               ],
-          [
-            {
-              "translate": "item.thorax.bubble_wand.description.1",
-              "color": "gray",
-              "italic": false,
-              "with": [
+              [
                 {
-                    "keybind": "key.use",
-                    "italic": false
-                },
-                {
-                  "translate": "item.thorax.bubble_wand.description.2",
-                  "color": "#a1dbff"
+                  "translate": "item.thorax.bubble_wand.description.1",
+                  "color": "gray",
+                  "italic": false,
+                  "with": [
+                    {
+                        "keybind": "key.use",
+                        "italic": false
+                    },
+                    {
+                      "translate": "item.thorax.bubble_wand.description.2",
+                      "color": "#a1dbff"
+                    }
+                  ]
                 }
               ]
-            }
-          ]
-          ],
+            ],
             "minecraft:custom_data": {
               "thorax": {
                 "id": "bubble_wand"

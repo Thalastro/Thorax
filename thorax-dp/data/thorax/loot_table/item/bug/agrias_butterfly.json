@@ -9,9 +9,9 @@
           "name": "minecraft:poisonous_potato"
         }
       ],
-      "functions": [
+      "modifier": [
         {
-          "function": "minecraft:set_components",
+          "type": "minecraft:set_components",
           "components": {
             "minecraft:item_name": {
               "translate": "item.thorax.agrias_butterfly",
@@ -67,6 +67,7 @@
                 "id": "agrias_butterfly",
                 "bug": {
                   "terrarium_loot_table": "thorax:items/bug/agrias_butterfly",
+                  "rarity": "uncommon",
                   "essence": "chaos",
                   "diet": "decomposer"
                 }

@@ -9,9 +9,9 @@
           "name": "minecraft:poisonous_potato"
         }
       ],
-      "functions": [
+      "modifier": [
         {
-          "function": "minecraft:set_components",
+          "type": "minecraft:set_components",
           "components": {
             "minecraft:item_name": {
               "translate": "item.thorax.ladybug",
@@ -67,6 +67,7 @@
                 "id": "ladybug",
                 "bug": {
                   "terrarium_loot_table": "thorax:items/bug/ladybug",
+                  "rarity": "ladybug",
                   "essence": "harmony",
                   "diet": "herbivore"
                 }

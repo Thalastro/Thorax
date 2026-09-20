@@ -104,10 +104,8 @@
     "item.thorax.bug_net": "Bug Net",
     "item.thorax.xanite_bug_net": "Xanite Bug Net",
     
-    "item.thorax.insect_itinerary": "Insect Itinerary",
-    "item.thorax.insect_itinerary.description.1": "Tracks %s you have caught",
-    "item.thorax.insect_itinerary.description.2": "insects",
-    "dialog.thorax.insect_itinerary.caption": "A world of bugs, filled with captivations...",
+    "item.thorax.scrapbook": "Skitter Scrapbook",
+    "item.thorax.scrapbook.description": "Tracks insects you have caught.",
 
     "item.thorax.pollen": "Pollen",
     "item.thorax.pollen.description.1": "Boosts %s spawn rate.",

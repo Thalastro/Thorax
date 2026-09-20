@@ -9,9 +9,9 @@
           "name": "minecraft:poisonous_potato"
         }
       ],
-      "functions": [
+      "modifier": [
         {
-          "function": "minecraft:set_components",
+          "type": "minecraft:set_components",
           "components": {
             "minecraft:item_name": {
               "translate": "item.thorax.green_darner",
@@ -67,6 +67,7 @@
                 "id": "green_darner",
                 "bug": {
                   "terrarium_loot_table": "thorax:items/bug/green_darner",
+                  "rarity": "common",
                   "essence": "chaos",
                   "diet": "carnivore"
                 }

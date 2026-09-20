@@ -9,9 +9,9 @@
           "name": "minecraft:poisonous_potato"
         }
       ],
-      "functions": [
+      "modifier": [
         {
-          "function": "minecraft:set_components",
+          "type": "minecraft:set_components",
           "components": {
             "minecraft:item_name": {
               "translate": "item.thorax.rosy_maple_moth",
@@ -67,6 +67,7 @@
                 "id": "rosy_maple_moth",
                 "bug": {
                   "terrarium_loot_table": "thorax:items/bug/rosy_maple_moth",
+                  "rarity": "uncommon",
                   "essence": "radiance",
                   "diet": "herbivore"
                 }

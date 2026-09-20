@@ -14,13 +14,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "value": "thorax:item/pollen",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 1
-                        }
-                    ]
+                    "value": "thorax:item/pollen"
                 }
             ]
         }
