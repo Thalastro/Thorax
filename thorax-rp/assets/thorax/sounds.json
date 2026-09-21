@@ -1,11 +1,15 @@
 {
-    "ambient.golden_isles.additions": {
+    "item.pollen.apply": {
         "sounds": [
-            "minecraft:ambient/nether/soulsand_valley/wind1",
-            "minecraft:ambient/nether/soulsand_valley/wind2",
-            "minecraft:ambient/nether/soulsand_valley/wind3",
-            "minecraft:ambient/nether/soulsand_valley/wind4"
-        ]
+            "minecraft:item/bonemeal/bonemeal1"
+        ],
+        "subtitle": "subtitles.thorax.pollen.apply"
+    },
+    "item.chitin.eat": {
+        "sounds": [
+            "minecraft:random/eat1"
+        ],
+        "subtitle": "subtitles.thorax.chitin.eat"
     },
     "item.bubble_wand.use": {
         "sounds": [

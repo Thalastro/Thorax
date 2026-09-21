@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "thorax:use_dusk_pollen": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "thorax": {
+                                "id": "dusk_pollen"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "thorax:item/pollen/consume/dusk"
+    }
+}

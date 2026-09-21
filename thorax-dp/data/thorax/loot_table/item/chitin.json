@@ -55,7 +55,8 @@
             "minecraft:consumable": {
               "consume_seconds": 2.4,
               "sound": {
-                "sound_id": "thorax:item.chitin.eat"
+                "sound_id": "thorax:item.chitin.eat",
+                "range": 1
               },
               "on_consume_effects": [
                 {

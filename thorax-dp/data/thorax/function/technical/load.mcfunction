@@ -8,6 +8,10 @@ scoreboard objectives add thorax.dummy dummy
 scoreboard objectives add thorax.entity dummy
 scoreboard objectives add thorax.bubble_meter dummy
 
+scoreboard objectives add thorax.pollen dummy
+scoreboard objectives add thorax.dusk_pollen dummy
+scoreboard objectives add thorax.fragrant_pollen dummy
+
 scoreboard objectives add thorax.statistics.bugs_caught dummy
 scoreboard objectives add thorax.statistics.bugs_fed dummy
 scoreboard objectives add thorax.completion dummy

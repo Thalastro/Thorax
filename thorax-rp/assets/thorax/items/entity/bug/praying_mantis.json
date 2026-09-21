@@ -2,6 +2,7 @@
   "model": {
     "type": "minecraft:condition",
     "property": "minecraft:custom_model_data",
+    "index": 0,
     "on_false": {
       "type": "minecraft:model",
       "model": "thorax:entity/bug/praying_mantis/stationary",

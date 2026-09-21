@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "thorax:use_pollen": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "thorax": {
+                                "id": "pollen"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "thorax:item/pollen/consume/normal"
+    }
+}

@@ -121,7 +121,7 @@
     "item.thorax.fragrant_pollen.description.1": "Boosts chance for %s to spawn.",
     "item.thorax.fragrant_pollen.description.2": "rare insects",
 
-    "subtitles.item.thorax.pollen.apply": "Pollen applied",
+    "subtitles.thorax.pollen.apply": "Pollen applied",
 
     "item.thorax.bubble_wand": "Bubble Wand",
     "item.thorax.bubble_wand.description.1": "%s to blow %s.",
