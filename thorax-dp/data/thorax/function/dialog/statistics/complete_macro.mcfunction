@@ -48,7 +48,7 @@ $dialog show @s {\
       "contents": [\
           { "translate": "ui.thorax.colon", "color": "#ffd43b", "font": "thorax:5", "underlined": true, "shadow_color":[0.25,0.15,0,1], "click_event": { "action": "show_dialog", "dialog": "thorax:complete" }, \
             "with": [\
-            { "translate": "statistics.thorax.completion", "font": "thorax:5", hover_event: {action:"show_text",value:{translate:"ui.thorax.completion_desc"}} }, { "translate": "ui.thorax.percentage", "font": "thorax:5", "with": [ "$(completion)" ] } ] },\
+            { "translate": "statistics.thorax.completion", "font": "thorax:5", hover_event: {action:"show_text",value:{translate:"ui.thorax.completion"}} }, { "translate": "ui.thorax.percentage", "font": "thorax:5", "with": [ "$(completion)" ] } ] },\
       ],\
       "width": 250\
     },\

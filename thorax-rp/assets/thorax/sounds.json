@@ -60,6 +60,16 @@
         ],
         "subtitle": "subtitles.thorax.bug.protected"
     },
+    "entity.bug.squish": {
+        "sounds": [
+            "block/honeyblock/break1",
+            "block/honeyblock/break2",
+            "block/honeyblock/break3",
+            "block/honeyblock/break4",
+            "block/honeyblock/break5"
+        ],
+        "subtitle": "subtitles.thorax.bug.squish"
+    },
     "block.terrarium.insert_bug": {
         "sounds": [
             "block/decorated_pot/insert1",
