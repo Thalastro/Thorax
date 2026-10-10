@@ -5,7 +5,7 @@ function thorax:technical/clock/10s
 team add smithed.prevent_aggression
 
 scoreboard objectives add thorax.dummy dummy
-scoreboard objectives add thorax.entity dummy
+scoreboard objectives add thorax.insect_timer dummy
 scoreboard objectives add thorax.bubble_meter dummy
 
 scoreboard objectives add thorax.pollen dummy
@@ -18,4 +18,4 @@ scoreboard objectives add thorax.completion dummy
 scoreboard objectives add thorax.menu trigger
 scoreboard players enable @a thorax.menu
 
-tellraw @a[gamemode=creative] [{"text":"0 ","color":"white","font":"thorax:icon","italic":false}, {"translate": "ui.thorax.title","color": "white","font": "thorax:tooltip","italic": false}, {"text": " loaded!","font":"minecraft:default"}]
+tellraw @a[gamemode=creative] [{"text":"0 ","color":"white","font":"thorax:icon","italic":false}, {"translate": "ui.thorax.title","color": "white","font": "thorax:tooltip","italic": false}, {"translate": "ui.thorax.loaded","font":"minecraft:default"}]

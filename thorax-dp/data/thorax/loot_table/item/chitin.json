@@ -49,7 +49,7 @@
                   "effects": [
                     {
                       "id": "resistance",
-                      "duration": 400
+                      "duration": 200
                     }
                   ]
                 }

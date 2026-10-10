@@ -13,8 +13,28 @@
                     }
                 }
             }
+        },
+        "thorax:eat_dusk_pollen_puffs": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "thorax": {
+                                "id": "dusk_pollen_puffs"
+                            }
+                        }
+                    }
+                }
+            }
         }
     },
+    "requirements": [
+        [
+            "thorax:use_dusk_pollen",
+            "thorax:eat_dusk_pollen_puffs"
+        ]
+    ],
     "rewards": {
         "function": "thorax:item/pollen/consume/dusk"
     }

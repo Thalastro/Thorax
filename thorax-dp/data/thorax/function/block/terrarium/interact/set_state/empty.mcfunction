@@ -1,4 +1,4 @@
-loot spawn ~ ~0.25 ~ loot {"pools": [{"rolls": 1,"entries": [{"type": "minecraft:item","name": "minecraft:poisonous_potato","functions": [{"function": "minecraft:set_custom_data","tag": "{thorax:{to_be_replaced:1b}}"},{"function": "minecraft:set_components","components": {"minecraft:item_model": "thorax:empty"}}]}]}]}
+loot spawn ~ ~0.25 ~ loot {"pools": [{"rolls": 1,"entries": [{"type": "minecraft:item","name": "minecraft:poisonous_potato","modifier": [{"type": "minecraft:set_custom_data","tag": "{thorax:{to_be_replaced:1b}}"},{"type": "minecraft:set_components","components": {"minecraft:item_model": "thorax:empty"}}]}]}]}
 data modify entity @n[type=minecraft:item,nbt={Item:{components:{"minecraft:custom_data":{thorax:{to_be_replaced:1b}}}}}] Item set from entity @s item.components."minecraft:custom_data".thorax.stored_item
 
 data modify entity @s item.components."minecraft:custom_model_data".strings[2] set value empty

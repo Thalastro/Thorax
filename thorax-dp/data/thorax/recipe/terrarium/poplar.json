@@ -1,0 +1,95 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "terrarium",
+  "pattern": [
+    "BBB",
+    "B B",
+    "AAA"
+  ],
+  "key": {
+    "A": [
+      "minecraft:poplar_planks"
+    ],
+    "B": [
+      "minecraft:glass"
+    ]
+  },
+  "result": {
+    "id": "minecraft:furnace",
+    "components": {
+      "minecraft:item_name": {
+        "translate": "block.thorax.poplar_terrarium",
+        "fallback": "Poplar Terrarium"
+      },
+      "minecraft:tooltip_style": "thorax:main",
+      "minecraft:rarity": "common",
+      "minecraft:lore": [
+        [
+          {
+            "text": "0 ",
+            "color": "white",
+            "font": "thorax:icon",
+            "italic": false
+          },
+          {
+            "translate": "ui.thorax.title",
+            "color": "white",
+            "font": "thorax:tooltip",
+            "italic": false
+          }
+        ],
+        {
+          "translate": "block.thorax.terrarium.description.1",
+          "with": [
+              {
+                "keybind": "key.use"
+              },
+            {
+              "translate": "block.thorax.terrarium.description.2",
+              "color": "#3196d4",
+              "italic": false
+            }
+          ],
+          "color": "gray",
+          "italic": false
+        },
+        [
+          {
+            "translate": "block.thorax.terrarium.description.3",
+            "with": [
+              {
+                "translate": "block.thorax.terrarium.description.4",
+                "color": "#2ad721",
+                "italic": false
+              }
+            ],
+            "color": "gray",
+            "italic": false
+          }
+        ]
+      ],
+      "minecraft:custom_data": {
+        "thorax": {
+          "id": "poplar_terrarium",
+          "custom_block": true
+        },
+        "smithed": {
+          "ignore": {
+            "functionality": true,
+            "crafting": true
+          }
+        }
+      },
+      "minecraft:item_model": "thorax:terrarium",
+      "minecraft:custom_model_data": {
+        "strings": [
+          "poplar",
+          "glass",
+          "none",
+          "none"
+        ]
+      }
+    }
+  }
+}

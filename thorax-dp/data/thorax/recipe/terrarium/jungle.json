@@ -16,7 +16,7 @@
     ]
   },
   "result": {
-    "id": "minecraft:smoker",
+    "id": "minecraft:furnace",
     "components": {
       "minecraft:item_name": {
         "translate": "block.thorax.jungle_terrarium",
@@ -72,16 +72,7 @@
       "minecraft:custom_data": {
         "thorax": {
           "id": "jungle_terrarium",
-          "block": {
-            "variant": "jungle",
-            "loot_table": "thorax:items/terrarium/jungle",
-            "vertical_offset": -0.55
-          }
-        },
-        "thallium": {
-          "block": {
-            "place_function": "thorax:block/terrarium/place/start"
-          }
+          "custom_block": true
         },
         "smithed": {
           "ignore": {

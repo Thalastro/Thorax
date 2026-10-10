@@ -6,32 +6,21 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:smoker"
+          "name": "minecraft:furnace"
         }
       ],
       "modifier": [
         {
           "type": "minecraft:set_components",
           "components": {
+            "minecraft:item_model": "thorax:terrarium",
+            "minecraft:tooltip_style": "thorax:main",
+            "minecraft:rarity": "common",
             "minecraft:item_name": {
               "translate": "block.thorax.mangrove_terrarium",
               "fallback": "Mangrove Terrarium"
             },
             "minecraft:lore": [
-              [
-                {
-                  "text": "0 ",
-                  "color": "white",
-                  "font": "thorax:icon",
-                  "italic": false
-                },
-                {
-                  "translate": "ui.thorax.title",
-                  "color": "white",
-                  "font": "thorax:tooltip",
-                  "italic": false
-                }
-              ],
               {
                 "translate": "block.thorax.terrarium.description.1",
                 "with": [
@@ -64,16 +53,14 @@
           ],
             "minecraft:custom_data": {
               "thorax": {
-                "id": "mangrove_terrarium",
-                "block": {
-                  "variant": "mangrove",
-                  "loot_table": "thorax:item/terrarium/mangrove",
-                  "vertical_offset": -0.55
-                }
-              },
-              "thallium": {
-                "block": {
-                  "place_function": "thorax:block/terrarium/place/start"
+                "id": "terrarium",
+                "custom_block": true,
+                "terrarium": {
+                  "wood": "mangrove",
+                  "glass": "glass",
+                  "bug": "none",
+                  "decor": "none",
+                  "loot_table": "thorax:item/terrarium/mangrove"
                 }
               },
               "smithed": {
@@ -83,7 +70,6 @@
                 }
               }
             },
-            "minecraft:item_model": "thorax:terrarium",
             "minecraft:custom_model_data": {
               "strings": [
                 "mangrove",
@@ -91,11 +77,10 @@
                 "none",
                 "none"
               ]
-            },
-            "minecraft:tooltip_style": "thorax:main",
-            "minecraft:rarity": "common"
+            }
           }
-        }
+        },
+        "thorax:add_tooltip"
       ]
     }
   ]

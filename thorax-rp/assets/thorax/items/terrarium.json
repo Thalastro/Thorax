@@ -57,6 +57,13 @@
             }
           },
           {
+            "when": "poplar",
+            "model": {
+              "type": "minecraft:model",
+              "model": "thorax:block/terrarium/base/poplar"
+            }
+          },
+          {
             "when": "cherry",
             "model": {
               "type": "minecraft:model",

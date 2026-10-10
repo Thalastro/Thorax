@@ -30,7 +30,7 @@
             },
             "minecraft:item_model": "thorax:dishes/dusk_pollen_puffs",
             "minecraft:tooltip_style": "thorax:main",
-            "minecraft:rarity": "uncommon",
+            "minecraft:rarity": "common",
             "minecraft:consumable": {
               "on_consume_effects": []
             },

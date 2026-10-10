@@ -32,6 +32,10 @@
             "minecraft:tooltip_style": "thorax:main",
             "minecraft:rarity": "common",
             "minecraft:consumable": {
+              "sound": {
+                "sound_id": "thorax:item.chitin.eat",
+                "range": 1
+              },
               "on_consume_effects": []
             },
             "minecraft:food": {

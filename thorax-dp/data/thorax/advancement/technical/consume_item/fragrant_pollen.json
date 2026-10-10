@@ -13,8 +13,28 @@
                     }
                 }
             }
+        },
+        "thorax:eat_fragrant_pollen_puffs": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "thorax": {
+                                "id": "fragrant_pollen_puffs"
+                            }
+                        }
+                    }
+                }
+            }
         }
     },
+    "requirements": [
+        [
+            "thorax:use_fragrant_pollen",
+            "thorax:eat_fragrant_pollen_puffs"
+        ]
+    ],
     "rewards": {
         "function": "thorax:item/pollen/consume/fragrant"
     }

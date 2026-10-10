@@ -21,20 +21,6 @@
               "fallback": "Oak Terrarium"
             },
             "minecraft:lore": [
-              [
-                {
-                  "text": "0 ",
-                  "color": "white",
-                  "font": "thorax:icon",
-                  "italic": false
-                },
-                {
-                  "translate": "ui.thorax.title",
-                  "color": "white",
-                  "font": "thorax:tooltip",
-                  "italic": false
-                }
-              ],
               {
                 "translate": "block.thorax.terrarium.description.1",
                 "with": [
@@ -67,8 +53,15 @@
           ],
             "minecraft:custom_data": {
               "thorax": {
-                "id": "oak_terrarium",
-                "custom_block": true
+                "id": "terrarium",
+                "custom_block": true,
+                "terrarium": {
+                  "wood": "oak",
+                  "glass": "glass",
+                  "bug": "none",
+                  "decor": "none",
+                  "loot_table": "thorax:item/terrarium/oak"
+                }
               },
               "smithed": {
                 "ignore": {
@@ -86,7 +79,8 @@
               ]
             }
           }
-        }
+        },
+        "thorax:add_tooltip"
       ]
     }
   ]
