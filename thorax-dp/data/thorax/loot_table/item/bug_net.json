@@ -14,24 +14,9 @@
           "type": "minecraft:set_components",
           "components": {
             "minecraft:item_name": {
-              "translate": "item.thorax.bug_net"
+              "translate": "item.thorax.bug_net",
+              "fallback": "Bug Net"
             },
-            "minecraft:lore": [
-              [
-                {
-                  "text": "0 ",
-                  "color": "white",
-                  "font": "thorax:icon",
-                  "italic": false
-                },
-                {
-                  "translate": "ui.thorax.title",
-                  "color": "white",
-                  "font": "thorax:tooltip",
-                  "italic": false
-                }
-              ]
-            ],
             "minecraft:custom_data": {
               "thorax": {
                 "id": "bug_net"
@@ -54,7 +39,8 @@
             "!minecraft:consumable": {},
             "!minecraft:food": {}
           }
-        }
+        },
+        "thorax:add_tooltip"
       ]
     }
   ]

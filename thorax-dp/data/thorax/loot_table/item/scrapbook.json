@@ -14,23 +14,10 @@
           "type": "minecraft:set_components",
           "components": {
             "minecraft:item_name": {
-              "translate": "item.thorax.scrapbook"
+              "translate": "item.thorax.scrapbook",
+              "fallback": "Skitter Scrapbook"
             },
             "minecraft:lore": [
-              [
-                {
-                  "text": "0 ",
-                  "color": "white",
-                  "font": "thorax:icon",
-                  "italic": false
-                },
-                {
-                  "translate": "ui.thorax.title",
-                  "color": "white",
-                  "font": "thorax:tooltip",
-                  "italic": false
-                }
-              ],
               {
                 "translate": "item.thorax.scrapbook.description",
                 "color": "gray"
@@ -58,7 +45,8 @@
             "!minecraft:written_book_content": {},
             "enchantment_glint_override": false
           }
-        }
+        },
+        "thorax:add_tooltip"
       ]
     }
   ]

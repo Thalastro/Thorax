@@ -14,37 +14,24 @@
           "type": "minecraft:set_components",
           "components": {
             "minecraft:item_name": {
-              "translate": "item.thorax.pollen"
+              "translate": "item.thorax.pollen",
+              "fallback": "Pollen"
             },
             "minecraft:lore": [
               [
                 {
-                  "text": "0 ",
-                  "color": "white",
-                  "font": "thorax:icon",
-                  "italic": false
-                },
-                {
-                  "translate": "ui.thorax.title",
-                  "color": "white",
-                  "font": "thorax:tooltip",
-                  "italic": false
-                }
-              ],
-          [
-            {
-              "translate": "item.thorax.pollen.description.1",
-              "color": "gray",
-              "italic": false,
-              "with": [
-                {
-                  "translate": "item.thorax.pollen.description.2",
-                  "color": "#32e668",
-                  "italic": false
+                  "translate": "item.thorax.pollen.description.1",
+                  "color": "gray",
+                  "italic": false,
+                  "with": [
+                    {
+                      "translate": "item.thorax.pollen.description.2",
+                      "color": "#32e668",
+                      "italic": false
+                    }
+                  ]
                 }
               ]
-            }
-          ]
             ],
             "minecraft:custom_data": {
               "thorax": {
@@ -73,7 +60,8 @@
               "can_always_eat": true
             }
           }
-        }
+        },
+        "thorax:add_tooltip"
       ]
     }
   ]

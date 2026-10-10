@@ -14,24 +14,9 @@
           "type": "minecraft:set_components",
           "components": {
             "minecraft:item_name": {
-              "translate": "item.thorax.gummy_snake"
+              "translate": "item.thorax.gummy_snake",
+              "fallback": "Gummy Snake"
             },
-            "minecraft:lore": [
-              [
-                {
-                  "text": "0 ",
-                  "color": "white",
-                  "font": "thorax:icon",
-                  "italic": false
-                },
-                {
-                  "translate": "ui.thorax.title",
-                  "color": "white",
-                  "font": "thorax:tooltip",
-                  "italic": false
-                }
-              ]
-            ],
             "minecraft:custom_data": {
               "thorax": {
                 "id": "gummy_snake"
@@ -56,7 +41,8 @@
               "can_always_eat": false
             }
           }
-        }
+        },
+        "thorax:add_tooltip"
       ]
     }
   ]

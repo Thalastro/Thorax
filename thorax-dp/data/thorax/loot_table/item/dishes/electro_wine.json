@@ -54,20 +54,6 @@
               }
             },
             "minecraft:lore": [
-              [
-                {
-                  "text": "0 ",
-                  "color": "white",
-                  "font": "thorax:icon",
-                  "italic": false
-                },
-                {
-                  "translate": "ui.thorax.title",
-                  "color": "white",
-                  "font": "thorax:tooltip",
-                  "italic": false
-                }
-              ],
               {
                 "translate": "item.thorax.calendar.format", 
                 "with": ["0", "0"],
@@ -76,7 +62,8 @@
               }
             ]
           }
-        }
+        },
+        "thorax:add_tooltip"
       ]
     }
   ]

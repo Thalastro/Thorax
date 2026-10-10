@@ -6,13 +6,16 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:smoker"
+          "name": "minecraft:furnace"
         }
       ],
       "modifier": [
         {
           "type": "minecraft:set_components",
           "components": {
+            "minecraft:item_model": "thorax:terrarium",
+            "minecraft:tooltip_style": "thorax:main",
+            "minecraft:rarity": "common",
             "minecraft:item_name": {
               "translate": "block.thorax.oak_terrarium",
               "fallback": "Oak Terrarium"
@@ -65,16 +68,7 @@
             "minecraft:custom_data": {
               "thorax": {
                 "id": "oak_terrarium",
-                "block": {
-                  "variant": "oak",
-                  "loot_table": "thorax:item/terrarium/oak",
-                  "vertical_offset": -0.55
-                }
-              },
-              "thallium": {
-                "block": {
-                  "place_function": "thorax:block/terrarium/place/start"
-                }
+                "custom_block": true
               },
               "smithed": {
                 "ignore": {
@@ -83,7 +77,6 @@
                 }
               }
             },
-            "minecraft:item_model": "thorax:terrarium",
             "minecraft:custom_model_data": {
               "strings": [
                 "oak",
@@ -91,9 +84,7 @@
                 "none",
                 "none"
               ]
-            },
-            "minecraft:tooltip_style": "thorax:main",
-            "minecraft:rarity": "common"
+            }
           }
         }
       ]

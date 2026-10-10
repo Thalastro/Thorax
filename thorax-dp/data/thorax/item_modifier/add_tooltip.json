@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:set_lore",
+    "mode": "insert",
+    "offset": 0,
+    "lore": [
+        [
+            {
+                "text": "0 ",
+                "color": "white",
+                "font": "thorax:icon",
+                "italic": false
+            },
+            {
+                "translate": "ui.thorax.title",
+                "color": "white",
+                "font": "thorax:tooltip",
+                "italic": false
+            }
+        ]
+    ]
+}

@@ -14,23 +14,10 @@
           "type": "minecraft:set_components",
           "components": {
             "minecraft:item_name": {
-              "translate": "item.thorax.bubble_wand"
+              "translate": "item.thorax.bubble_wand",
+              "fallback": "Bubble Wand"
             },
             "minecraft:lore": [
-              [
-                {
-                  "text": "0 ",
-                  "color": "white",
-                  "font": "thorax:icon",
-                  "italic": false
-                },
-                {
-                  "translate": "ui.thorax.title",
-                  "color": "white",
-                  "font": "thorax:tooltip",
-                  "italic": false
-                }
-              ],
               [
                 {
                   "translate": "item.thorax.bubble_wand.description.1",
@@ -62,7 +49,7 @@
             },
             "minecraft:item_model": "thorax:bubble_wand",
             "minecraft:tooltip_style": "thorax:main",
-            "minecraft:rarity": "common",
+            "minecraft:rarity": "uncommon",
             "minecraft:max_stack_size": 1,
             "!minecraft:food": {},
             "minecraft:consumable": {
@@ -72,7 +59,8 @@
               "sound": "minecraft:intentionally_empty"
             }
           }
-        }
+        },
+        "thorax:add_tooltip"
       ]
     }
   ]

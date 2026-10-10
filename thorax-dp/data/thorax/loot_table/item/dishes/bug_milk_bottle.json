@@ -14,24 +14,9 @@
           "type": "minecraft:set_components",
           "components": {
             "minecraft:item_name": {
-              "translate": "item.thorax.bug_milk_bottle"
+              "translate": "item.thorax.bug_milk_bottle",
+              "fallback": "Bug Milk Bottle"
             },
-            "minecraft:lore": [
-              [
-                {
-                  "text": "0 ",
-                  "color": "white",
-                  "font": "thorax:icon",
-                  "italic": false
-                },
-                {
-                  "translate": "ui.thorax.title",
-                  "color": "white",
-                  "font": "thorax:tooltip",
-                  "italic": false
-                }
-              ]
-            ],
             "minecraft:custom_data": {
               "thorax": {
                 "id": "bug_milk_bottle"
@@ -97,7 +82,8 @@
               "id": "minecraft:glass_bottle"
             }
           }
-        }
+        },
+        "thorax:add_tooltip"
       ]
     }
   ]

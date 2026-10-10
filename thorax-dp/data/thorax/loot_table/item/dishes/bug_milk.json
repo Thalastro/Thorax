@@ -14,23 +14,10 @@
           "type": "minecraft:set_components",
           "components": {
             "minecraft:item_name": {
-              "translate": "item.thorax.bug_milk"
+              "translate": "item.thorax.bug_milk",
+              "fallback": "Bug Milk"
             },
             "minecraft:lore": [
-              [
-                {
-                  "text": "0 ",
-                  "color": "white",
-                  "font": "thorax:icon",
-                  "italic": false
-                },
-                {
-                  "translate": "ui.thorax.title",
-                  "color": "white",
-                  "font": "thorax:tooltip",
-                  "italic": false
-                }
-              ]
             ],
             "minecraft:custom_data": {
               "thorax": {
@@ -97,7 +84,8 @@
               "id": "minecraft:bucket"
             }
           }
-        }
+        },
+        "thorax:add_tooltip"
       ]
     }
   ]
