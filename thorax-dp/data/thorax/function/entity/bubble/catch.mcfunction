@@ -3,7 +3,6 @@ tag @e[limit=1,distance=..1,type=#thorax:bug,tag=thorax.entity.bug] add thorax.e
 
 summon interaction ~ ~ ~ {width:0.1,height:-0.55,Tags:[thorax.entity.bubble_rider]}
 
-
 data modify entity @s item.components."minecraft:item_model" set value "thorax:entity/bubble/filled"
 
 execute on passengers run function thorax:entity/bubble/as_interaction

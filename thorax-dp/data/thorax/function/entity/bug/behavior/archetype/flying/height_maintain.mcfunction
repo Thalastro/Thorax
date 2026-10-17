@@ -1,4 +1,4 @@
-execute if block ~ ~-2.5 ~ #thorax:non_navigable unless predicate thorax:entity_properties/terrain_conform run return run tp @s ~ ~-0.1 ~
+execute if block ~ ~-2.6 ~ #thorax:non_navigable unless predicate thorax:entity_properties/terrain_conform run return run tp @s ~ ~-0.1 ~
 execute if block ~ ~-3.5 ~ #thorax:non_navigable unless predicate thorax:entity_properties/terrain_conform run return run tp @s ~ ~-0.2 ~
 
 execute unless block ~ ~0.25 ~ #thorax:not_solid run return fail

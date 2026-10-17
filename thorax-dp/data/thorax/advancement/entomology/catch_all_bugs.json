@@ -1,5 +1,5 @@
 {
-  "parent": "thorax:entomology/root",
+  "parent": "thorax:entomology/catch_bug",
     "criteria": {
       "thorax:catch_cabbage_butterfly": {
         "trigger": "inventory_changed",

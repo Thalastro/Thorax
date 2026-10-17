@@ -60,7 +60,7 @@
         ],
         "subtitle": "subtitles.thorax.bug.protected"
     },
-    "entity.bug.squish": {
+    "entity.bug.kill": {
         "sounds": [
             "block/honeyblock/break1",
             "block/honeyblock/break2",
@@ -68,7 +68,13 @@
             "block/honeyblock/break4",
             "block/honeyblock/break5"
         ],
-        "subtitle": "subtitles.thorax.bug.squish"
+        "subtitle": "subtitles.thorax.bug.kill"
+    },
+    "entity.bug.teleport": {
+        "sounds": [
+            "mob/endermen/portal"
+        ],
+        "subtitle": "subtitles.thorax.bug.teleport"
     },
     "block.terrarium.insert_bug": {
         "sounds": [

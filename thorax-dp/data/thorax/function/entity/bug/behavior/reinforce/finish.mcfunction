@@ -6,5 +6,5 @@ execute as @p[gamemode=!creative,advancements={thorax:technical/player_interacte
 
 execute on vehicle run effect give @s resistance infinite 9 true
 tag @s add thorax.entity.reinforced
-particle crit ~ ~ ~ 0.25 0.25 0.25 0.5 16 normal
+particle crit ~ ~ ~ 0.25 0.25 0.25 0.5 8 normal
 playsound thorax:entity.bug.reinforce neutral @a[distance=..16] ~ ~ ~ 0.5 1.25
