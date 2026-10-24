@@ -1,0 +1,1 @@
+particle cherry_leaves ~ ~0.1 ~ 0.1 0.1 0.1 0.1 1 normal @a[distance=..16]

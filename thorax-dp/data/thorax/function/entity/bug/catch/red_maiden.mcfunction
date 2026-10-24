@@ -1,0 +1,1 @@
+playsound thorax:entity.bug.red_maiden.catch neutral @a[distance=..16] ~ ~ ~ 0.5 1

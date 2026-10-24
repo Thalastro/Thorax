@@ -1,8 +1,27 @@
 {
   "parent": "thorax:entomology/catch_all_bugs",
     "criteria": {
-        "thorax:impossible": {
-            "trigger": "impossible"
+        "thorax:catch_red_maiden": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "entity_type": "minecraft:interaction",
+                        "entity_tags": {"any_of": ["thorax.entity.bug.red_maiden"]}
+                    }
+                },
+                "item": {
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "thorax": {
+                                "id": "bug_net"
+                            }
+                        }
+                    }
+                }
+            }
         }
     },
     "display": {

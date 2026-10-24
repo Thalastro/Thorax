@@ -1,0 +1,1 @@
+execute if predicate thorax:random_chance/10 run playsound thorax:entity.bug.red_maiden.ambient neutral @a[distance=..16] ~ ~ ~ 0.5 1

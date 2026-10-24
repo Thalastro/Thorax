@@ -6,20 +6,20 @@
       "type": "minecraft:model",
       "model": "thorax:entity/bug/ladybug/stationary",
       "transformation": {
-        "translation": [8.5,-0.5,8],
+        "translation": [2.5,-0.5,2.35],
         "left_rotation": [0,180,0,1],
         "right_rotation": [0,0,0,1],
-        "scale": [16,16,16]
+        "scale": [4,4,4]
       }
     },
     "on_true": {
       "type": "minecraft:model",
       "model": "thorax:entity/bug/ladybug/moving",
       "transformation": {
-        "translation": [8.5,-0.5,8],
+        "translation": [2.5,-0.5,2.35],
         "left_rotation": [0,180,0,1],
         "right_rotation": [0,0,0,1],
-        "scale": [16,16,16]
+        "scale": [4,4,4]
       }
     }
   }

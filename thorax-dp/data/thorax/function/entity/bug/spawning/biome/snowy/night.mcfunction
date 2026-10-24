@@ -1,0 +1,2 @@
+execute if predicate thorax:random_chance/10 run return run function thorax:entity/bug/summon/arctic_apollo
+execute if score thorax.fragrant_pollen thorax.dummy matches 1 if predicate thorax:random_chance/5 run return run function thorax:entity/bug/summon/arctic_apollo

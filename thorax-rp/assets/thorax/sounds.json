@@ -70,6 +70,33 @@
         ],
         "subtitle": "subtitles.thorax.bug.kill"
     },
+    "entity.bug.burn": {
+        "sounds": [
+            "minecraft:fire/ignite"
+        ],
+        "subtitle": "subtitles.thorax.bug.burn"
+    },
+    "entity.bug.red_maiden.ambient": {
+        "sounds": [
+            "thorax:entity/insect/red_maiden/ambient1",
+            "thorax:entity/insect/red_maiden/ambient2",
+            "thorax:entity/insect/red_maiden/ambient3"
+        ],
+        "subtitle": "subtitles.thorax.red_maiden.ambient"
+    },
+    "entity.bug.red_maiden.catch": {
+        "sounds": [
+            "thorax:entity/insect/red_maiden/catch1",
+            "thorax:entity/insect/red_maiden/catch2"
+        ],
+        "subtitle": "subtitles.thorax.red_maiden.catch"
+    },
+    "entity.bug.red_maiden.kill": {
+        "sounds": [
+            "thorax:entity/insect/red_maiden/kill"
+        ],
+        "subtitle": "subtitles.thorax.red_maiden.kill"
+    },
     "entity.bug.teleport": {
         "sounds": [
             "mob/endermen/portal"

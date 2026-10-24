@@ -1,0 +1,1 @@
+execute as @a[tag=thorax.red_maiden] at @s run function thorax:entity/bug/behavior/archetype/red_maiden/loot/ray/start

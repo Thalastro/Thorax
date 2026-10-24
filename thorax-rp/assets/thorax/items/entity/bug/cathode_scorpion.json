@@ -6,20 +6,20 @@
       "type": "minecraft:model",
       "model": "thorax:entity/bug/cathode_scorpion/stationary",
       "transformation": {
-        "translation": [8.5,-0.6,8],
+        "translation": [2.5,-0.6,2],
         "left_rotation": [0,180,0,1],
         "right_rotation": [0,0,0,1],
-        "scale": [16,16,16]
+        "scale": [4,4,4]
       }
     },
     "on_true": {
       "type": "minecraft:model",
       "model": "thorax:entity/bug/cathode_scorpion/moving",
       "transformation": {
-        "translation": [8.5,-0.6,8],
+        "translation": [2.5,-0.6,2],
         "left_rotation": [0,180,0,1],
         "right_rotation": [0,0,0,1],
-        "scale": [16,16,16]
+        "scale": [4,4,4]
       }
     }
   }

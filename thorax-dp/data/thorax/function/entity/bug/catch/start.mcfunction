@@ -1,5 +1,5 @@
 scoreboard players add @s thorax.statistics.bugs_caught 1
-# function thorax:item/technical/durability/mainhand/damage
+execute if entity @s[gamemode=!creative] run function thorax:item/durability/main {slot:"weapon.mainhand",slot_raw:"SelectedItem",amount:"1"}
 
 execute as @n[type=minecraft:interaction,tag=thorax.entity.bug,nbt={interaction:{}}] at @s run function thorax:entity/bug/catch/finish
 

@@ -1,1 +1,0 @@
-advancement grant @s only thorax:entomology/decorate

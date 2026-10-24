@@ -3,27 +3,28 @@
   "category": "building",
   "group": "terrarium",
   "pattern": [
-    "BBB",
-    "B B",
-    "AAA"
+    "222",
+    "2 2",
+    "111"
   ],
   "key": {
-    "A": [
+    "1": [
       "minecraft:acacia_planks"
     ],
-    "B": [
+    "2": [
       "minecraft:glass"
     ]
   },
   "result": {
     "id": "minecraft:furnace",
     "components": {
+      "minecraft:item_model": "thorax:terrarium",
+      "minecraft:tooltip_style": "thorax:main",
+      "minecraft:rarity": "common",
       "minecraft:item_name": {
         "translate": "block.thorax.acacia_terrarium",
         "fallback": "Acacia Terrarium"
       },
-      "minecraft:tooltip_style": "thorax:main",
-      "minecraft:rarity": "common",
       "minecraft:lore": [
         [
           {
@@ -43,7 +44,7 @@
           "translate": "block.thorax.terrarium.description.1",
           "with": [
               {
-                "keybind": "key.use"
+                  "keybind": "key.use"
               },
             {
               "translate": "block.thorax.terrarium.description.2",
@@ -71,8 +72,15 @@
       ],
       "minecraft:custom_data": {
         "thorax": {
-          "id": "acacia_terrarium",
-          "custom_block": true
+          "id": "terrarium",
+          "custom_block": true,
+          "terrarium": {
+            "wood": "acacia",
+            "glass": "glass",
+            "bug": "none",
+            "decor": "none",
+            "loot_table": "thorax:item/terrarium/acacia"
+          }
         },
         "smithed": {
           "ignore": {
@@ -81,7 +89,6 @@
           }
         }
       },
-      "minecraft:item_model": "thorax:terrarium",
       "minecraft:custom_model_data": {
         "strings": [
           "acacia",

@@ -37,7 +37,41 @@
     },
     "criteria": {
       "thorax:use_pollen": {
-        "trigger": "minecraft:impossible"
+        "trigger": "consume_item",
+        "conditions": {
+          "item": {
+            "predicates": {
+              "custom_data": {"thorax":{"id":"pollen"}}
+            }
+          }
+        }
+      },
+      "thorax:use_dusk_pollen": {
+        "trigger": "consume_item",
+        "conditions": {
+          "item": {
+            "predicates": {
+              "custom_data": {"thorax":{"id":"dusk_pollen"}}
+            }
+          }
+        }
+      },
+      "thorax:use_fragrant_pollen": {
+        "trigger": "consume_item",
+        "conditions": {
+          "item": {
+            "predicates": {
+              "custom_data": {"thorax":{"id":"fragrant_pollen"}}
+            }
+          }
         }
       }
+    },
+    "requirements": [
+      [
+        "thorax:use_pollen",
+        "thorax:use_dusk_pollen",
+        "thorax:use_fragrant_pollen"
+      ]
+    ]
 }

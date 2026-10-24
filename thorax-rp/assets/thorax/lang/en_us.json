@@ -188,7 +188,7 @@
     "advancement.thorax.catch_all_bugs.title": "Entomologist Extraordinaire",
     "advancement.thorax.catch_all_bugs.description": "Catch every insect!",
     "advancement.thorax.red_maiden.title": "Silk and Song",
-    "advancement.thorax.red_maiden.description": "Catch the elusive Red Maiden, a ruthless hunter!",
+    "advancement.thorax.red_maiden.description": "Catch the elusive Red Maiden!",
     "advancement.thorax.monolith.title": "Divine Intervention",
     "advancement.thorax.monolith.description": "Offer insects to a Monolith.",
     "advancement.thorax.artifact.title": "Mindfulness",
@@ -210,6 +210,9 @@
     "subtitles.thorax.bug.reinforce": "Bug reinforced",
     "subtitles.thorax.bug.protected": "Bug is protected",
     "subtitles.thorax.bug.teleport": "Bug teleports",
+    "subtitles.thorax.red_maiden.ambient": "Red Maiden vocalizes",
+    "subtitles.thorax.red_maiden.catch": "Red Maiden caught",
+    "subtitles.thorax.red_maiden.kill": "Red Maiden felled",
     
     "trim_material.thorax.chitin": "Chitin Material",
     

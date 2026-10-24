@@ -1,10 +1,11 @@
-summon minecraft:wandering_trader ~ ~ ~ {attributes:[{id:"minecraft:max_health",base:1.0d},{id:"minecraft:scale",base:0.0625d},\
-{id:"minecraft:movement_speed",base:0.5d}],CustomName:{"translate":"item.thorax.orchid_mantis"},Team:"smithed.prevent_aggression",\
-DeathLootTable:"thorax:entity/bug",DeathTime:0s,drop_chances:{mainhand:0.0f,offhand:0.0f,head:0.0f,chest:0.0f,legs:0.0f,feet:0.0f},\
-Offers:{Recipes:[]},active_effects:[{id:"minecraft:invisibility",duration:-1,amplifier:0b,show_particles:0b}],Silent:1b,\
-Tags:["thorax.entity.bug"],\
-equipment:{mainhand:{id:"minecraft:stone",count:1,components:{"minecraft:item_model":"thorax:entity/bug/orchid_mantis",\
-"minecraft:custom_model_data":{"flags":[false]}}},chest:{id:"minecraft:stone",count:1,\
-components:{"minecraft:item_model":"thorax:entity/bug/orchid_mantis","minecraft:custom_model_data":{"flags":[false]}}}},\
-Passengers:[{id:interaction,width:0.5,height:0.6,response:true,Tags:[thorax.entity.bug,thorax.entity.effects],\
-data:{thorax:{id:"orchid_mantis","loot_table":"thorax:gameplay/bugcatching/orchid_mantis","xp":10}}}]}
+summon minecraft:villager ~ ~ ~ {Team:smithed.prevent_aggression,Age:0,AgeLocked:true,VillagerData:{profession:"minecraft:nitwit",level:5},\
+Tags:["thorax.entity.bug","smithed.entity","thorax.entity.bug.orchid_mantis","thorax.entity.effects"],DeathLootTable:"",attributes:[{base:1.0d,id:"minecraft:max_health"},\
+{id:"minecraft:movement_speed",base:0.35d},{id:"minecraft:scale",base:0.25d}],Health:1.0f,DeathTime:19s,\
+drop_chances:{mainhand:0.0f,offhand:0.0f,head:0.0f,chest:0.0f,legs:0.0f,feet:0.0f},equipment:\
+{chest:{id:"minecraft:stone",components:{"minecraft:item_model":"thorax:entity/bug/orchid_mantis",\
+"minecraft:custom_model_data":{flags:[false]}}}},Offers:{Recipes:[]},CustomName:{translate:"item.thorax.orchid_mantis"},\
+CustomNameVisible:false,active_effects:[{id:"minecraft:invisibility",duration:-1,amplifier:0b,show_particles:0b}],Silent:1b,\
+Inventory:[{id:"minecraft:white_wool"},{id:"minecraft:red_wool"},{id:"minecraft:orange_wool"},{id:"minecraft:yellow_wool"},{id:"minecraft:green_wool"},{id:"minecraft:blue_wool"},{id:"minecraft:purple_wool"},{id:"minecraft:pink_wool"}],\
+Passengers: [{id:"interaction","width":0.1,height:-0.45,Tags:[thorax.entity.bug_rider],Passengers:[{id:interaction,width:0.5,\
+height:0.75,response:true,Tags:[thorax.entity.bug,thorax.entity.bug.walking],data:{thorax:{id:"orchid_mantis","loot_table":"thorax:gameplay/bugcatching/orchid_mantis","xp":10}}}]}]\
+}

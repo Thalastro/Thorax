@@ -72,6 +72,42 @@
                     "blocks": "#thorax:non_navigable"
                 }
             }
+        },
+        {
+            "type": "minecraft:location_check",
+            "offsetY": -9,
+            "predicate": {
+                "block": {
+                    "blocks": "#thorax:non_navigable"
+                }
+            }
+        },
+        {
+            "type": "minecraft:location_check",
+            "offsetY": -10,
+            "predicate": {
+                "block": {
+                    "blocks": "#thorax:non_navigable"
+                }
+            }
+        },
+        {
+            "type": "minecraft:location_check",
+            "offsetY": -11,
+            "predicate": {
+                "block": {
+                    "blocks": "#thorax:non_navigable"
+                }
+            }
+        },
+        {
+            "type": "minecraft:location_check",
+            "offsetY": -12,
+            "predicate": {
+                "block": {
+                    "blocks": "#thorax:non_navigable"
+                }
+            }
         }
     ]
 }

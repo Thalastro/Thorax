@@ -1,0 +1,4 @@
+execute if score #thorax.dusk_pollen thorax.dummy matches 1 if predicate thorax:time_check/day if predicate thorax:random_chance/50 run return run function thorax:entity/bug/spawning/biome/warm_ocean/night
+execute if score #thorax.dusk_pollen thorax.dummy matches 1 if predicate thorax:time_check/night if predicate thorax:random_chance/50 run return run function thorax:entity/bug/spawning/biome/warm_ocean/day
+execute if predicate thorax:time_check/day run return run function thorax:entity/bug/spawning/biome/warm_ocean/day
+execute if predicate thorax:time_check/night run function thorax:entity/bug/spawning/biome/warm_ocean/night

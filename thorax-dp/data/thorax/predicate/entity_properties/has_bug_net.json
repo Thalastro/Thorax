@@ -1,0 +1,57 @@
+{
+    "type": "any_of",
+    "terms": [
+        {
+            "type": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "minecraft:slots": {
+                    "inventory.*": {
+                        "predicates": {
+                            "custom_data": {"thorax":{"id":"bug_net"}}
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "type": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "minecraft:slots": {
+                    "hotbar.*": {
+                        "predicates": {
+                            "custom_data": {"thorax":{"id":"bug_net"}}
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "type": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "minecraft:slots": {
+                    "weapon.offhand": {
+                        "predicates": {
+                            "custom_data": {"thorax":{"id":"bug_net"}}
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "type": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "minecraft:slots": {
+                    "player.cursor": {
+                        "predicates": {
+                            "custom_data": {"thorax":{"id":"bug_net"}}
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

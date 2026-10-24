@@ -1,3 +1,3 @@
-execute on vehicle run tp @s ~ -1000 ~
-execute on vehicle run kill @s
+execute on vehicle run function thorax:entity/bug/behavior/despawn
+tp @s ~ -1000 ~
 kill @s

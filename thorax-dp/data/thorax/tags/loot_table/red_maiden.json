@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:chests/simple_dungeon",
+        "minecraft:chests/trial_chambers/entrance",
+        "minecraft:chests/trial_chambers/corridor",
+        "minecraft:chests/trial_chambers/intersection"
+    ]
+}

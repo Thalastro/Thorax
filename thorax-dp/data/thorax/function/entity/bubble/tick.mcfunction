@@ -6,6 +6,5 @@ execute if score @s[tag=!thorax.entity.bubble.has_bug] thorax.dummy matches 200.
 
 execute if score @s thorax.dummy matches 1..30 rotated as @e[type=interaction,tag=thorax.entity.bubble,limit=1,sort=nearest] run function thorax:entity/bubble/movement
 
-execute if entity @s[tag=!thorax.entity.bubble.large] run return fail
-execute if entity @s[tag=thorax.entity.bubble.has_bug] run return fail
-execute if entity @e[limit=1,distance=..1,type=#thorax:bug,tag=thorax.entity.bug,tag=!thorax.entity.in_bubble] run function thorax:entity/bubble/catch
+execute unless entity @s[tag=thorax.entity.bubble.large,tag=!thorax.entity.bubble.has_bug] run return fail
+execute if entity @e[limit=1,distance=..1,type=#thorax:bug,tag=thorax.entity.bug,tag=!thorax.entity.in_bubble] run function thorax:entity/bubble/capture/start

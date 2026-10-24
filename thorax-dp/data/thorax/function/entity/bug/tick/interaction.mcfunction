@@ -1,1 +1,2 @@
-execute unless predicate thorax:entity_properties/has_vehicle run function thorax:entity/bug/behavior/kill/squish
+execute unless predicate thorax:entity_properties/has_vehicle run function thorax:entity/bug/behavior/despawn
+execute unless entity @a[limit=1,sort=nearest,distance=..64] if entity @s[tag=!thorax.entity.in_bubble,tag=!thorax.entity.reinforced] run function thorax:entity/bug/behavior/despawn

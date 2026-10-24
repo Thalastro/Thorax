@@ -1,0 +1,1 @@
+execute if predicate thorax:random_chance/80 run function thorax:entity/bug/summon/monarch_butterfly
