@@ -1,5 +1,15 @@
 {
     "criteria": {
+        "thorax:obtain_stick": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "stick"
+                    }
+                ]
+            }
+        },
         "thorax:obtain_string": {
             "trigger": "inventory_changed",
             "conditions": {
@@ -11,6 +21,12 @@
             }
         }
     },
+    "requirements": [
+        [
+            "thorax:obtain_stick",
+            "thorax:obtain_string"
+        ]
+    ],
     "rewards": {
         "recipes": [
             "thorax:bug_net"

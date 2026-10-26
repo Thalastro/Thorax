@@ -1,5 +1,5 @@
 {
-    "parent": "thorax:entomology/use_pollen",
+    "parent": "thorax:entomology/root",
     "display": {
       "icon": {
         "id": "minecraft:poisonous_potato",

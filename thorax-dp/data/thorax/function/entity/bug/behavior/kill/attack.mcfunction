@@ -1,4 +1,5 @@
 execute on vehicle if entity @s[tag=thorax.entity.in_bubble] run return fail
+execute on vehicle on vehicle if entity @s[tag=thorax.entity.in_bubble] run return fail
 execute if entity @s[tag=thorax.entity.reinforced] run return run function thorax:entity/bug/behavior/kill/reinforced
 execute if entity @s[tag=thorax.entity.bug.red_maiden] run function thorax:entity/bug/behavior/kill/red_maiden
 

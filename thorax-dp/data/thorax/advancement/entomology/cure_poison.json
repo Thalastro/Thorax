@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:husbandry/safely_harvest_honey",
+    "criteria": {
+        "thorax:use_bug_net": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "honey_bottle"
+                },
+                "player": {
+                    "type": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "effects": {
+                            "minecraft:poison": {}
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": {"translate": "advancement.thorax.cure_poison.title"},
+        "description": [{"translate": "advancement.thorax.cure_poison.description"},
+        "\n\n",
+        {"text": "0 ", "color": "white", "font": "thorax:icon", "italic": false},
+        {"translate": "ui.thorax.title", "color": "white", "font": "thorax:tooltip", "italic": false}
+    ],
+        "icon": {
+            "id": "poisonous_potato"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    }
+}

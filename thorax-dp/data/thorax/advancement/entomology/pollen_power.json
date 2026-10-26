@@ -1,0 +1,60 @@
+{
+    "parent": "thorax:entomology/use_pollen",
+    "display": {
+      "icon": {
+        "id": "minecraft:poisonous_potato",
+        "components": {
+            "minecraft:item_model": "thorax:dusk_pollen"
+    }
+      },
+      "title": {
+        "translate": "advancement.thorax.pollen_power.title"
+      },
+      "description": [
+        [
+            {
+                "translate": "advancement.thorax.pollen_power.description"
+            }
+        ],
+        "\n\n",
+        {
+          "text": "0 ",
+          "color": "white",
+          "font": "thorax:icon",
+          "italic": false
+        },
+        {
+          "translate": "ui.thorax.title",
+          "color": "white",
+          "font": "thorax:tooltip",
+          "italic": false
+        }
+      ],
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "thorax:all_pollen": {
+        "trigger": "tick",
+        "conditions": {
+            "player": {
+                "entity": "this",
+                "type": "entity_scores",
+                "scores": {
+                    "thorax.pollen": {
+                        "min": 1
+                    },
+                    "thorax.dusk_pollen": {
+                        "min": 1
+                    },
+                    "thorax.fragrant_pollen": {
+                        "min": 1
+                    }
+                }
+            }
+        }
+      }
+    }
+}
