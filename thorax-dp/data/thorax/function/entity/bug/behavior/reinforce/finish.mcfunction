@@ -3,7 +3,7 @@ execute if entity @s[tag=thorax.entity.reinforced] run return fail
 tag @s add thorax.entity.reinforced
 execute on vehicle run tag @s add thorax.entity.reinforced
 execute on vehicle on vehicle run tag @s add thorax.entity.reinforced
-execute on vehicle on vehicle if entity @s[type=villager] run function thorax:entity/bug/behavior/reinforce/as_villager
+execute on vehicle on vehicle if entity @s[type=wandering_trader] run function thorax:entity/bug/behavior/reinforce/as_trader
 
 particle crit ~ ~ ~ 0.25 0.25 0.25 0.5 8 normal
 playsound thorax:entity.bug.reinforce neutral @a[distance=..16] ~ ~ ~ 0.5 1.25

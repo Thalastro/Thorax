@@ -1,5 +1,5 @@
 execute on vehicle if entity @s[tag=thorax.entity.in_bubble] run return fail
-execute if entity @s[tag=thorax.entity.bug.red_maiden] run function thorax:entity/bug/catch/red_maiden
+execute if entity @s[tag=thorax.entity.bug.red_maiden] run playsound thorax:entity.bug.red_maiden.catch neutral @a[distance=..16] ~ ~ ~ 0.5 1
 
 data remove entity @s interaction
 data modify storage thorax:temp bug.loot_table set from entity @s data.thorax.loot_table

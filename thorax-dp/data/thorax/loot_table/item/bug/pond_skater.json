@@ -49,14 +49,14 @@
               ],
               [
                 {
-                  "translate": "item.thorax.bug.diet.decomposer.symbol",
+                  "translate": "item.thorax.bug.diet.herbivore.symbol",
                   "color": "white",
                   "font": "thorax:diet",
                   "italic": false
                 },
                 {
-                  "translate": "item.thorax.bug.diet.decomposer.name",
-                  "color": "#c5825e",
+                  "translate": "item.thorax.bug.diet.herbivore.name",
+                  "color": "#3afa6a",
                   "font": "minecraft:default",
                   "italic": false
                 }
@@ -69,7 +69,7 @@
                   "terrarium_loot_table": "thorax:items/bug/pond_skater",
                   "rarity": "common",
                   "essence": "radiance",
-                  "diet": "decomposer"
+                  "diet": "herbivore"
                 }
               }
             },

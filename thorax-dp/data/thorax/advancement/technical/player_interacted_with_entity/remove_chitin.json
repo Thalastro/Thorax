@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "thorax:use_shears": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+            "entity": {
+                "type": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                   "entity_type": "minecraft:interaction",
+                    "entity_tags": {"any_of": ["thorax.entity.reinforced"]}
+                }
+            },
+            "item": {
+                "items": "shears"
+            }
+        }
+    }
+  },
+  "rewards": {
+    "function": "thorax:entity/bug/behavior/reinforce/remove/start"
+  }
+}

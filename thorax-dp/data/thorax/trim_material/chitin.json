@@ -1,5 +1,5 @@
 {
-  "palette_id": "chitin",
+  "palette_id": "thorax:trim/color_palettes/chitin",
   "description": {
     "translate": "trim_material.thorax.chitin",
     "color": "#8f748c"

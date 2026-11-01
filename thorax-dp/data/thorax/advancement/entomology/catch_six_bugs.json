@@ -1,0 +1,27 @@
+{
+  "parent": "thorax:entomology/catch_bug",
+    "criteria": {
+        "thorax:use_bug_net": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "title": {"translate": "advancement.thorax.catch_six_bugs.title"},
+        "description": [{"translate": "advancement.thorax.catch_six_bugs.description"},
+        "\n\n",
+        {"text": "0 ", "color": "white", "font": "thorax:icon", "italic": false},
+        {"translate": "ui.thorax.title", "color": "white", "font": "thorax:tooltip", "italic": false}
+    ],
+        "icon": {
+            "id": "poisonous_potato",
+            "components": {"item_model":"thorax:bug/monarch_butterfly"}
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "rewards": {
+        "experience": 50
+    }
+}

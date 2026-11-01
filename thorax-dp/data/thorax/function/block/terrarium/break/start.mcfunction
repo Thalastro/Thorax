@@ -1,2 +1,2 @@
-execute positioned ~ ~0.5 ~ as @n[type=interaction,tag=thorax.block.terrarium,nbt={attack:{}}] at @s run function thorax:block/terrarium/break/hit
+execute as @n[type=interaction,tag=thorax.block.terrarium,nbt={attack:{}}] positioned ~ ~1 ~ at @s run function thorax:block/terrarium/break/hit
 advancement revoke @s only thorax:technical/player_hit_entity/terrarium

@@ -6,20 +6,20 @@
       "type": "minecraft:model",
       "model": "thorax:entity/bug/walking_leaf/stationary",
       "transformation": {
-        "translation": [2.5,-0.6,2],
-        "left_rotation": [0,180,0,1],
+        "translation": [-2.75,-2.25,-2.5],
+        "left_rotation": [0,0,0,1],
         "right_rotation": [0,0,0,1],
-        "scale": [4,4,4]
+        "scale": [6.5,6.5,6.5]
       }
     },
     "on_true": {
       "type": "minecraft:model",
       "model": "thorax:entity/bug/walking_leaf/moving",
       "transformation": {
-        "translation": [2.5,-0.6,2],
-        "left_rotation": [0,180,0,1],
+        "translation": [-2.75,-2.25,-2.5],
+        "left_rotation": [0,0,0,1],
         "right_rotation": [0,0,0,1],
-        "scale": [4,4,4]
+        "scale": [6.5,6.5,6.5]
       }
     }
   }

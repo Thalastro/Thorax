@@ -35,14 +35,14 @@
               ],
               [
                 {
-                  "translate": "item.thorax.bug.diet.decomposer.symbol",
+                  "translate": "item.thorax.bug.diet.carnivore.symbol",
                   "color": "white",
                   "font": "thorax:diet",
                   "italic": false
                 },
                 {
-                  "translate": "item.thorax.bug.diet.decomposer.name",
-                  "color": "#c5825e",
+                  "translate": "item.thorax.bug.diet.carnivore.name",
+                  "color": "#e9257a",
                   "font": "minecraft:default",
                   "italic": false
                 }
@@ -55,7 +55,7 @@
                   "terrarium_loot_table": "thorax:items/bug/agrias_butterfly",
                   "rarity": "uncommon",
                   "essence": "chaos",
-                  "diet": "decomposer"
+                  "diet": "carnivore"
                 }
               }
             },

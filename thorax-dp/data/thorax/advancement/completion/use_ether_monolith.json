@@ -1,8 +1,0 @@
-{
-    "parent": "thorax:completion/root",
-    "criteria": {
-        "thorax:use_ether_monolith": {
-            "trigger": "minecraft:impossible"
-        }
-    } 
-}

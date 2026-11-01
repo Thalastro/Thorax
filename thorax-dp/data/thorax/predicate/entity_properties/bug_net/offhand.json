@@ -1,0 +1,17 @@
+{
+    "type": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "slots": {
+            "weapon.offhand": {
+                "predicates": {
+                    "custom_data": {
+                        "thorax": {
+                            "id": "bug_net"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -6,17 +6,17 @@
                 {
                     "type": "minecraft:loot_table",
                     "value": "thorax:item/pollen",
-                    "weight": 80
+                    "weight": 50
                 },
                 {
                     "type": "minecraft:loot_table",
                     "value": "thorax:item/dusk_pollen",
-                    "weight": 10
+                    "weight": 30
                 },
                 {
                     "type": "minecraft:loot_table",
                     "value": "thorax:item/fragrant_pollen",
-                    "weight": 10
+                    "weight": 20
                 }
             ]
         }

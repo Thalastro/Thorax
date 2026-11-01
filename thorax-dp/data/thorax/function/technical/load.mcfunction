@@ -5,8 +5,10 @@ function thorax:technical/clock/10s
 team add smithed.prevent_aggression
 
 scoreboard objectives add thorax.dummy dummy
+scoreboard objectives add thorax.entity dummy
 scoreboard objectives add thorax.insect_timer dummy
 scoreboard objectives add thorax.bubble_meter dummy
+scoreboard objectives add thorax.net_charge dummy
 
 scoreboard objectives add thorax.pollen dummy
 scoreboard objectives add thorax.dusk_pollen dummy

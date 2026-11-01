@@ -3,6 +3,7 @@ data modify entity @s item.components."minecraft:custom_data".thorax.stored_item
 data modify entity @s item.components."minecraft:custom_data".thorax.stored_item.count set value 1
 
 tag @s remove thorax.block.terrarium.empty
+execute if data entity @s item.components."minecraft:custom_data".thorax.stored_item.components."minecraft:custom_data".thorax{id:"cathode_scorpion"} run tag @s add thorax.block.terrarium.has_cathode_scorpion
 execute if data entity @s item.components."minecraft:custom_data".thorax.stored_item.components."minecraft:custom_data".thorax{id:"blazing_daggerwing"} run tag @s add thorax.block.terrarium.has_blazing_daggerwing
 execute if data entity @s item.components."minecraft:custom_data".thorax.stored_item.components."minecraft:custom_data".thorax{id:"caccophomoth"} run tag @s add thorax.block.terrarium.has_caccophomoth
 execute if data entity @s item.components."minecraft:custom_data".thorax.stored_item.components."minecraft:custom_data".thorax{id:"crystal_dasher"} run tag @s add thorax.block.terrarium.has_crystal_dasher

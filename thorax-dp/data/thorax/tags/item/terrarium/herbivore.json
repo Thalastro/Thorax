@@ -1,6 +1,15 @@
 {
     "values": [
         "#minecraft:leaves",
-        "#minecraft:saplings"
+        "#minecraft:saplings",
+        "minecraft:bush",
+        "minecraft:firefly_bush",
+        "minecraft:red_shrub",
+        "minecraft:leaf_litter",
+        "#minecraft:mushrooms",
+        "minecraft:wheat",
+        "minecraft:nether_wart",
+        "minecraft:nether_wart_block",
+        "minecraft:warped_wart_block"
     ]
 }

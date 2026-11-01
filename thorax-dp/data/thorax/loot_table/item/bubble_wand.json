@@ -49,14 +49,13 @@
             },
             "minecraft:item_model": "thorax:bubble_wand",
             "minecraft:tooltip_style": "thorax:main",
-            "minecraft:rarity": "uncommon",
+            "minecraft:rarity": "common",
             "minecraft:max_stack_size": 1,
             "!minecraft:food": {},
             "minecraft:consumable": {
               "animation": "block",
               "consume_seconds": 500,
-              "has_consume_particles": false,
-              "sound": "minecraft:intentionally_empty"
+              "has_consume_particles": false
             }
           }
         },

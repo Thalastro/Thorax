@@ -36,8 +36,16 @@
             "minecraft:repairable": {
               "items": "minecraft:string"
             },
-            "!minecraft:consumable": {},
-            "!minecraft:food": {}
+            "!minecraft:food": {},
+            "minecraft:consumable": {
+              "animation": "bow",
+              "consume_seconds": 500,
+              "has_consume_particles": false
+            },
+            "use_effects": {
+              "can_sprint": true,
+              "speed_multiplier": 0.85
+            }
           }
         },
         "thorax:add_tooltip"

@@ -1,5 +1,5 @@
 # Increments durability on a specific slot of the player (also handles breaking)
-say we tried
+
 # Increments the damage value
 $execute if items entity @s $(slot) *[minecraft:enchantments~[{enchantments:"minecraft:unbreaking",levels:1}]] if predicate thorax:random_chance/0.5 run return 1
 $execute if items entity @s $(slot) *[minecraft:enchantments~[{enchantments:"minecraft:unbreaking",levels:2}]] unless predicate thorax:random_chance/0.33 run return 2

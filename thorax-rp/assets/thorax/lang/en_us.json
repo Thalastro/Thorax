@@ -30,6 +30,8 @@
     "ui.thorax.credits_text": "Thank you to the people that contributed to %s, It wouldn't have been possible without you! ",
     
     "item.thorax.bug_net": "Bug Net",
+    "subtitles.thorax.bug_net.charge": "Bug Net charges",
+    "subtitles.thorax.bug_net.swing": "Bug Net swings",
     "item.thorax.scrapbook": "Skitter Scrapbook",
     "item.thorax.scrapbook.description": "Tracks insects you have caught.",
 
@@ -38,10 +40,10 @@
     "item.thorax.pollen.description.2": "insect",
 
     "item.thorax.dusk_pollen": "Dusk Pollen",
-    "item.thorax.dusk_pollen.description.1": "%s spawn at day and",
-    "item.thorax.dusk_pollen.description.2": "%s spawn at night.",
-    "item.thorax.dusk_pollen.description.3": "Nocturnal insects",
-    "item.thorax.dusk_pollen.description.4": "diurnal insects",
+    "item.thorax.dusk_pollen.description.1": "%s bugs spawn at day.",
+    "item.thorax.dusk_pollen.description.2": "%s bugs spawn at night.",
+    "item.thorax.dusk_pollen.description.3": "Nocturnal",
+    "item.thorax.dusk_pollen.description.4": "Diurnal",
 
     "item.thorax.fragrant_pollen": "Fragrant Pollen",
     "item.thorax.fragrant_pollen.description.1": "Boosts chance for %s to spawn.",
@@ -185,6 +187,8 @@
     "advancement.thorax.cure_poison.description": "Drink a Honey Bottle to cure poison",
     "advancement.thorax.pollen_power.title": "Potent Pollen Power!",
     "advancement.thorax.pollen_power.description": "Have all pollen types active at once",
+    "advancement.thorax.catch_six_bugs.title": "Hexamania!",
+    "advancement.thorax.catch_six_bugs.description": "Catch six or more bugs in a single swing!",
     
     "advancement.thorax.all_foods.title": "Gritty Gourmand",
     "advancement.thorax.all_foods.description": "Cook every Thorax dish in the cookbook",
@@ -198,6 +202,7 @@
     "subtitles.thorax.bug.drown": "Bug drowns",
     "subtitles.thorax.bug.burn": "Bug burns",
     "subtitles.thorax.bug.reinforce": "Bug reinforced",
+    "subtitles.thorax.bug.remove_chitin": "Bug unreinforced",
     "subtitles.thorax.bug.protected": "Bug is protected",
     "subtitles.thorax.bug.teleport": "Bug teleports",
     "subtitles.thorax.red_maiden.ambient": "Red Maiden vocalizes",

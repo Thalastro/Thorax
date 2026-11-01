@@ -1,1 +1,0 @@
-summon experience_orb ~ ~0.5 ~ {Count:2,Value:3}
