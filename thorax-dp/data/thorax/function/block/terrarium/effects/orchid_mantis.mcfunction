@@ -1,1 +1,0 @@
-particle minecraft:cherry_leaves ~ ~-0.25 ~ 0.15 0.15 0.15 0 1 normal

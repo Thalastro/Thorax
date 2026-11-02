@@ -1,1 +1,0 @@
-particle minecraft:happy_villager ~ ~-0.55 ~ 0.15 0.15 0.15 0.15 2

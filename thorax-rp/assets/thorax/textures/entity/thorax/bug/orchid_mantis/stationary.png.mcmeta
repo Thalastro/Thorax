@@ -2,12 +2,12 @@
   "animation": {
     "frames": [
       {
-        "index": 1,
-        "time": 12
+        "index": 0,
+        "time": 24
       },
       {
-        "index": 0,
-        "time": 12
+        "index": 1,
+        "time": 24
       }
     ]
   }

@@ -1,0 +1,1 @@
+execute if function #thorax:addon/spawning/daytime/taiga run return fail

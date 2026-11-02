@@ -705,14 +705,14 @@
             }
           },
           {
-            "when": "moss_carpet",
+            "when": "moss",
             "model": {
               "type": "minecraft:model",
               "model": "thorax:block/terrarium/decor/moss_carpet"
             }
           },
           {
-            "when": "pale_moss_carpet",
+            "when": "pale_moss",
             "model": {
               "type": "minecraft:model",
               "model": "thorax:block/terrarium/decor/pale_moss_carpet"
@@ -726,28 +726,28 @@
             }
           },
           {
-            "when": "sculk_vein",
+            "when": "sculk",
             "model": {
               "type": "minecraft:model",
               "model": "thorax:block/terrarium/decor/sculk_vein"
             }
           },
           {
-            "when": "snowball",
+            "when": "snow",
             "model": {
               "type": "minecraft:model",
               "model": "thorax:block/terrarium/decor/snowball"
             }
           },
           {
-            "when": "crimson_roots",
+            "when": "crimson",
             "model": {
               "type": "minecraft:model",
               "model": "thorax:block/terrarium/decor/crimson_roots"
             }
           },
           {
-            "when": "warped_roots",
+            "when": "warped",
             "model": {
               "type": "minecraft:model",
               "model": "thorax:block/terrarium/decor/warped_roots"

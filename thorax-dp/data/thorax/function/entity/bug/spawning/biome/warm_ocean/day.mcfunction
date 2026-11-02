@@ -1,1 +1,2 @@
+execute if function #thorax:addon/spawning/daytime/warm_ocean run return fail
 execute if predicate thorax:random_chance/55 run function thorax:entity/bug/summon/sea_strider

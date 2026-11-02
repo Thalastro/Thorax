@@ -11,7 +11,7 @@
     "1  "
   ],
   "result": {
-    "id": "minecraft:poisonous_potato",
+    "id": "minecraft:warped_fungus_on_a_stick",
     "components": {
             "minecraft:item_name": {
               "translate": "item.thorax.bug_net",
@@ -31,11 +31,7 @@
                   "font": "thorax:tooltip",
                   "italic": false
                 }
-              ],
-              {
-                "translate": "item.thorax.scrapbook.description",
-                "color": "gray"
-              }
+              ]
             ],
             "minecraft:custom_data": {
               "thorax": {

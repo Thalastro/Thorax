@@ -9,6 +9,7 @@ execute if data entity @s item.components."minecraft:custom_data".thorax.stored_
 execute if data entity @s item.components."minecraft:custom_data".thorax.stored_item.components."minecraft:custom_data".thorax{id:"crystal_dasher"} run tag @s add thorax.block.terrarium.has_crystal_dasher
 execute if data entity @s item.components."minecraft:custom_data".thorax.stored_item.components."minecraft:custom_data".thorax{id:"orchid_mantis"} run tag @s add thorax.block.terrarium.has_orchid_mantis
 execute if data entity @s item.components."minecraft:custom_data".thorax.stored_item.components."minecraft:custom_data".thorax{id:"arctic_apollo"} run tag @s add thorax.block.terrarium.has_arctic_apollo
+
 execute if data entity @s item.components."minecraft:custom_data".thorax.stored_item.components."minecraft:custom_name" summon minecraft:text_display run function thorax:block/terrarium/interact/set_state/name_tag
 execute if data entity @s item.components."minecraft:custom_data".thorax.stored_item.components."minecraft:custom_name" run tag @s add thorax.block.terrarium.name_tag
 tag @s add thorax.block.terrarium.has_bug

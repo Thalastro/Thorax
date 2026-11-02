@@ -1,1 +1,0 @@
-particle minecraft:flame ~ ~-0.25 ~ 0.1 0.1 0.1 0 1 normal

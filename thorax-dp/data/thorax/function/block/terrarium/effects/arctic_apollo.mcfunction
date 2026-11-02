@@ -1,1 +1,0 @@
-particle snowflake ~ ~-0.35 ~ 0.1 0.1 0.1 0 2 normal

@@ -1,2 +1,3 @@
+execute if function #thorax:addon/spawning/deep_dark run return fail
 execute if predicate thorax:random_chance/25 run return run function thorax:entity/bug/summon/caccophomoth
 execute if score thorax.fragrant_pollen thorax.dummy matches 1 if predicate thorax:random_chance/5 run return run function thorax:entity/bug/summon/caccophomoth
