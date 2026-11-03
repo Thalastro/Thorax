@@ -1,5 +1,6 @@
 execute unless predicate thorax:entity_properties/spawning_viable run return fail
 
+say we succedded
 execute if biome ~ ~ ~ #thorax:plains run return run function thorax:entity/bug/spawning/biome/plains/main
 execute if biome ~ ~ ~ #thorax:forest run return run function thorax:entity/bug/spawning/biome/forest/main
 execute if biome ~ ~ ~ #thorax:desert run return run function thorax:entity/bug/spawning/biome/desert/main
