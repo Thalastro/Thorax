@@ -1,8 +1,8 @@
 scoreboard players set @s thorax.insect_timer 0
 
 scoreboard players set #thorax.bug_population thorax.dummy 0
-execute as @e[type=interaction,tag=thorax.entity.bug,tag=!thorax.entity.reinforced,limit=24,distance=..64] run scoreboard players add #thorax.bug_population thorax.dummy 1
-execute if score #thorax.bug_population thorax.dummy matches 24 run return fail
+execute as @e[type=interaction,tag=thorax.entity.bug,tag=!thorax.entity.reinforced,distance=..64] run scoreboard players add #thorax.bug_population thorax.dummy 1
+execute if score #thorax.bug_population thorax.dummy matches 16.. run return fail
 
 scoreboard players set #thorax.dusk_pollen thorax.dummy 0
 scoreboard players set #thorax.fragrant_pollen thorax.dummy 0

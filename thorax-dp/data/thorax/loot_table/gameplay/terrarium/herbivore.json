@@ -5,11 +5,21 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:string"
+                    "name": "minecraft:string",
+                    "weight": 1,
+                    "modifier": {
+                        "type": "minecraft:set_count",
+                        "count": {
+                            "type": "uniform",
+                            "min": 1,
+                            "max": 2
+                        }
+                    }
                 },
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:bone_meal",
+                    "weight": 3,
                     "modifier": {
                         "type": "minecraft:set_count",
                         "count": {

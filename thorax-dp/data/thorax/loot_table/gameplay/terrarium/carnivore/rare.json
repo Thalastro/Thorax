@@ -21,16 +21,16 @@
                 {
                     "type": "minecraft:loot_table",
                     "value": "thorax:item/bug_guts",
-                    "weight": 40
+                    "weight": 20
                 },
                 {
                     "type": "minecraft:loot_table",
                     "value": "thorax:item/chitin",
-                    "weight": 10
+                    "weight": 5
                 },
                 {
                     "type": "empty",
-                    "weight": 50
+                    "weight": 75
                 }
             ]
         }
