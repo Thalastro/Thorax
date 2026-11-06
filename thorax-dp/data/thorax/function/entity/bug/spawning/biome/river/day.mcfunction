@@ -1,2 +1,2 @@
 execute if function #thorax:addon/spawning/daytime/river run return fail
-execute if predicate thorax:random_chance/65 if block ~ ~-1 ~ water run function thorax:entity/bug/summon/pond_skater
+execute positioned ~ ~-0.25 ~ if predicate thorax:random_chance/65 if block ~ ~-1 ~ water run function thorax:entity/bug/summon/pond_skater

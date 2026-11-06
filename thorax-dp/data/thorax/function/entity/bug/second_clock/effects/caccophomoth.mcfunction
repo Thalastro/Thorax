@@ -1,1 +1,1 @@
-particle soul ~ ~0.1 ~ 0.1 0.1 0.1 0.1 1 normal @a[distance=..16]
+particle soul ~ ~0.1 ~ 0.1 0.1 0.1 0.05 1 normal @a[distance=..16]
