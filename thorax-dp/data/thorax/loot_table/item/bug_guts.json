@@ -32,7 +32,18 @@
             "minecraft:tooltip_style": "thorax:main",
             "minecraft:rarity": "common",
             "minecraft:consumable": {
-              "on_consume_effects": []
+              "on_consume_effects": [
+                {
+                  "type": "minecraft:apply_effects",
+                  "probability": 0.20,
+                  "effects": [
+                    {
+                      "id": "poison",
+                      "duration": 100
+                    }
+                  ]
+                }
+              ]
             },
             "minecraft:food": {
               "nutrition": 5,

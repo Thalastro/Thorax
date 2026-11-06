@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:set_lore",
+    "mode": "append",
+    "lore": [
+        "",
+        [
+            {
+                "translate": "item.thorax.bug.essence.obscurity.symbol",
+                "color": "white",
+                "font": "thorax:essence",
+                "italic": false
+            },
+            {
+                "translate": "item.thorax.bug.essence.obscurity.name",
+                "color": "#d63232",
+                "font": "minecraft:default",
+                "italic": false
+            }
+        ]
+    ]
+}

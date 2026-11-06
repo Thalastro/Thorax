@@ -40,8 +40,8 @@
               "on_consume_effects": []
             },
             "minecraft:food": {
-              "nutrition": 8,
-              "saturation": 6,
+              "nutrition": 9,
+              "saturation": 10,
               "can_always_eat": false
             }
           }

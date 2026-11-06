@@ -43,9 +43,6 @@
         {
           "translate": "block.thorax.terrarium.description.1",
           "with": [
-              {
-                  "keybind": "key.use"
-              },
             {
               "translate": "block.thorax.terrarium.description.2",
               "color": "#3196d4",

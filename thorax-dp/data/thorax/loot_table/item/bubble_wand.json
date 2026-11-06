@@ -17,25 +17,6 @@
               "translate": "item.thorax.bubble_wand",
               "fallback": "Bubble Wand"
             },
-            "minecraft:lore": [
-              [
-                {
-                  "translate": "item.thorax.bubble_wand.description.1",
-                  "color": "gray",
-                  "italic": false,
-                  "with": [
-                    {
-                        "keybind": "key.use",
-                        "italic": false
-                    },
-                    {
-                      "translate": "item.thorax.bubble_wand.description.2",
-                      "color": "#a1dbff"
-                    }
-                  ]
-                }
-              ]
-            ],
             "minecraft:custom_data": {
               "thorax": {
                 "id": "bubble_wand"
@@ -56,6 +37,10 @@
               "animation": "block",
               "consume_seconds": 500,
               "has_consume_particles": false
+            },
+            "use_effects": {
+              "can_sprint": true,
+              "speed_multiplier": 0.85
             }
           }
         },

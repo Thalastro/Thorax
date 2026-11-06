@@ -17,56 +17,10 @@
               "translate": "item.thorax.monarch_butterfly",
               "fallback": "Monarch Butterfly"
             },
-            "minecraft:lore": [
-              [
-                {
-                  "text": "0 ",
-                  "color": "white",
-                  "font": "thorax:icon",
-                  "italic": false
-                },
-                {
-                  "translate": "ui.thorax.title",
-                  "color": "white",
-                  "font": "thorax:tooltip",
-                  "italic": false
-                }
-              ],
-              "",
-              [
-                {
-                  "translate": "item.thorax.bug.essence.radiance.symbol",
-                  "color": "white",
-                  "font": "thorax:essence",
-                  "italic": false
-                },
-                {
-                  "translate": "item.thorax.bug.essence.radiance.name",
-                  "color": "#ff753a",
-                  "font": "minecraft:default",
-                  "italic": false
-                }
-              ],
-              [
-                {
-                  "translate": "item.thorax.bug.diet.pollinator.symbol",
-                  "color": "white",
-                  "font": "thorax:diet",
-                  "italic": false
-                },
-                {
-                  "translate": "item.thorax.bug.diet.pollinator.name",
-                  "color": "#ffd06b",
-                  "font": "minecraft:default",
-                  "italic": false
-                }
-              ]
-            ],
             "minecraft:custom_data": {
               "thorax": {
                 "id": "monarch_butterfly",
                 "bug": {
-                  "terrarium_loot_table": "thorax:items/bug/monarch_butterfly",
                   "rarity": "uncommon",
                   "essence": "radiance",
                   "diet": "pollinator"
@@ -79,7 +33,10 @@
             "!minecraft:consumable": {},
             "!minecraft:food": {}
           }
-        }
+        },
+        "thorax:add_tooltip",
+        "thorax:tooltip/essence/radiance",
+        "thorax:tooltip/diet/pollinator"
       ]
     }
   ]

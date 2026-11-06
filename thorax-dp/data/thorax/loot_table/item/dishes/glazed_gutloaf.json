@@ -37,11 +37,22 @@
             "minecraft:tooltip_style": "thorax:main",
             "minecraft:rarity": "common",
             "minecraft:consumable": {
-              "on_consume_effects": []
+              "on_consume_effects": [
+                {
+                  "type": "minecraft:apply_effects",
+                  "probability": 1,
+                  "effects": [
+                    {
+                      "id": "regeneration",
+                      "duration": 300
+                    }
+                  ]
+                }
+              ]
             },
             "minecraft:food": {
               "nutrition": 10,
-              "saturation": 8,
+              "saturation": 12,
               "can_always_eat": false
             }
           }

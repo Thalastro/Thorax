@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:set_lore",
+    "mode": "append",
+    "lore": [
+        [
+            {
+                "translate": "item.thorax.bug.diet.carnivore.symbol",
+                "color": "white",
+                "font": "thorax:diet",
+                "italic": false
+            },
+            {
+                "translate": "item.thorax.bug.diet.carnivore.name",
+                "color": "#e9257a",
+                "font": "minecraft:default",
+                "italic": false
+            }
+        ]
+    ]
+}

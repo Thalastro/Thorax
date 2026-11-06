@@ -5,7 +5,7 @@ data modify storage thorax:temp bug.xp set from entity @s data.thorax.xp
 
 function thorax:item/bug_net/catch/as_bug/loot with storage thorax:temp bug
 particle dust{color:-1,scale:2} ~ ~ ~ 0.25 0.25 0.25 0.5 16 normal
-playsound thorax:entity.bug.catch neutral @a[distance=..16] ~ ~ ~ 1 1
+playsound thorax:entity.bug.catch neutral @a[distance=..16] ~ ~ ~ 2 1
 scoreboard players add #thorax.bug_count thorax.dummy 1
  
 function thorax:entity/bug/behavior/despawn

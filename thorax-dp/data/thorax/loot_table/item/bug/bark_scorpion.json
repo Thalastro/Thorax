@@ -17,56 +17,10 @@
               "translate": "item.thorax.bark_scorpion",
               "fallback": "Bark Scorpion"
             },
-            "minecraft:lore": [
-              [
-                {
-                  "text": "0 ",
-                  "color": "white",
-                  "font": "thorax:icon",
-                  "italic": false
-                },
-                {
-                  "translate": "ui.thorax.title",
-                  "color": "white",
-                  "font": "thorax:tooltip",
-                  "italic": false
-                }
-              ],
-              "",
-              [
-                {
-                  "translate": "item.thorax.bug.essence.obscurity.symbol",
-                  "color": "white",
-                  "font": "thorax:essence",
-                  "italic": false
-                },
-                {
-                  "translate": "item.thorax.bug.essence.obscurity.name",
-                  "color": "#d63232",
-                  "font": "minecraft:default",
-                  "italic": false
-                }
-              ],
-              [
-                {
-                  "translate": "item.thorax.bug.diet.carnivore.symbol",
-                  "color": "white",
-                  "font": "thorax:diet",
-                  "italic": false
-                },
-                {
-                  "translate": "item.thorax.bug.diet.carnivore.name",
-                  "color": "#e9257a",
-                  "font": "minecraft:default",
-                  "italic": false
-                }
-              ]
-            ],
             "minecraft:custom_data": {
               "thorax": {
                 "id": "bark_scorpion",
                 "bug": {
-                  "terrarium_loot_table": "thorax:items/bug/bark_scorpion",
                   "rarity": "common",
                   "essence": "obscurity",
                   "diet": "carnivore"
@@ -79,7 +33,10 @@
             "!minecraft:consumable": {},
             "!minecraft:food": {}
           }
-        }
+        },
+        "thorax:add_tooltip",
+        "thorax:tooltip/essence/obscurity",
+        "thorax:tooltip/diet/carnivore"
       ]
     }
   ]

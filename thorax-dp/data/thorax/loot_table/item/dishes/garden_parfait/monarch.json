@@ -42,8 +42,9 @@
                     "type": "apply_effects",
                     "effects": [
                         {
-                            "id": "minecraft:regeneration",
-                            "duration": 300
+                            "id": "minecraft:absorption",
+                            "duration": 300,
+                            "amplifier": 1
                         }
                     ]
                 }

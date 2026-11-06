@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:set_lore",
+    "mode": "append",
+    "lore": [
+        [
+            {
+                "translate": "item.thorax.bug.diet.pollinator.symbol",
+                "color": "white",
+                "font": "thorax:diet",
+                "italic": false
+            },
+            {
+                "translate": "item.thorax.bug.diet.pollinator.name",
+                "color": "#ffe68d",
+                "font": "minecraft:default",
+                "italic": false
+            }
+        ]
+    ]
+}

@@ -6,19 +6,6 @@
                 {
                     "type": "minecraft:loot_table",
                     "value": "thorax:item/pollen",
-                    "weight": 50,
-                    "modifier": {
-                        "type": "minecraft:set_count",
-                        "count": {
-                            "type": "uniform",
-                            "min": 1,
-                            "max": 2
-                        }
-                    }
-                },
-                {
-                    "type": "minecraft:loot_table",
-                    "value": "thorax:item/dusk_pollen",
                     "weight": 30,
                     "modifier": {
                         "type": "minecraft:set_count",
@@ -31,8 +18,21 @@
                 },
                 {
                     "type": "minecraft:loot_table",
+                    "value": "thorax:item/dusk_pollen",
+                    "weight": 40,
+                    "modifier": {
+                        "type": "minecraft:set_count",
+                        "count": {
+                            "type": "uniform",
+                            "min": 1,
+                            "max": 2
+                        }
+                    }
+                },
+                {
+                    "type": "minecraft:loot_table",
                     "value": "thorax:item/fragrant_pollen",
-                    "weight": 20,
+                    "weight": 30,
                     "modifier": {
                         "type": "minecraft:set_count",
                         "count": {

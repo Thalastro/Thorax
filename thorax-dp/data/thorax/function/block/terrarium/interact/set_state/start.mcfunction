@@ -20,4 +20,4 @@ execute if score #thorax.diet thorax.dummy matches 1.. if entity @s[tag=thorax.b
 execute unless score #thorax.has_changed_state thorax.dummy matches 1 if entity @s[tag=thorax.block.terrarium.has_bug] run return run function thorax:block/terrarium/interact/set_state/empty
 
 # Nothing Inside, Clicked with Bug, Insert Bug
-execute unless score #thorax.has_changed_state thorax.dummy matches 1 if data storage thorax:temp root.item.components."minecraft:custom_data".thorax.bug.terrarium_loot_table if entity @s[tag=thorax.block.terrarium.empty] run return run function thorax:block/terrarium/interact/set_state/insert_bug with storage thorax:temp root.item.components."minecraft:custom_data".thorax
+execute unless score #thorax.has_changed_state thorax.dummy matches 1 if data storage thorax:temp root.item.components."minecraft:custom_data".thorax.bug if entity @s[tag=thorax.block.terrarium.empty] run return run function thorax:block/terrarium/interact/set_state/insert_bug with storage thorax:temp root.item.components."minecraft:custom_data".thorax

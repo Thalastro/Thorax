@@ -1,9 +1,9 @@
 item replace entity @s armor.head from entity @s armor.chest
+execute if entity @s[tag=!thorax.entity.reinforced] if block ~ ~ ~ water run function thorax:entity/bug/behavior/despawn
 item modify entity @s[predicate=thorax:entity_properties/walking] armor.head {"type":"minecraft:set_custom_model_data","flags":{"mode":"replace_section","offset":0,"values":[true]}}
 effect clear @s minecraft:glowing
 effect give @s invisibility infinite 0 true
 rotate @s ~ 0
-
 
 execute unless predicate {type:"minecraft:entity_properties",entity:"this",predicate:{periodic_tick:200}} run return fail
 

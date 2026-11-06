@@ -17,42 +17,10 @@
               "translate": "item.thorax.agrias_butterfly",
               "fallback": "Agrias Butterfly"
             },
-            "minecraft:lore": [
-              "",
-              [
-                {
-                  "translate": "item.thorax.bug.essence.chaos.symbol",
-                  "color": "white",
-                  "font": "thorax:essence",
-                  "italic": false
-                },
-                {
-                  "translate": "item.thorax.bug.essence.chaos.name",
-                  "color": "#602ef4",
-                  "font": "minecraft:default",
-                  "italic": false
-                }
-              ],
-              [
-                {
-                  "translate": "item.thorax.bug.diet.carnivore.symbol",
-                  "color": "white",
-                  "font": "thorax:diet",
-                  "italic": false
-                },
-                {
-                  "translate": "item.thorax.bug.diet.carnivore.name",
-                  "color": "#e9257a",
-                  "font": "minecraft:default",
-                  "italic": false
-                }
-              ]
-            ],
             "minecraft:custom_data": {
               "thorax": {
                 "id": "agrias_butterfly",
                 "bug": {
-                  "terrarium_loot_table": "thorax:items/bug/agrias_butterfly",
                   "rarity": "uncommon",
                   "essence": "chaos",
                   "diet": "carnivore"
@@ -61,12 +29,14 @@
             },
             "minecraft:item_model": "thorax:bug/agrias_butterfly",
             "minecraft:tooltip_style": "thorax:main",
-            "minecraft:rarity": "uncommon",
+            "minecraft:rarity": "common",
             "!minecraft:consumable": {},
             "!minecraft:food": {}
           }
         },
-        "thorax:add_tooltip"
+        "thorax:add_tooltip",
+        "thorax:tooltip/essence/chaos",
+        "thorax:tooltip/diet/herbivore"
       ]
     }
   ]

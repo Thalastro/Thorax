@@ -42,7 +42,7 @@
                     "type": "apply_effects",
                     "effects": [
                         {
-                            "id": "minecraft:regeneration",
+                            "id": "minecraft:speed",
                             "duration": 300
                         }
                     ]

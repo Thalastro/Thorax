@@ -6,7 +6,7 @@
                 {
                     "type": "minecraft:loot_table",
                     "value": "thorax:item/pollen",
-                    "weight": 50,
+                    "weight": 40,
                     "modifier": {
                         "type": "minecraft:set_count",
                         "count": {
@@ -19,7 +19,7 @@
                 {
                     "type": "minecraft:loot_table",
                     "value": "thorax:item/dusk_pollen",
-                    "weight": 50,
+                    "weight": 60,
                     "modifier": {
                         "type": "minecraft:set_count",
                         "count": {

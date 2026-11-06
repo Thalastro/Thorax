@@ -17,58 +17,12 @@
               "translate": "item.thorax.walking_leaf",
               "fallback": "Walking Leaf"
             },
-            "minecraft:lore": [
-              [
-                {
-                  "text": "0 ",
-                  "color": "white",
-                  "font": "thorax:icon",
-                  "italic": false
-                },
-                {
-                  "translate": "ui.thorax.title",
-                  "color": "white",
-                  "font": "thorax:tooltip",
-                  "italic": false
-                }
-              ],
-              "",
-              [
-                {
-                  "translate": "item.thorax.bug.essence.chaos.symbol",
-                  "color": "white",
-                  "font": "thorax:essence",
-                  "italic": false
-                },
-                {
-                  "translate": "item.thorax.bug.essence.chaos.name",
-                  "color": "#602ef4",
-                  "font": "minecraft:default",
-                  "italic": false
-                }
-              ],
-              [
-                {
-                  "translate": "item.thorax.bug.diet.herbivore.symbol",
-                  "color": "white",
-                  "font": "thorax:diet",
-                  "italic": false
-                },
-                {
-                  "translate": "item.thorax.bug.diet.herbivore.name",
-                  "color": "#3afa6a",
-                  "font": "minecraft:default",
-                  "italic": false
-                }
-              ]
-            ],
             "minecraft:custom_data": {
               "thorax": {
                 "id": "walking_leaf",
                 "bug": {
-                  "terrarium_loot_table": "thorax:items/bug/walking_leaf",
                   "rarity": "rare",
-                  "essence": "chaos",
+                  "essence": "radiance",
                   "diet": "herbivore"
                 }
               }
@@ -79,7 +33,10 @@
             "!minecraft:consumable": {},
             "!minecraft:food": {}
           }
-        }
+        },
+        "thorax:add_tooltip",
+        "thorax:tooltip/essence/radiance",
+        "thorax:tooltip/diet/herbivore"
       ]
     }
   ]

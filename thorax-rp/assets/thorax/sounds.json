@@ -1,4 +1,5 @@
 {
+    "empty": {},
     "item.bug_net.charge": {
         "sounds": [
             "minecraft:random/orb"

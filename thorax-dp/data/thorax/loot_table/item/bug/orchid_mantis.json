@@ -17,56 +17,10 @@
               "translate": "item.thorax.orchid_mantis",
               "fallback": "Orchid Mantis"
             },
-            "minecraft:lore": [
-              [
-                {
-                  "text": "0 ",
-                  "color": "white",
-                  "font": "thorax:icon",
-                  "italic": false
-                },
-                {
-                  "translate": "ui.thorax.title",
-                  "color": "white",
-                  "font": "thorax:tooltip",
-                  "italic": false
-                }
-              ],
-              "",
-              [
-                {
-                  "translate": "item.thorax.bug.essence.chaos.symbol",
-                  "color": "white",
-                  "font": "thorax:essence",
-                  "italic": false
-                },
-                {
-                  "translate": "item.thorax.bug.essence.chaos.name",
-                  "color": "#602ef4",
-                  "font": "minecraft:default",
-                  "italic": false
-                }
-              ],
-              [
-                {
-                  "translate": "item.thorax.bug.diet.carnivore.symbol",
-                  "color": "white",
-                  "font": "thorax:diet",
-                  "italic": false
-                },
-                {
-                  "translate": "item.thorax.bug.diet.carnivore.name",
-                  "color": "#e9257a",
-                  "font": "minecraft:default",
-                  "italic": false
-                }
-              ]
-            ],
             "minecraft:custom_data": {
               "thorax": {
                 "id": "orchid_mantis",
                 "bug": {
-                  "terrarium_loot_table": "thorax:items/bug/orchid_mantis",
                   "rarity": "uncommon",
                   "essence": "chaos",
                   "diet": "carnivore"
@@ -79,7 +33,10 @@
             "!minecraft:consumable": {},
             "!minecraft:food": {}
           }
-        }
+        },
+        "thorax:add_tooltip",
+        "thorax:tooltip/essence/chaos",
+        "thorax:tooltip/diet/carnivore"
       ]
     }
   ]

@@ -3,6 +3,7 @@ execute unless block ~ ~ ~ #thorax:not_solid run return run function thorax:enti
 execute unless entity @a[limit=1,sort=nearest,distance=..64] if entity @s[tag=!thorax.entity.in_bubble,tag=!thorax.entity.reinforced] run function thorax:entity/bug/behavior/despawn
 
 execute if entity @s[tag=thorax.entity.in_bubble] run return fail
+execute if entity @s[tag=!thorax.entity.reinforced] if block ~ ~ ~ water run function thorax:entity/bug/behavior/despawn
 execute if entity @s[tag=thorax.entity.bug.flying] run function thorax:entity/bug/behavior/archetype/flying/main
 execute if entity @s[tag=thorax.entity.bug.fast_flying] run function thorax:entity/bug/behavior/archetype/fast_flying/main
 execute if entity @s[tag=thorax.entity.bug.water_striding] run function thorax:entity/bug/behavior/archetype/water_striding/main

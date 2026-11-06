@@ -9,8 +9,8 @@ data modify storage cnk:temp register.ingredients set value [ \
     {key:"item.minecraft.egg", font:"cnk.book:icons"}, \
 ]
 data modify storage cnk:temp register.source set value {key:"thorax.source", font:"thorax:dishes"}
-#data modify storage cnk:temp register.stamp set value { \
+data modify storage cnk:temp register.stamp set value { \
     icon:"book.cnk.stamp.plateable.icon", \
     text:"book.cnk.stamp.plateable.text" \
-#}
+}
 function cnk:cookbook/pages/register

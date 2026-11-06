@@ -1,11 +1,19 @@
 scoreboard players set @s thorax.completion 0
 
-execute if entity @s[advancements={thorax:entomology/terrarium=true}] run scoreboard players add @s thorax.completion 20
-execute if entity @s[advancements={thorax:entomology/feed_insect=true}] run scoreboard players add @s thorax.completion 20
-execute if entity @s[advancements={thorax:entomology/use_pollen=true}] run scoreboard players add @s thorax.completion 3
-execute if entity @s[advancements={thorax:entomology/use_bubble_wand=true}] run scoreboard players add @s thorax.completion 10
-execute if entity @s[advancements={thorax:entomology/use_chitin=true}] run scoreboard players add @s thorax.completion 3
+# Progression
+execute if entity @s[advancements={thorax:entomology/catch_bug=true}] run scoreboard players add @s thorax.completion 10
+execute if entity @s[advancements={thorax:entomology/terrarium=true}] run scoreboard players add @s thorax.completion 10
+execute if entity @s[advancements={thorax:entomology/feed_insect=true}] run scoreboard players add @s thorax.completion 10
 
+# Random Stuff
+execute if entity @s[advancements={thorax:entomology/decorate=true}] run scoreboard players add @s thorax.completion 5
+execute if entity @s[advancements={thorax:entomology/use_pollen=true}] run scoreboard players add @s thorax.completion 5
+execute if entity @s[advancements={thorax:entomology/use_bubble_wand=true}] run scoreboard players add @s thorax.completion 4
+execute if entity @s[advancements={thorax:entomology/use_chitin=true}] run scoreboard players add @s thorax.completion 4
+execute if entity @s[advancements={thorax:entomology/cure_poison=true}] run scoreboard players add @s thorax.completion 4
+execute if entity @s[advancements={thorax:entomology/pollen_power=true}] run scoreboard players add @s thorax.completion 4
+
+# Bugs
 execute if entity @s[advancements={thorax:completion/catch_cabbage_butterfly=true}] run scoreboard players add @s thorax.completion 2
 execute if entity @s[advancements={thorax:completion/catch_agrias_butterfly=true}] run scoreboard players add @s thorax.completion 2
 execute if entity @s[advancements={thorax:completion/catch_monarch_butterfly=true}] run scoreboard players add @s thorax.completion 2

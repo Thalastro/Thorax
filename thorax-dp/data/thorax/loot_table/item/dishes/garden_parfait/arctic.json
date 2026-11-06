@@ -42,8 +42,8 @@
                     "type": "apply_effects",
                     "effects": [
                         {
-                            "id": "minecraft:regeneration",
-                            "duration": 400
+                            "id": "minecraft:slow_falling",
+                            "duration": 300
                         }
                     ]
                 }

@@ -46,16 +46,12 @@
     "item.thorax.dusk_pollen.description.4": "Diurnal",
 
     "item.thorax.fragrant_pollen": "Fragrant Pollen",
-    "item.thorax.fragrant_pollen.description.1": "Boosts chance for %s to spawn.",
-    "item.thorax.fragrant_pollen.description.2": "rare insects",
+    "item.thorax.fragrant_pollen.description.1": "%s spawn more.",
+    "item.thorax.fragrant_pollen.description.2": "Rare insects",
 
     "subtitles.thorax.pollen.apply": "Pollen applied",
 
     "item.thorax.bubble_wand": "Bubble Wand",
-    "item.thorax.bubble_wand.description.1": "%s to blow %s.",
-    "item.thorax.bubble_wand.description.2": "bubbles",
-    "item.thorax.bubble_wand.description.3": "Fill with %s.",
-    "item.thorax.bubble_wand.description.4": "bubble mix",
     "subtitles.thorax.bubble_wand.use": "Bubble Wand used",
     "subtitles.thorax.bubble_wand.finish": "Bubble blown",
     "subtitles.thorax.bubble.catch": "Bubble catches bug",
@@ -74,9 +70,9 @@
     "block.thorax.pale_oak_terrarium": "Pale Oak Terrarium",
     "block.thorax.crimson_terrarium": "Crimson Terrarium",
     "block.thorax.warped_terrarium": "Warped Terrarium",
-    "block.thorax.terrarium.description.1": "%s with an insect to %s it.",
-    "block.thorax.terrarium.description.2": "display",
-    "block.thorax.terrarium.description.3": "Feed insects according to their %s.",
+    "block.thorax.terrarium.description.1": "%s insects and feed",
+    "block.thorax.terrarium.description.2": "Display",
+    "block.thorax.terrarium.description.3": "them based on their %s.",
     "block.thorax.terrarium.description.4": "diet",
     "subtitles.thorax.terrarium.insert_bug": "Bug placed",
     "subtitles.thorax.terrarium.remove_bug": "Bug removed",
@@ -174,7 +170,7 @@
     "advancement.thorax.use_chitin.title": "Iron Shell",
     "advancement.thorax.use_chitin.description": "Make an insect damage-resistant with Chitin!",
     "advancement.thorax.catch_all_bugs.title": "Entomologist Extraordinaire",
-    "advancement.thorax.catch_all_bugs.description": "Catch every insect!",
+    "advancement.thorax.catch_all_bugs.description": "Obtain every insect!",
     "advancement.thorax.red_maiden.title": "Silk and Song",
     "advancement.thorax.red_maiden.description": "Catch the elusive Red Maiden!",
     "advancement.thorax.monolith.title": "Divine Intervention",
@@ -275,7 +271,5 @@
     "book.item.thorax.electro_wine": "\uc037",
 
     "item.thorax.bug_milk": "Bug Milk",
-    "item.thorax.bug_milk_bottle": "Bug Milk Bottle",
-    
-    "item.thorax.calendar.format": "Year %1$s, Day %2$s"
+    "item.thorax.bug_milk_bottle": "Bug Milk Bottle"
 }

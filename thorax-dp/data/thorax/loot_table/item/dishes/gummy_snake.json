@@ -36,8 +36,8 @@
               "consume_seconds": 1.2
             },
             "minecraft:food": {
-              "nutrition": 3,
-              "saturation": 2,
+              "nutrition": 1,
+              "saturation": 1,
               "can_always_eat": false
             }
           }

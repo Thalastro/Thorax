@@ -6,7 +6,7 @@
                 {
                     "type": "minecraft:loot_table",
                     "value": "thorax:item/pollen",
-                    "weight": 60,
+                    "weight": 55,
                     "modifier": {
                         "type": "minecraft:set_count",
                         "count": {
@@ -19,7 +19,7 @@
                 {
                     "type": "minecraft:loot_table",
                     "value": "thorax:item/fragrant_pollen",
-                    "weight": 40,
+                    "weight": 45,
                     "modifier": {
                         "type": "minecraft:set_count",
                         "count": {

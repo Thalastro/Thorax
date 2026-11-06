@@ -23,7 +23,10 @@
             "!minecraft:food": {},
             "minecraft:consumable": {
               "animation":"trident",
-              "sound":"intentionally_empty",
+              "sound": {
+                "sound_id": "thorax:empty",
+                "range": 0
+              },
               "has_consume_particles":false,
               "consume_seconds": 2,
               "on_consume_effects": [
@@ -52,15 +55,7 @@
                   "crafting": true
                 }
               }
-            },
-            "minecraft:lore": [
-              {
-                "translate": "item.thorax.calendar.format", 
-                "with": ["0", "0"],
-                "color":"blue",
-                "italic": false
-              }
-            ]
+            }
           }
         },
         "thorax:add_tooltip"

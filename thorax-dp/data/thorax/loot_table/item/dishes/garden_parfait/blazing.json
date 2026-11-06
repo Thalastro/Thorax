@@ -58,7 +58,7 @@
                     "type": "apply_effects",
                     "effects": [
                         {
-                            "id": "minecraft:regeneration",
+                            "id": "minecraft:fire_resistance",
                             "duration": 300
                         }
                     ]
