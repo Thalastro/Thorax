@@ -21,9 +21,9 @@
               "thorax": {
                 "id": "agrias_butterfly",
                 "bug": {
-                  "rarity": "uncommon",
+                  "rarity": "common",
                   "essence": "chaos",
-                  "diet": "carnivore"
+                  "diet": "herbivore"
                 }
               }
             },

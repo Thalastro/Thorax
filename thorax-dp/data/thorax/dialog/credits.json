@@ -82,7 +82,7 @@
           "underlined": false,
           "click_event": {
             "action": "open_url",
-            "url": "https://modrinth.com/project/thorax"
+            "url": "https://modrinth.com/datapack/thorax"
           },
           "hover_event": {
             "action": "show_text",
@@ -96,7 +96,7 @@
           "underlined": false,
           "click_event": {
             "action": "open_url",
-            "url": "https://smithed.net/packs/Starbits"
+            "url": "https://smithed.net/packs/Thorax"
           },
           "hover_event": {
             "action": "show_text",
@@ -124,7 +124,7 @@
           "underlined": false,
           "click_event": {
             "action": "open_url",
-            "url": "https://github.com/BigMastah79/thorax"
+            "url": "https://github.com/Thalastro/Thorax"
           },
           "hover_event": {
             "action": "show_text",
