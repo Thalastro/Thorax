@@ -5,5 +5,5 @@ execute if score @s thorax.dummy matches 25.. if block ^ ^ ^0.5 #thorax:non_navi
 
 
 execute unless block ^ ^ ^0.3 #thorax:non_navigable run return run rotate @s ~180 ~
-execute if predicate thorax:random_chance/19 run return run rotate @s ~15 ~
-execute if predicate thorax:random_chance/20 run rotate @s ~-15 ~
+execute if predicate thorax:random_chance/21 run return run rotate @s ~15 ~
+execute if predicate thorax:random_chance/22 run rotate @s ~-15 ~

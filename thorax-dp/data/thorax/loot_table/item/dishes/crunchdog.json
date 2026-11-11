@@ -32,11 +32,22 @@
             "minecraft:tooltip_style": "thorax:main",
             "minecraft:rarity": "common",
             "minecraft:consumable": {
+              "consume_seconds": 1.8,
+              "on_consume_effects": [
+                {
+                  "type": "apply_effects",
+                  "effects": [
+                    {
+                      "id": "resistance",
+                      "duration": 100
+                    }
+                  ]
+                }
+              ],
               "sound": {
                 "sound_id": "thorax:item.chitin.eat",
                 "range": 1
-              },
-              "on_consume_effects": []
+              }
             },
             "minecraft:food": {
               "nutrition": 6,

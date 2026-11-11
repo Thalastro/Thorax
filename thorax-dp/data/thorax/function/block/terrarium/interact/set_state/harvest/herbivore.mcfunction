@@ -1,2 +1,5 @@
-loot spawn ~ ~0.25 ~ loot thorax:gameplay/terrarium/herbivore
 summon experience_orb ~ ~0.25 ~ {Count:1,Value:3}
+execute if data entity @s item.components."minecraft:custom_data".thorax.stored_item.components."minecraft:custom_data".thorax.bug{essence:"harmony"} run return run loot spawn ~ ~0.25 ~ loot thorax:gameplay/terrarium/herbivore/harmony
+execute if data entity @s item.components."minecraft:custom_data".thorax.stored_item.components."minecraft:custom_data".thorax.bug{essence:"chaos"} run return run loot spawn ~ ~0.25 ~ loot thorax:gameplay/terrarium/herbivore/chaos
+execute if data entity @s item.components."minecraft:custom_data".thorax.stored_item.components."minecraft:custom_data".thorax.bug{essence:"obscurity"} run return run loot spawn ~ ~0.25 ~ loot thorax:gameplay/terrarium/herbivore/obscurity
+execute if data entity @s item.components."minecraft:custom_data".thorax.stored_item.components."minecraft:custom_data".thorax.bug{essence:"radiance"} run return run loot spawn ~ ~0.25 ~ loot thorax:gameplay/terrarium/herbivore/radiance

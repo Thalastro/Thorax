@@ -1,0 +1,37 @@
+{
+    "criteria": {
+        "thorax:obtain_glass": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "glass"
+                    }
+                ]
+            }
+        },
+        "thorax:obtain_poplar_planks": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "poplar_planks"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "thorax:obtain_poplar_planks"
+        ],
+        [
+            "thorax:obtain_glass"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "thorax:terrarium/poplar"
+        ]
+    }
+}
