@@ -1,4 +1,4 @@
+execute if data entity @s item.components."minecraft:custom_data".thorax.digesting_item.components{"minecraft:rarity":"common"} run return run function thorax:block/terrarium/interact/set_state/harvest/carnivore/common
 execute if data entity @s item.components."minecraft:custom_data".thorax.digesting_item.components{"minecraft:rarity":"uncommon"} run return run function thorax:block/terrarium/interact/set_state/harvest/carnivore/uncommon
 execute if data entity @s item.components."minecraft:custom_data".thorax.digesting_item.components{"minecraft:rarity":"rare"} run return run function thorax:block/terrarium/interact/set_state/harvest/carnivore/rare
 execute if data entity @s item.components."minecraft:custom_data".thorax.digesting_item.components{"minecraft:rarity":"epic"} run return run function thorax:block/terrarium/interact/set_state/harvest/carnivore/epic
-function thorax:block/terrarium/interact/set_state/harvest/carnivore/common

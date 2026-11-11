@@ -39,7 +39,7 @@
             "!minecraft:food": {},
             "minecraft:consumable": {
               "animation": "bow",
-              "consume_seconds": 500,
+              "consume_seconds": 5000,
               "has_consume_particles": false
             },
             "use_effects": {

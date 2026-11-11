@@ -11,5 +11,5 @@ data modify entity @s item.components."minecraft:custom_data".thorax.digesting_i
 scoreboard players set #thorax.should_consume_item thorax.dummy 1
 scoreboard players set #thorax.has_changed_state thorax.dummy 1
 
-playsound thorax:block.terrarium.full block @a[distance=..16]
+playsound thorax:block.terrarium.full block @a[distance=..16] ~ ~ ~ 1 1.5
 particle minecraft:happy_villager ~ ~-0.5 ~ 0.15 0.15 0.15 0 5

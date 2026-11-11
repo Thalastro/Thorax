@@ -12,7 +12,7 @@
             },
             {
                 "translate": "item.thorax.bug.essence.radiance.name",
-                "color": "#f7aa30",
+                "color": "#f78630",
                 "font": "minecraft:default",
                 "italic": false
             }

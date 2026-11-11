@@ -22,7 +22,14 @@
     },
     "item.chitin.eat": {
         "sounds": [
-            "minecraft:random/eat1"
+            {
+                "name": "minecraft:random/eat1",
+                "pitch": 0.8
+            },
+            {
+                "name": "minecraft:random/eat2",
+                "pitch": 0.8
+            }
         ],
         "subtitle": "subtitles.thorax.chitin.eat"
     },

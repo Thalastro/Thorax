@@ -1,5 +1,5 @@
 {
-    "parent": "thorax:entity/bug/cabbage_butterfly",
+    "parent": "thorax:entity/bug/luna_moth",
     "textures": {
 		"0": "thorax:entity/bug/caccophomoth",
 		"particle": "thorax:entity/bug/caccophomoth"

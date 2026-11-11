@@ -2,7 +2,7 @@
   "providers": [
     {
       "type": "bitmap",
-      "file": "thorax:gui/bubble_meter.png",
+      "file": "thorax:gui/charge.png",
       "height": 2,
       "ascent": -3,
       "chars": [

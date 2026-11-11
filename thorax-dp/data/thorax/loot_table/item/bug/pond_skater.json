@@ -23,7 +23,7 @@
                 "bug": {
                   "rarity": "common",
                   "essence": "radiance",
-                  "diet": "carnivore"
+                  "diet": "herbivore"
                 }
               }
             },
@@ -36,7 +36,7 @@
         },
         "thorax:add_tooltip",
         "thorax:tooltip/essence/radiance",
-        "thorax:tooltip/diet/carnivore"
+        "thorax:tooltip/diet/herbivore"
       ]
     }
   ]

@@ -1,3 +1,4 @@
+advancement grant @s only thorax:entomology/use_bubble_wand
 summon item_display ~ ~ ~ \
 {item:{id:poisonous_potato,components:{"item_model":"thorax:entity/bubble/medium"}},\
 transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.25f,0f],scale:[1f,1f,1f]},Tags:["thorax.entity.bubble"],\

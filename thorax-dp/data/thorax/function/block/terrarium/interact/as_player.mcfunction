@@ -1,5 +1,6 @@
 data remove storage thorax:temp root
 data modify storage thorax:temp root.item set from entity @s SelectedItem
+execute if predicate thorax:entity_properties/sneaking run return fail
 
 # Glass Check
 execute if items entity @s weapon.mainhand #thorax:terrarium/glass[!minecraft:custom_data~{smithed:{ignore:{functionality:1b}}}] run return run scoreboard players set #thorax.glass thorax.dummy 1

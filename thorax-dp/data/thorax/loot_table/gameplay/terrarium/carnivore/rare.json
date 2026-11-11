@@ -6,12 +6,12 @@
                 {
                     "type": "minecraft:loot_table",
                     "value": "thorax:item/bug_guts",
-                    "weight": 80
+                    "weight": 75
                 },
                 {
                     "type": "minecraft:loot_table",
                     "value": "thorax:item/chitin",
-                    "weight": 20
+                    "weight": 25
                 }
             ]
         },
