@@ -48,7 +48,7 @@
             }
           }
         },
-        "thorax:add_tooltip"
+        "thorax:tooltip/main"
       ]
     }
   ]

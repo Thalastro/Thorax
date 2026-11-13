@@ -5,14 +5,14 @@
         "",
         [
             {
-                "translate": "item.thorax.bug.essence.chaos.symbol",
+                "translate": "rarity.thorax.epic.symbol",
                 "color": "white",
-                "font": "thorax:essence",
+                "font": "thorax:rarity",
                 "italic": false
             },
             {
-                "translate": "item.thorax.bug.essence.chaos.name",
-                "color": "#602ef4",
+                "translate": "rarity.thorax.epic.name",
+                "color": "light_purple",
                 "font": "minecraft:default",
                 "italic": false
             }

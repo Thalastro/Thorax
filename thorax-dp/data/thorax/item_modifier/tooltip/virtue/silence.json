@@ -5,14 +5,14 @@
         "",
         [
             {
-                "translate": "item.thorax.bug.essence.harmony.symbol",
+                "translate": "virtue.thorax.silence.symbol",
                 "color": "white",
-                "font": "thorax:essence",
+                "font": "thorax:virtue",
                 "italic": false
             },
             {
-                "translate": "item.thorax.bug.essence.harmony.name",
-                "color": "#b8fd63",
+                "translate": "virtue.thorax.silence.name",
+                "color": "#ff29a6",
                 "font": "minecraft:default",
                 "italic": false
             }

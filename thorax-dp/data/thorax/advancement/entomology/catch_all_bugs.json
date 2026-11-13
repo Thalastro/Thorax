@@ -49,22 +49,6 @@
           ]
         }
       },
-      "thorax:catch_blazing_daggerwing": {
-        "trigger": "inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "predicates": {
-                "minecraft:custom_data": {
-                "thorax": {
-                "id": "blazing_daggerwing"
-                  }
-                }
-              }
-            }
-          ]
-        }
-      },
       "thorax:catch_arctic_apollo": {
         "trigger": "inventory_changed",
         "conditions": {
@@ -266,22 +250,6 @@
                 "minecraft:custom_data": {
                 "thorax": {
                 "id": "azure_damselfly"
-                  }
-                }
-              }
-            }
-          ]
-        }
-      },
-      "thorax:catch_crystal_dasher": {
-        "trigger": "inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "predicates": {
-                "minecraft:custom_data": {
-                "thorax": {
-                "id": "crystal_dasher"
                   }
                 }
               }

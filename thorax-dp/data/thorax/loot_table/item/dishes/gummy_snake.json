@@ -36,13 +36,13 @@
               "consume_seconds": 1.2
             },
             "minecraft:food": {
-              "nutrition": 1,
-              "saturation": 1,
+              "nutrition": 2,
+              "saturation": 2,
               "can_always_eat": false
             }
           }
         },
-        "thorax:add_tooltip"
+        "thorax:tooltip/main"
       ]
     }
   ]

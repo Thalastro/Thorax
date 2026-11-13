@@ -17,25 +17,26 @@
               "translate": "item.thorax.green_darner",
               "fallback": "Green Darner"
             },
+            "minecraft:item_model": "thorax:bug/green_darner",
+            "minecraft:tooltip_style": "thorax:main",
+            "minecraft:rarity": "common",
+            "!minecraft:consumable": {},
+            "!minecraft:food": {},
             "minecraft:custom_data": {
               "thorax": {
                 "id": "green_darner",
                 "bug": {
                   "rarity": "common",
-                  "essence": "chaos",
+                  "virtue": "chaos",
                   "diet": "carnivore"
                 }
               }
-            },
-            "minecraft:item_model": "thorax:bug/green_darner",
-            "minecraft:tooltip_style": "thorax:main",
-            "minecraft:rarity": "common",
-            "!minecraft:consumable": {},
-            "!minecraft:food": {}
+            }
           }
         },
-        "thorax:add_tooltip",
-        "thorax:tooltip/essence/chaos",
+        "thorax:tooltip/main",
+        "thorax:tooltip/rarity/common",
+        "thorax:tooltip/virtue/chaos",
         "thorax:tooltip/diet/carnivore"
       ]
     }

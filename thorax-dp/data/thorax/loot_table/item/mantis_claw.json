@@ -1,0 +1,58 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato"
+        }
+      ],
+      "modifier": [
+        {
+          "type": "minecraft:set_components",
+          "components": {
+            "minecraft:item_name": {
+              "translate": "item.thorax.mantis_claw",
+              "fallback": "Mantis Claw"
+            },
+            "minecraft:custom_data": {
+              "thorax": {
+                "id": "mantis_claw"
+              },
+              "smithed": {
+                "ignore": {
+                  "functionality": true,
+                  "crafting": true
+                }
+              }
+            },
+            "minecraft:item_model": "thorax:mantis_claw",
+            "minecraft:tooltip_style": "thorax:main",
+            "minecraft:rarity": "common",
+            "minecraft:max_stack_size": 1,
+            "minecraft:max_damage": 256,
+            "!minecraft:food": {},
+            "!minecraft:consumable": {},
+            "attribute_modifiers": [
+                {
+                    "id": "damage",
+                    "type": "attack_damage",
+                    "amount": 3,
+                    "operation": "add_value"
+                },
+                {
+                    "id": "speed",
+                    "type": "attack_speed",
+                    "amount": 1.2,
+                    "operation": "add_value"
+                }
+            ]
+          }
+        },
+        "thorax:tooltip/main"
+      ]
+    }
+  ]
+}

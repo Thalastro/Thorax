@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:set_lore",
+    "mode": "append",
+    "lore": [
+        "",
+        [
+            {
+                "translate": "virtue.thorax.chaos.symbol",
+                "color": "white",
+                "font": "thorax:virtue",
+                "italic": false
+            },
+            {
+                "translate": "virtue.thorax.chaos.name",
+                "color": "#602ef4",
+                "font": "minecraft:default",
+                "italic": false
+            }
+        ]
+    ]
+}

@@ -5,14 +5,14 @@
         "",
         [
             {
-                "translate": "item.thorax.bug.essence.obscurity.symbol",
+                "translate": "rarity.thorax.rare.symbol",
                 "color": "white",
-                "font": "thorax:essence",
+                "font": "thorax:rarity",
                 "italic": false
             },
             {
-                "translate": "item.thorax.bug.essence.obscurity.name",
-                "color": "#d63232",
+                "translate": "rarity.thorax.rare.name",
+                "color": "aqua",
                 "font": "minecraft:default",
                 "italic": false
             }

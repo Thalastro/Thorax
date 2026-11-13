@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato"
+        }
+      ],
+      "modifier": [
+        {
+          "type": "minecraft:set_components",
+          "components": {
+            "minecraft:item_name": {
+              "translate": "item.thorax.strange_pheromones",
+              "fallback": "Strange Pheromones"
+            },
+            "minecraft:custom_data": {
+              "thorax": {
+                "id": "strange_pheromones"
+              },
+              "smithed": {
+                "ignore": {
+                  "functionality": true,
+                  "crafting": true
+                }
+              }
+            },
+            "minecraft:item_model": "thorax:strange_pheromones",
+            "minecraft:tooltip_style": "thorax:main",
+            "minecraft:rarity": "common",
+            "!minecraft:food": {},
+            "!minecraft:consumable": {}
+          }
+        },
+        "thorax:tooltip/main"
+      ]
+    }
+  ]
+}

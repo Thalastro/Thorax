@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato"
+        }
+      ],
+      "modifier": [
+        {
+          "type": "minecraft:set_components",
+          "components": {
+            "minecraft:item_name": {
+              "translate": "item.thorax.morpho_butterfly",
+              "fallback": "Morpho Butterfly"
+            },
+            "minecraft:item_model": "thorax:bug/morpho_butterfly",
+            "minecraft:tooltip_style": "thorax:main",
+            "minecraft:rarity": "common",
+            "!minecraft:consumable": {},
+            "!minecraft:food": {},
+            "minecraft:custom_data": {
+              "thorax": {
+                "id": "morpho_butterfly",
+                "bug": {
+                  "rarity": "common",
+                  "virtue": "silence",
+                  "diet": "pollinator"
+                }
+              }
+            }
+          }
+        },
+        "thorax:tooltip/main",
+        "thorax:tooltip/rarity/common",
+        "thorax:tooltip/virtue/silence",
+        "thorax:tooltip/diet/pollinator"
+      ]
+    }
+  ]
+}

@@ -2,7 +2,7 @@
     "providers": [
         {
             "type": "bitmap",
-            "file": "thorax:gui/essence.png",
+            "file": "thorax:gui/rarity.png",
             "height": 9,
             "ascent": 8,
             "chars": [

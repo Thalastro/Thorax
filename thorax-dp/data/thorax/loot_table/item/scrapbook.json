@@ -46,7 +46,7 @@
             "enchantment_glint_override": false
           }
         },
-        "thorax:add_tooltip"
+        "thorax:tooltip/main"
       ]
     }
   ]

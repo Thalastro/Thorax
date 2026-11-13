@@ -17,25 +17,26 @@
               "translate": "item.thorax.ladybug",
               "fallback": "Ladybug"
             },
-            "minecraft:custom_data": {
-              "thorax": {
-                "id": "ladybug",
-                "bug": {
-                  "rarity": "ladybug",
-                  "essence": "harmony",
-                  "diet": "carnivore"
-                }
-              }
-            },
             "minecraft:item_model": "thorax:bug/ladybug",
             "minecraft:tooltip_style": "thorax:main",
             "minecraft:rarity": "uncommon",
             "!minecraft:consumable": {},
-            "!minecraft:food": {}
+            "!minecraft:food": {},
+            "minecraft:custom_data": {
+              "thorax": {
+                "id": "ladybug",
+                "bug": {
+                  "rarity": "uncommon",
+                  "virtue": "harmony",
+                  "diet": "carnivore"
+                }
+              }
+            }
           }
         },
-        "thorax:add_tooltip",
-        "thorax:tooltip/essence/harmony",
+        "thorax:tooltip/main",
+        "thorax:tooltip/rarity/uncommon",
+        "thorax:tooltip/virtue/harmony",
         "thorax:tooltip/diet/carnivore"
       ]
     }

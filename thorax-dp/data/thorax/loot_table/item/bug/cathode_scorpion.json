@@ -17,25 +17,26 @@
               "translate": "item.thorax.cathode_scorpion",
               "fallback": "Cathode Scorpion"
             },
+            "minecraft:item_model": "thorax:bug/cathode_scorpion",
+            "minecraft:tooltip_style": "thorax:main",
+            "minecraft:rarity": "rare",
+            "!minecraft:consumable": {},
+            "!minecraft:food": {},
             "minecraft:custom_data": {
               "thorax": {
                 "id": "cathode_scorpion",
                 "bug": {
                   "rarity": "rare",
-                  "essence": "chaos",
+                  "virtue": "silence",
                   "diet": "carnivore"
                 }
               }
-            },
-            "minecraft:item_model": "thorax:bug/cathode_scorpion",
-            "minecraft:tooltip_style": "thorax:main",
-            "minecraft:rarity": "rare",
-            "!minecraft:consumable": {},
-            "!minecraft:food": {}
+            }
           }
         },
-        "thorax:add_tooltip",
-        "thorax:tooltip/essence/chaos",
+        "thorax:tooltip/main",
+        "thorax:tooltip/rarity/rare",
+        "thorax:tooltip/virtue/silence",
         "thorax:tooltip/diet/carnivore"
       ]
     }

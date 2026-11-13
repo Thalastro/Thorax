@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato"
+        }
+      ],
+      "modifier": [
+        {
+          "type": "minecraft:set_components",
+          "components": {
+            "minecraft:item_name": {
+              "translate": "item.thorax.stag_beetle",
+              "fallback": "Stag Beetle"
+            },
+            "minecraft:item_model": "thorax:bug/stag_beetle",
+            "minecraft:tooltip_style": "thorax:main",
+            "minecraft:rarity": "uncommon",
+            "!minecraft:consumable": {},
+            "!minecraft:food": {},
+            "minecraft:custom_data": {
+              "thorax": {
+                "id": "stag_beetle",
+                "bug": {
+                  "rarity": "uncommon",
+                  "virtue": "chaos",
+                  "diet": "herbivore"
+                }
+              }
+            }
+          }
+        },
+        "thorax:tooltip/main",
+        "thorax:tooltip/rarity/common",
+        "thorax:tooltip/virtue/chaos",
+        "thorax:tooltip/diet/herbivore"
+      ]
+    }
+  ]
+}

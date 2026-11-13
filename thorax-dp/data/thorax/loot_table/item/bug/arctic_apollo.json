@@ -17,25 +17,26 @@
               "translate": "item.thorax.arctic_apollo",
               "fallback": "Arctic Apollo"
             },
+            "minecraft:item_model": "thorax:bug/arctic_apollo",
+            "minecraft:tooltip_style": "thorax:main",
+            "minecraft:rarity": "rare",
+            "!minecraft:consumable": {},
+            "!minecraft:food": {},
             "minecraft:custom_data": {
               "thorax": {
                 "id": "arctic_apollo",
                 "bug": {
                   "rarity": "rare",
-                  "essence": "obscurity",
+                  "virtue": "silence",
                   "diet": "pollinator"
                 }
               }
-            },
-            "minecraft:item_model": "thorax:bug/arctic_apollo",
-            "minecraft:tooltip_style": "thorax:main",
-            "minecraft:rarity": "rare",
-            "!minecraft:consumable": {},
-            "!minecraft:food": {}
+            }
           }
         },
-        "thorax:add_tooltip",
-        "thorax:tooltip/essence/obscurity",
+        "thorax:tooltip/main",
+        "thorax:tooltip/rarity/rare",
+        "thorax:tooltip/virtue/silence",
         "thorax:tooltip/diet/pollinator"
       ]
     }

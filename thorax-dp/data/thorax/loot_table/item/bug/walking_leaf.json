@@ -17,25 +17,26 @@
               "translate": "item.thorax.walking_leaf",
               "fallback": "Walking Leaf"
             },
+            "minecraft:item_model": "thorax:bug/walking_leaf",
+            "minecraft:tooltip_style": "thorax:main",
+            "minecraft:rarity": "rare",
+            "!minecraft:consumable": {},
+            "!minecraft:food": {},
             "minecraft:custom_data": {
               "thorax": {
                 "id": "walking_leaf",
                 "bug": {
                   "rarity": "rare",
-                  "essence": "radiance",
+                  "virtue": "silence",
                   "diet": "herbivore"
                 }
               }
-            },
-            "minecraft:item_model": "thorax:bug/walking_leaf",
-            "minecraft:tooltip_style": "thorax:main",
-            "minecraft:rarity": "rare",
-            "!minecraft:consumable": {},
-            "!minecraft:food": {}
+            }
           }
         },
-        "thorax:add_tooltip",
-        "thorax:tooltip/essence/radiance",
+        "thorax:tooltip/main",
+        "thorax:tooltip/rarity/rare",
+        "thorax:tooltip/virtue/silence",
         "thorax:tooltip/diet/herbivore"
       ]
     }

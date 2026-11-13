@@ -17,26 +17,26 @@
               "translate": "item.thorax.red_maiden",
               "fallback": "Red Maiden"
             },
+            "minecraft:item_model": "thorax:bug/red_maiden",
+            "minecraft:tooltip_style": "thorax:main",
+            "minecraft:rarity": "epic",
+            "!minecraft:consumable": {},
+            "!minecraft:food": {},
             "minecraft:custom_data": {
               "thorax": {
                 "id": "red_maiden",
                 "bug": {
                   "rarity": "epic",
-                  "essence": "radiance",
-                  "diet": "none"
+                  "virtue": "silence",
+                  "diet": "unknown"
                 }
               }
-            },
-            "minecraft:item_model": "thorax:bug/red_maiden",
-            "minecraft:tooltip_style": "thorax:main",
-            "minecraft:rarity": "epic",
-            "!minecraft:repairable": {},
-            "!minecraft:consumable": {},
-            "!minecraft:food": {}
+            }
           }
         },
-        "thorax:add_tooltip",
-        "thorax:tooltip/essence/radiance"
+        "thorax:tooltip/main",
+        "thorax:tooltip/rarity/epic",
+        "thorax:tooltip/virtue/silence"
       ]
     }
   ]

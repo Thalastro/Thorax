@@ -17,25 +17,26 @@
               "translate": "item.thorax.sea_strider",
               "fallback": "Sea Strider"
             },
+            "minecraft:item_model": "thorax:bug/sea_strider",
+            "minecraft:tooltip_style": "thorax:main",
+            "minecraft:rarity": "uncommon",
+            "!minecraft:consumable": {},
+            "!minecraft:food": {},
             "minecraft:custom_data": {
               "thorax": {
                 "id": "sea_strider",
                 "bug": {
                   "rarity": "uncommon",
-                  "essence": "obscurity",
+                  "virtue": "desire",
                   "diet": "carnivore"
                 }
               }
-            },
-            "minecraft:item_model": "thorax:bug/sea_strider",
-            "minecraft:tooltip_style": "thorax:main",
-            "minecraft:rarity": "uncommon",
-            "!minecraft:consumable": {},
-            "!minecraft:food": {}
+            }
           }
         },
-        "thorax:add_tooltip",
-        "thorax:tooltip/essence/obscurity",
+        "thorax:tooltip/main",
+        "thorax:tooltip/rarity/uncommon",
+        "thorax:tooltip/virtue/desire",
         "thorax:tooltip/diet/carnivore"
       ]
     }

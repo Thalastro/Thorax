@@ -17,25 +17,26 @@
               "translate": "item.thorax.praying_mantis",
               "fallback": "Praying Mantis"
             },
+            "minecraft:item_model": "thorax:bug/praying_mantis",
+            "minecraft:tooltip_style": "thorax:main",
+            "minecraft:rarity": "common",
+            "!minecraft:consumable": {},
+            "!minecraft:food": {},
             "minecraft:custom_data": {
               "thorax": {
                 "id": "praying_mantis",
                 "bug": {
                   "rarity": "common",
-                  "essence": "harmony",
+                  "virtue": "harmony",
                   "diet": "carnivore"
                 }
               }
-            },
-            "minecraft:item_model": "thorax:bug/praying_mantis",
-            "minecraft:tooltip_style": "thorax:main",
-            "minecraft:rarity": "common",
-            "!minecraft:consumable": {},
-            "!minecraft:food": {}
+            }
           }
         },
-        "thorax:add_tooltip",
-        "thorax:tooltip/essence/harmony",
+        "thorax:tooltip/main",
+        "thorax:tooltip/rarity/common",
+        "thorax:tooltip/virtue/harmony",
         "thorax:tooltip/diet/carnivore"
       ]
     }

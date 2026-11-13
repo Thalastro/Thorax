@@ -17,25 +17,26 @@
               "translate": "item.thorax.caccophomoth",
               "fallback": "Caccophomoth"
             },
+            "minecraft:item_model": "thorax:bug/caccophomoth",
+            "minecraft:tooltip_style": "thorax:main",
+            "minecraft:rarity": "rare",
+            "!minecraft:consumable": {},
+            "!minecraft:food": {},
             "minecraft:custom_data": {
               "thorax": {
                 "id": "caccophomoth",
                 "bug": {
                   "rarity": "rare",
-                  "essence": "harmony",
+                  "virtue": "silence",
                   "diet": "pollinator"
                 }
               }
-            },
-            "minecraft:item_model": "thorax:bug/caccophomoth",
-            "minecraft:tooltip_style": "thorax:main",
-            "minecraft:rarity": "rare",
-            "!minecraft:consumable": {},
-            "!minecraft:food": {}
+            }
           }
         },
-        "thorax:add_tooltip",
-        "thorax:tooltip/essence/harmony",
+        "thorax:tooltip/main",
+        "thorax:tooltip/rarity/rare",
+        "thorax:tooltip/virtue/silence",
         "thorax:tooltip/diet/pollinator"
       ]
     }

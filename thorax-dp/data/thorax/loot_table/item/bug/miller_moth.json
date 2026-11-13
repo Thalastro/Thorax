@@ -17,25 +17,26 @@
               "translate": "item.thorax.miller_moth",
               "fallback": "Miller Moth"
             },
+            "minecraft:item_model": "thorax:bug/miller_moth",
+            "minecraft:tooltip_style": "thorax:main",
+            "minecraft:rarity": "common",
+            "!minecraft:consumable": {},
+            "!minecraft:food": {},
             "minecraft:custom_data": {
               "thorax": {
                 "id": "miller_moth",
                 "bug": {
                   "rarity": "common",
-                  "essence": "radiance",
+                  "virtue": "desire",
                   "diet": "herbivore"
                 }
               }
-            },
-            "minecraft:item_model": "thorax:bug/miller_moth",
-            "minecraft:tooltip_style": "thorax:main",
-            "minecraft:rarity": "common",
-            "!minecraft:consumable": {},
-            "!minecraft:food": {}
+            }
           }
         },
-        "thorax:add_tooltip",
-        "thorax:tooltip/essence/radiance",
+        "thorax:tooltip/main",
+        "thorax:tooltip/rarity/common",
+        "thorax:tooltip/virtue/desire",
         "thorax:tooltip/diet/herbivore"
       ]
     }

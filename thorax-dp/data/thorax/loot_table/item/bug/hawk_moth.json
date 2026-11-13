@@ -17,25 +17,26 @@
               "translate": "item.thorax.hawk_moth",
               "fallback": "Hawk Moth"
             },
+            "minecraft:item_model": "thorax:bug/hawk_moth",
+            "minecraft:tooltip_style": "thorax:main",
+            "minecraft:rarity": "common",
+            "!minecraft:consumable": {},
+            "!minecraft:food": {},
             "minecraft:custom_data": {
               "thorax": {
                 "id": "hawk_moth",
                 "bug": {
                   "rarity": "common",
-                  "essence": "obscurity",
+                  "virtue": "silence",
                   "diet": "pollinator"
                 }
               }
-            },
-            "minecraft:item_model": "thorax:bug/hawk_moth",
-            "minecraft:tooltip_style": "thorax:main",
-            "minecraft:rarity": "common",
-            "!minecraft:consumable": {},
-            "!minecraft:food": {}
+            }
           }
         },
-        "thorax:add_tooltip",
-        "thorax:tooltip/essence/obscurity",
+        "thorax:tooltip/main",
+        "thorax:tooltip/rarity/common",
+        "thorax:tooltip/virtue/silence",
         "thorax:tooltip/diet/pollinator"
       ]
     }

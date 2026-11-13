@@ -17,25 +17,26 @@
               "translate": "item.thorax.cabbage_butterfly",
               "fallback": "Cabbage Butterfly"
             },
+            "minecraft:item_model": "thorax:bug/cabbage_butterfly",
+            "minecraft:tooltip_style": "thorax:main",
+            "minecraft:rarity": "common",
+            "!minecraft:consumable": {},
+            "!minecraft:food": {},
             "minecraft:custom_data": {
               "thorax": {
                 "id": "cabbage_butterfly",
                 "bug": {
                   "rarity": "common",
-                  "essence": "harmony",
+                  "virtue": "harmony",
                   "diet": "pollinator"
                 }
               }
-            },
-            "minecraft:item_model": "thorax:bug/cabbage_butterfly",
-            "minecraft:tooltip_style": "thorax:main",
-            "minecraft:rarity": "common",
-            "!minecraft:consumable": {},
-            "!minecraft:food": {}
+            }
           }
         },
-        "thorax:add_tooltip",
-        "thorax:tooltip/essence/harmony",
+        "thorax:tooltip/main",
+        "thorax:tooltip/rarity/common",
+        "thorax:tooltip/virtue/harmony",
         "thorax:tooltip/diet/pollinator"
       ]
     }

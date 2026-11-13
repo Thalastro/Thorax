@@ -17,25 +17,26 @@
               "translate": "item.thorax.pond_skater",
               "fallback": "Pond Skater"
             },
+            "minecraft:item_model": "thorax:bug/pond_skater",
+            "minecraft:tooltip_style": "thorax:main",
+            "minecraft:rarity": "common",
+            "!minecraft:consumable": {},
+            "!minecraft:food": {},
             "minecraft:custom_data": {
               "thorax": {
                 "id": "pond_skater",
                 "bug": {
                   "rarity": "common",
-                  "essence": "radiance",
+                  "virtue": "silence",
                   "diet": "herbivore"
                 }
               }
-            },
-            "minecraft:item_model": "thorax:bug/pond_skater",
-            "minecraft:tooltip_style": "thorax:main",
-            "minecraft:rarity": "common",
-            "!minecraft:consumable": {},
-            "!minecraft:food": {}
+            }
           }
         },
-        "thorax:add_tooltip",
-        "thorax:tooltip/essence/radiance",
+        "thorax:tooltip/main",
+        "thorax:tooltip/rarity/common",
+        "thorax:tooltip/virtue/silence",
         "thorax:tooltip/diet/herbivore"
       ]
     }

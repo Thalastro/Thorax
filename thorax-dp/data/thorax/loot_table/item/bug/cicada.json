@@ -14,28 +14,29 @@
           "type": "minecraft:set_components",
           "components": {
             "minecraft:item_name": {
-              "translate": "item.thorax.crystal_dasher",
-              "fallback": "Crystal Dasher"
+              "translate": "item.thorax.cicada",
+              "fallback": "Cicada"
             },
+            "minecraft:item_model": "thorax:bug/cicada",
+            "minecraft:tooltip_style": "thorax:main",
+            "minecraft:rarity": "common",
+            "!minecraft:consumable": {},
+            "!minecraft:food": {},
             "minecraft:custom_data": {
               "thorax": {
-                "id": "crystal_dasher",
+                "id": "cicada",
                 "bug": {
-                  "rarity": "rare",
-                  "essence": "harmony",
+                  "rarity": "common",
+                  "virtue": "chaos",
                   "diet": "herbivore"
                 }
               }
-            },
-            "minecraft:item_model": "thorax:bug/crystal_dasher",
-            "minecraft:tooltip_style": "thorax:main",
-            "minecraft:rarity": "rare",
-            "!minecraft:consumable": {},
-            "!minecraft:food": {}
+            }
           }
         },
-        "thorax:add_tooltip",
-        "thorax:tooltip/essence/harmony",
+        "thorax:tooltip/main",
+        "thorax:tooltip/rarity/common",
+        "thorax:tooltip/virtue/chaos",
         "thorax:tooltip/diet/herbivore"
       ]
     }

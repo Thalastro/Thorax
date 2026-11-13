@@ -17,25 +17,26 @@
               "translate": "item.thorax.monarch_butterfly",
               "fallback": "Monarch Butterfly"
             },
+            "minecraft:item_model": "thorax:bug/monarch_butterfly",
+            "minecraft:tooltip_style": "thorax:main",
+            "minecraft:rarity": "uncommon",
+            "!minecraft:consumable": {},
+            "!minecraft:food": {},
             "minecraft:custom_data": {
               "thorax": {
                 "id": "monarch_butterfly",
                 "bug": {
                   "rarity": "uncommon",
-                  "essence": "radiance",
+                  "virtue": "desire",
                   "diet": "pollinator"
                 }
               }
-            },
-            "minecraft:item_model": "thorax:bug/monarch_butterfly",
-            "minecraft:tooltip_style": "thorax:main",
-            "minecraft:rarity": "uncommon",
-            "!minecraft:consumable": {},
-            "!minecraft:food": {}
+            }
           }
         },
-        "thorax:add_tooltip",
-        "thorax:tooltip/essence/radiance",
+        "thorax:tooltip/main",
+        "thorax:tooltip/rarity/uncommon",
+        "thorax:tooltip/virtue/desire",
         "thorax:tooltip/diet/pollinator"
       ]
     }

@@ -61,23 +61,6 @@
             "predicates": {
                 "custom_data": {
                     "thorax": {
-                        "id": "blazing_daggerwing"
-                    }
-                }
-            }
-          }
-        ]
-      }
-    },
-    "requirement5": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "minecraft:poisonous_potato",
-            "predicates": {
-                "custom_data": {
-                    "thorax": {
                         "id": "arctic_apollo"
                     }
                 }
@@ -92,8 +75,7 @@
       "requirement",
       "requirement2",
       "requirement3",
-      "requirement4",
-      "requirement5"
+      "requirement4"
     ]
   ],
   "rewards": {

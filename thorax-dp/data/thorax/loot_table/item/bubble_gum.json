@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato"
+        }
+      ],
+      "modifier": [
+        {
+          "type": "minecraft:set_components",
+          "components": {
+            "minecraft:item_name": {
+              "translate": "item.thorax.bubble_gum",
+              "fallback": "bubble_gum"
+            },
+            "minecraft:custom_data": {
+              "thorax": {
+                "id": "bubble_gum"
+              },
+              "smithed": {
+                "ignore": {
+                  "functionality": true,
+                  "crafting": true
+                }
+              }
+            },
+            "minecraft:item_model": "thorax:bubble_gum",
+            "minecraft:tooltip_style": "thorax:main",
+            "minecraft:rarity": "common",
+            "!minecraft:food": {},
+            "minecraft:consumable": {
+              "consume_seconds": 2.4,
+              "sound": {
+                "sound_id": "thorax:item.bubble_gum.eat",
+                "range": 1
+              }
+            }
+          }
+        },
+        "thorax:tooltip/main"
+      ]
+    }
+  ]
+}

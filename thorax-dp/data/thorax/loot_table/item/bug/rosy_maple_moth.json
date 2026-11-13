@@ -17,25 +17,26 @@
               "translate": "item.thorax.rosy_maple_moth",
               "fallback": "Rosy Maple Moth"
             },
+            "minecraft:item_model": "thorax:bug/rosy_maple_moth",
+            "minecraft:tooltip_style": "thorax:main",
+            "minecraft:rarity": "uncommon",
+            "!minecraft:consumable": {},
+            "!minecraft:food": {},
             "minecraft:custom_data": {
               "thorax": {
                 "id": "rosy_maple_moth",
                 "bug": {
                   "rarity": "uncommon",
-                  "essence": "radiance",
+                  "virtue": "desire",
                   "diet": "herbivore"
                 }
               }
-            },
-            "minecraft:item_model": "thorax:bug/rosy_maple_moth",
-            "minecraft:tooltip_style": "thorax:main",
-            "minecraft:rarity": "uncommon",
-            "!minecraft:consumable": {},
-            "!minecraft:food": {}
+            }
           }
         },
-        "thorax:add_tooltip",
-        "thorax:tooltip/essence/radiance",
+        "thorax:tooltip/main",
+        "thorax:tooltip/rarity/uncommon",
+        "thorax:tooltip/virtue/desire",
         "thorax:tooltip/diet/herbivore"
       ]
     }

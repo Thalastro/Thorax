@@ -17,25 +17,26 @@
               "translate": "item.thorax.luna_moth",
               "fallback": "Luna Moth"
             },
+            "minecraft:item_model": "thorax:bug/luna_moth",
+            "minecraft:tooltip_style": "thorax:main",
+            "minecraft:rarity": "uncommon",
+            "!minecraft:consumable": {},
+            "!minecraft:food": {},
             "minecraft:custom_data": {
               "thorax": {
                 "id": "luna_moth",
                 "bug": {
                   "rarity": "uncommon",
-                  "essence": "chaos",
+                  "virtue": "chaos",
                   "diet": "pollinator"
                 }
               }
-            },
-            "minecraft:item_model": "thorax:bug/luna_moth",
-            "minecraft:tooltip_style": "thorax:main",
-            "minecraft:rarity": "uncommon",
-            "!minecraft:consumable": {},
-            "!minecraft:food": {}
+            }
           }
         },
-        "thorax:add_tooltip",
-        "thorax:tooltip/essence/chaos",
+        "thorax:tooltip/main",
+        "thorax:tooltip/rarity/uncommon",
+        "thorax:tooltip/virtue/chaos",
         "thorax:tooltip/diet/pollinator"
       ]
     }

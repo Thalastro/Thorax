@@ -17,25 +17,26 @@
               "translate": "item.thorax.azure_damselfly",
               "fallback": "Azure Damselfly"
             },
+            "minecraft:item_model": "thorax:bug/azure_damselfly",
+            "minecraft:tooltip_style": "thorax:main",
+            "minecraft:rarity": "uncommon",
+            "!minecraft:consumable": {},
+            "!minecraft:food": {},
             "minecraft:custom_data": {
               "thorax": {
                 "id": "azure_damselfly",
                 "bug": {
                   "rarity": "uncommon",
-                  "essence": "obscurity",
+                  "virtue": "desire",
                   "diet": "carnivore"
                 }
               }
-            },
-            "minecraft:item_model": "thorax:bug/azure_damselfly",
-            "minecraft:tooltip_style": "thorax:main",
-            "minecraft:rarity": "uncommon",
-            "!minecraft:consumable": {},
-            "!minecraft:food": {}
+            }
           }
         },
-        "thorax:add_tooltip",
-        "thorax:tooltip/essence/obscurity",
+        "thorax:tooltip/main",
+        "thorax:tooltip/rarity/uncommon",
+        "thorax:tooltip/virtue/desire",
         "thorax:tooltip/diet/carnivore"
       ]
     }

@@ -14,28 +14,29 @@
           "type": "minecraft:set_components",
           "components": {
             "minecraft:item_name": {
-              "translate": "item.thorax.blazing_daggerwing",
-              "fallback": "Blazing Daggerwing"
+              "translate": "item.thorax.goliath_beetle",
+              "fallback": "Goliath Beetle"
             },
+            "minecraft:item_model": "thorax:bug/goliath_beetle",
+            "minecraft:tooltip_style": "thorax:main",
+            "minecraft:rarity": "rare",
+            "!minecraft:consumable": {},
+            "!minecraft:food": {},
             "minecraft:custom_data": {
               "thorax": {
-                "id": "blazing_daggerwing",
+                "id": "goliath_beetle",
                 "bug": {
-                  "rarity": "uncommon",
-                  "essence": "obscurity",
+                  "rarity": "rare",
+                  "virtue": "desire",
                   "diet": "herbivore"
                 }
               }
-            },
-            "minecraft:item_model": "thorax:bug/blazing_daggerwing",
-            "minecraft:tooltip_style": "thorax:main",
-            "minecraft:rarity": "uncommon",
-            "!minecraft:consumable": {},
-            "!minecraft:food": {}
+            }
           }
         },
-        "thorax:add_tooltip",
-        "thorax:tooltip/essence/obscurity",
+        "thorax:tooltip/main",
+        "thorax:tooltip/rarity/rare",
+        "thorax:tooltip/virtue/desire",
         "thorax:tooltip/diet/herbivore"
       ]
     }

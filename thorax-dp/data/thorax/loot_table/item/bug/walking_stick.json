@@ -17,25 +17,26 @@
               "translate": "item.thorax.walking_stick",
               "fallback": "Walking Stick"
             },
+            "minecraft:item_model": "thorax:bug/walking_stick",
+            "minecraft:tooltip_style": "thorax:main",
+            "minecraft:rarity": "uncommon",
+            "!minecraft:consumable": {},
+            "!minecraft:food": {},
             "minecraft:custom_data": {
               "thorax": {
                 "id": "walking_stick",
                 "bug": {
                   "rarity": "uncommon",
-                  "essence": "harmony",
+                  "virtue": "harmony",
                   "diet": "herbivore"
                 }
               }
-            },
-            "minecraft:item_model": "thorax:bug/walking_stick",
-            "minecraft:tooltip_style": "thorax:main",
-            "minecraft:rarity": "uncommon",
-            "!minecraft:consumable": {},
-            "!minecraft:food": {}
+            }
           }
         },
-        "thorax:add_tooltip",
-        "thorax:tooltip/essence/harmony",
+        "thorax:tooltip/main",
+        "thorax:tooltip/rarity/uncommon",
+        "thorax:tooltip/virtue/harmony",
         "thorax:tooltip/diet/herbivore"
       ]
     }

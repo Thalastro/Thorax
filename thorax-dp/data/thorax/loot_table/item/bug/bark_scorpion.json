@@ -17,25 +17,26 @@
               "translate": "item.thorax.bark_scorpion",
               "fallback": "Bark Scorpion"
             },
+            "minecraft:item_model": "thorax:bug/bark_scorpion",
+            "minecraft:tooltip_style": "thorax:main",
+            "minecraft:rarity": "common",
+            "!minecraft:consumable": {},
+            "!minecraft:food": {},
             "minecraft:custom_data": {
               "thorax": {
                 "id": "bark_scorpion",
                 "bug": {
                   "rarity": "common",
-                  "essence": "obscurity",
+                  "virtue": "desire",
                   "diet": "carnivore"
                 }
               }
-            },
-            "minecraft:item_model": "thorax:bug/bark_scorpion",
-            "minecraft:tooltip_style": "thorax:main",
-            "minecraft:rarity": "common",
-            "!minecraft:consumable": {},
-            "!minecraft:food": {}
+            }
           }
         },
-        "thorax:add_tooltip",
-        "thorax:tooltip/essence/obscurity",
+        "thorax:tooltip/main",
+        "thorax:tooltip/rarity/common",
+        "thorax:tooltip/virtue/desire",
         "thorax:tooltip/diet/carnivore"
       ]
     }
