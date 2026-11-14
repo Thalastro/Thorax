@@ -14,30 +14,25 @@
           "type": "minecraft:set_components",
           "components": {
             "minecraft:item_name": {
-              "translate": "item.thorax.locust",
-              "fallback": "Locust"
+              "translate": "item.thorax.field_cricket",
+              "fallback": "Field Cricket"
             },
-            "minecraft:item_model": "thorax:bug/locust",
-            "minecraft:tooltip_style": "thorax:main",
-            "minecraft:rarity": "uncommon",
+            "minecraft:item_model": "thorax:bug/field_cricket",
             "!minecraft:consumable": {},
             "!minecraft:food": {},
             "minecraft:custom_data": {
               "thorax": {
-                "id": "locust",
+                "id": "field_cricket",
                 "bug": {
-                  "rarity": "uncommon",
-                  "virtue": "chaos",
+                  "rarity": "common",
+                  "virtue": "ambition",
                   "diet": "herbivore"
                 }
               }
             }
           }
         },
-        "thorax:tooltip/main",
-        "thorax:tooltip/rarity/common",
-        "thorax:tooltip/virtue/chaos",
-        "thorax:tooltip/diet/herbivore"
+        "thorax:tooltip"
       ]
     }
   ]

@@ -29,7 +29,6 @@
               }
             },
             "minecraft:item_model": "thorax:bug_guts",
-            "minecraft:tooltip_style": "thorax:main",
             "minecraft:rarity": "common",
             "minecraft:consumable": {
               "on_consume_effects": [
@@ -52,7 +51,7 @@
             }
           }
         },
-        "thorax:tooltip/main"
+        "thorax:tooltip"
       ]
     }
   ]

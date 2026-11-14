@@ -29,7 +29,6 @@
               }
             },
             "minecraft:item_model": "thorax:bug_net",
-            "minecraft:tooltip_style": "thorax:main",
             "minecraft:rarity": "common",
             "minecraft:max_stack_size": 1,
             "minecraft:max_damage": 128,
@@ -48,7 +47,7 @@
             }
           }
         },
-        "thorax:tooltip/main"
+        "thorax:tooltip"
       ]
     }
   ]

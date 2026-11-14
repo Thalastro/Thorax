@@ -18,8 +18,6 @@
               "fallback": "Caccophomoth"
             },
             "minecraft:item_model": "thorax:bug/caccophomoth",
-            "minecraft:tooltip_style": "thorax:main",
-            "minecraft:rarity": "rare",
             "!minecraft:consumable": {},
             "!minecraft:food": {},
             "minecraft:custom_data": {
@@ -27,17 +25,14 @@
                 "id": "caccophomoth",
                 "bug": {
                   "rarity": "rare",
-                  "virtue": "silence",
-                  "diet": "pollinator"
+                  "virtue": "memory",
+                  "diet": "detritivore"
                 }
               }
             }
           }
         },
-        "thorax:tooltip/main",
-        "thorax:tooltip/rarity/rare",
-        "thorax:tooltip/virtue/silence",
-        "thorax:tooltip/diet/pollinator"
+        "thorax:tooltip"
       ]
     }
   ]

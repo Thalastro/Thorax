@@ -1,7 +1,7 @@
 {
     "ui.thorax.title": "Thorax",
-    "ui.thorax.version": "V1.0.1",
-    "ui.thorax.update": "\"Field Trip\"",
+    "ui.thorax.version": "V1.1.0",
+    "ui.thorax.update": "\"Virtue & Sin\"",
 
     "ui.thorax.menu": "Menu",
     "ui.thorax.description": "Explore a world brimming with insects!",
@@ -40,10 +40,8 @@
     "item.thorax.pollen.description.2": "insect",
 
     "item.thorax.dusk_pollen": "Dusk Pollen",
-    "item.thorax.dusk_pollen.description.1": "%s bugs spawn at day.",
-    "item.thorax.dusk_pollen.description.2": "%s bugs spawn at night.",
-    "item.thorax.dusk_pollen.description.3": "Nocturnal",
-    "item.thorax.dusk_pollen.description.4": "Diurnal",
+    "item.thorax.dusk_pollen.description.1": "Nocturnal bugs spawn at day.",
+    "item.thorax.dusk_pollen.description.2": "Diurnal bugs spawn at night.",
 
     "item.thorax.fragrant_pollen": "Fragrant Pollen",
     "item.thorax.fragrant_pollen.description.1": "%s spawn more.",
@@ -212,15 +210,17 @@
     "diet.thorax.carnivore.symbol": "B ",
     "diet.thorax.pollinator.name": "Pollinator",
     "diet.thorax.pollinator.symbol": "C ",
+    "diet.thorax.detritivore.name": "Detritivore",
+    "diet.thorax.detritivore.symbol": "D ",
 
     "virtue.thorax.harmony.name": "Harmony",
     "virtue.thorax.harmony.symbol": "A ",
     "virtue.thorax.chaos.name": "Chaos",
     "virtue.thorax.chaos.symbol": "B ",
-    "virtue.thorax.silence.name": "Silence",
-    "virtue.thorax.silence.symbol": "C ",
-    "virtue.thorax.desire.name": "Desire",
-    "virtue.thorax.desire.symbol": "D ",
+    "virtue.thorax.memory.name": "Memory",
+    "virtue.thorax.memory.symbol": "C ",
+    "virtue.thorax.ambition.name": "Ambition",
+    "virtue.thorax.ambition.symbol": "D ",
     
     "statistics.thorax.bugs_caught": "Insects Caught",
     "statistics.thorax.bugs_fed": "Insects Fed",

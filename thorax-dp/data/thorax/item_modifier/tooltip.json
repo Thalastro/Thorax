@@ -1,0 +1,481 @@
+{
+    "type": "minecraft:sequence",
+    "functions": [
+    {
+        "type": "minecraft:sequence",
+        "functions": [
+            {
+                "type": "minecraft:set_components",
+                "components": {
+                    "minecraft:tooltip_style": "thorax:main"
+                }
+            },
+            {
+                "type": "minecraft:set_lore",
+                "mode": "insert",
+                "offset": 0,
+                "lore": [
+                    [
+                        {
+                            "text": "0 ",
+                            "color": "white",
+                            "font": "thorax:icon",
+                            "italic": false
+                        },
+                        {
+                            "translate": "ui.thorax.title",
+                            "color": "white",
+                            "font": "thorax:tooltip",
+                            "italic": false
+                        }
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "type": "minecraft:filtered",
+        "item_filter": {
+            "predicates": {
+            "minecraft:custom_data": {
+                "thorax": {
+                "bug": {
+                    "rarity": "common"
+                }
+                }
+            }
+            }
+        },
+        "on_pass": [
+            {
+                "type": "set_components",
+                "components": {
+                    "rarity": "common"
+                }
+            },
+            {
+                "type": "minecraft:set_lore",
+                "mode": "append",
+                "lore": [
+                    "",
+                    [
+                        {
+                            "translate": "rarity.thorax.common.symbol",
+                            "color": "white",
+                            "font": "thorax:rarity",
+                            "italic": false
+                        },
+                        {
+                            "translate": "rarity.thorax.common.name",
+                            "color": "white",
+                            "font": "minecraft:default",
+                            "italic": false
+                        }
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "type": "minecraft:filtered",
+        "item_filter": {
+            "predicates": {
+            "minecraft:custom_data": {
+                "thorax": {
+                "bug": {
+                    "rarity": "uncommon"
+                }
+                }
+            }
+            }
+        },
+        "on_pass": [
+            {
+                "type": "set_components",
+                "components": {
+                    "rarity": "uncommon"
+                }
+            },
+            {
+                "type": "minecraft:set_lore",
+                "mode": "append",
+                "lore": [
+                    "",
+                    [
+                        {
+                            "translate": "rarity.thorax.uncommon.symbol",
+                            "color": "white",
+                            "font": "thorax:rarity",
+                            "italic": false
+                        },
+                        {
+                            "translate": "rarity.thorax.uncommon.name",
+                            "color": "yellow",
+                            "font": "minecraft:default",
+                            "italic": false
+                        }
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "type": "minecraft:filtered",
+        "item_filter": {
+            "predicates": {
+            "minecraft:custom_data": {
+                "thorax": {
+                "bug": {
+                    "rarity": "rare"
+                }
+                }
+            }
+            }
+        },
+        "on_pass": [
+            {
+                "type": "set_components",
+                "components": {
+                    "rarity": "rare"
+                }
+            },
+            {
+                "type": "minecraft:set_lore",
+                "mode": "append",
+                "lore": [
+                    "",
+                    [
+                        {
+                            "translate": "rarity.thorax.rare.symbol",
+                            "color": "white",
+                            "font": "thorax:rarity",
+                            "italic": false
+                        },
+                        {
+                            "translate": "rarity.thorax.rare.name",
+                            "color": "aqua",
+                            "font": "minecraft:default",
+                            "italic": false
+                        }
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "type": "minecraft:filtered",
+        "item_filter": {
+            "predicates": {
+            "minecraft:custom_data": {
+                "thorax": {
+                "bug": {
+                    "rarity": "epic"
+                }
+                }
+            }
+            }
+        },
+        "on_pass": [
+            {
+                "type": "set_components",
+                "components": {
+                    "rarity": "epic"
+                }
+            },
+            {
+                "type": "minecraft:set_lore",
+                "mode": "append",
+                "lore": [
+                    "",
+                    [
+                        {
+                            "translate": "rarity.thorax.epic.symbol",
+                            "color": "white",
+                            "font": "thorax:rarity",
+                            "italic": false
+                        },
+                        {
+                            "translate": "rarity.thorax.epic.name",
+                            "color": "light_purple",
+                            "font": "minecraft:default",
+                            "italic": false
+                        }
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+      "type": "minecraft:filtered",
+      "item_filter": {
+        "predicates": {
+          "minecraft:custom_data": {
+            "thorax": {
+              "bug": {
+                "virtue": "harmony"
+              }
+            }
+          }
+        }
+      },
+      "on_pass": {
+        "type": "minecraft:set_lore",
+        "mode": "append",
+        "lore": [
+            [
+                {
+                    "translate": "virtue.thorax.harmony.symbol",
+                    "color": "white",
+                    "font": "thorax:virtue",
+                    "italic": false
+                },
+                {
+                    "translate": "virtue.thorax.harmony.name",
+                    "color": "#b8fd63",
+                    "font": "minecraft:default",
+                    "italic": false
+                }
+            ]
+        ]
+      }
+    },
+    {
+      "type": "minecraft:filtered",
+      "item_filter": {
+        "predicates": {
+          "minecraft:custom_data": {
+            "thorax": {
+              "bug": {
+                "virtue": "chaos"
+              }
+            }
+          }
+        }
+      },
+      "on_pass": {
+        "type": "minecraft:set_lore",
+        "mode": "append",
+        "lore": [
+            [
+                {
+                    "translate": "virtue.thorax.chaos.symbol",
+                    "color": "white",
+                    "font": "thorax:virtue",
+                    "italic": false
+                },
+                {
+                    "translate": "virtue.thorax.chaos.name",
+                    "color": "#602ef4",
+                    "font": "minecraft:default",
+                    "italic": false
+                }
+            ]
+        ]
+      }
+    },
+    {
+      "type": "minecraft:filtered",
+      "item_filter": {
+        "predicates": {
+          "minecraft:custom_data": {
+            "thorax": {
+              "bug": {
+                "virtue": "memory"
+              }
+            }
+          }
+        }
+      },
+      "on_pass": {
+        "type": "minecraft:set_lore",
+        "mode": "append",
+        "lore": [
+            [
+                {
+                    "translate": "virtue.thorax.memory.symbol",
+                    "color": "white",
+                    "font": "thorax:virtue",
+                    "italic": false
+                },
+                {
+                    "translate": "virtue.thorax.memory.name",
+                    "color": "#34ffe4",
+                    "font": "minecraft:default",
+                    "italic": false
+                }
+            ]
+        ]
+      }
+    },
+    {
+      "type": "minecraft:filtered",
+      "item_filter": {
+        "predicates": {
+          "minecraft:custom_data": {
+            "thorax": {
+              "bug": {
+                "virtue": "ambition"
+              }
+            }
+          }
+        }
+      },
+      "on_pass": {
+        "type": "minecraft:set_lore",
+        "mode": "append",
+        "lore": [
+            [
+                {
+                    "translate": "virtue.thorax.ambition.symbol",
+                    "color": "white",
+                    "font": "thorax:virtue",
+                    "italic": false
+                },
+                {
+                    "translate": "virtue.thorax.ambition.name",
+                    "color": "#ff6135",
+                    "font": "minecraft:default",
+                    "italic": false
+                }
+            ]
+        ]
+      }
+    },
+    {
+      "type": "minecraft:filtered",
+      "item_filter": {
+        "predicates": {
+          "minecraft:custom_data": {
+            "thorax": {
+              "bug": {
+                "diet": "herbivore"
+              }
+            }
+          }
+        }
+      },
+      "on_pass": {
+        "type": "minecraft:set_lore",
+        "mode": "append",
+        "lore": [
+            [
+                {
+                    "translate": "diet.thorax.herbivore.symbol",
+                    "color": "white",
+                    "font": "thorax:diet",
+                    "italic": false
+                },
+                {
+                    "translate": "diet.thorax.herbivore.name",
+                    "color": "#2bf153",
+                    "font": "minecraft:default",
+                    "italic": false
+                }
+            ]
+        ]
+      }
+    },
+    {
+      "type": "minecraft:filtered",
+      "item_filter": {
+        "predicates": {
+          "minecraft:custom_data": {
+            "thorax": {
+              "bug": {
+                "diet": "carnivore"
+              }
+            }
+          }
+        }
+      },
+      "on_pass": {
+        "type": "minecraft:set_lore",
+        "mode": "append",
+        "lore": [
+            [
+                {
+                    "translate": "diet.thorax.carnivore.symbol",
+                    "color": "white",
+                    "font": "thorax:diet",
+                    "italic": false
+                },
+                {
+                    "translate": "diet.thorax.carnivore.name",
+                    "color": "#e9257a",
+                    "font": "minecraft:default",
+                    "italic": false
+                }
+            ]
+        ]
+      }
+    },
+    {
+      "type": "minecraft:filtered",
+      "item_filter": {
+        "predicates": {
+          "minecraft:custom_data": {
+            "thorax": {
+              "bug": {
+                "diet": "pollinator"
+              }
+            }
+          }
+        }
+      },
+      "on_pass": {
+        "type": "minecraft:set_lore",
+        "mode": "append",
+        "lore": [
+            [
+                {
+                    "translate": "diet.thorax.pollinator.symbol",
+                    "color": "white",
+                    "font": "thorax:diet",
+                    "italic": false
+                },
+                {
+                    "translate": "diet.thorax.pollinator.name",
+                    "color": "#ffe68d",
+                    "font": "minecraft:default",
+                    "italic": false
+                }
+            ]
+        ]
+      }
+    },
+    {
+      "type": "minecraft:filtered",
+      "item_filter": {
+        "predicates": {
+          "minecraft:custom_data": {
+            "thorax": {
+              "bug": {
+                "diet": "detritivore"
+              }
+            }
+          }
+        }
+      },
+      "on_pass": {
+        "type": "minecraft:set_lore",
+        "mode": "append",
+        "lore": [
+            [
+                {
+                    "translate": "diet.thorax.detritivore.symbol",
+                    "color": "white",
+                    "font": "thorax:diet",
+                    "italic": false
+                },
+                {
+                    "translate": "diet.thorax.detritivore.name",
+                    "color": "#725b90",
+                    "font": "minecraft:default",
+                    "italic": false
+                }
+            ]
+        ]
+      }
+    }
+  ]
+}

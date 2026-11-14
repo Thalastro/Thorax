@@ -18,8 +18,6 @@
               "fallback": "Red Maiden"
             },
             "minecraft:item_model": "thorax:bug/red_maiden",
-            "minecraft:tooltip_style": "thorax:main",
-            "minecraft:rarity": "epic",
             "!minecraft:consumable": {},
             "!minecraft:food": {},
             "minecraft:custom_data": {
@@ -27,16 +25,14 @@
                 "id": "red_maiden",
                 "bug": {
                   "rarity": "epic",
-                  "virtue": "silence",
+                  "virtue": "ambition",
                   "diet": "unknown"
                 }
               }
             }
           }
         },
-        "thorax:tooltip/main",
-        "thorax:tooltip/rarity/epic",
-        "thorax:tooltip/virtue/silence"
+        "thorax:tooltip"
       ]
     }
   ]

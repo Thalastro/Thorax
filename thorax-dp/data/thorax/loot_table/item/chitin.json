@@ -29,7 +29,6 @@
               }
             },
             "minecraft:item_model": "thorax:chitin",
-            "minecraft:tooltip_style": "thorax:main",
             "minecraft:rarity": "common",
             "minecraft:provides_trim_material": "thorax:chitin",
             "minecraft:food": {
@@ -57,7 +56,7 @@
             }
           }
         },
-        "thorax:tooltip/main"
+        "thorax:tooltip"
       ]
     }
   ]

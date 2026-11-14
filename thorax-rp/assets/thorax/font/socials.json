@@ -2,7 +2,7 @@
     "providers": [
         {
             "type": "bitmap",
-            "file": "thorax:gui/socials.png",
+            "file": "thorax:gui/sprites/socials.png",
             "height": 10,
             "ascent": 8,
             "chars": [

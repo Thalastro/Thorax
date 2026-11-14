@@ -29,13 +29,12 @@
               }
             },
             "minecraft:item_model": "thorax:strange_pheromones",
-            "minecraft:tooltip_style": "thorax:main",
             "minecraft:rarity": "common",
             "!minecraft:food": {},
             "!minecraft:consumable": {}
           }
         },
-        "thorax:tooltip/main"
+        "thorax:tooltip"
       ]
     }
   ]

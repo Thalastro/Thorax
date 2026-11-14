@@ -14,30 +14,25 @@
           "type": "minecraft:set_components",
           "components": {
             "minecraft:item_name": {
-              "translate": "item.thorax.cricket",
-              "fallback": "Cricket"
+              "translate": "item.thorax.walker_cicada",
+              "fallback": "Walker Cicada"
             },
-            "minecraft:item_model": "thorax:bug/cricket",
-            "minecraft:tooltip_style": "thorax:main",
-            "minecraft:rarity": "common",
+            "minecraft:item_model": "thorax:bug/walker_cicada",
             "!minecraft:consumable": {},
             "!minecraft:food": {},
             "minecraft:custom_data": {
               "thorax": {
-                "id": "cricket",
+                "id": "walker_cicada",
                 "bug": {
                   "rarity": "common",
-                  "virtue": "chaos",
-                  "diet": "herbivore"
+                  "virtue": "memory",
+                  "diet": "pollinator"
                 }
               }
             }
           }
         },
-        "thorax:tooltip/main",
-        "thorax:tooltip/rarity/common",
-        "thorax:tooltip/virtue/chaos",
-        "thorax:tooltip/diet/herbivore"
+        "thorax:tooltip"
       ]
     }
   ]

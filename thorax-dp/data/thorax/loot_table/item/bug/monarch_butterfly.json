@@ -18,8 +18,6 @@
               "fallback": "Monarch Butterfly"
             },
             "minecraft:item_model": "thorax:bug/monarch_butterfly",
-            "minecraft:tooltip_style": "thorax:main",
-            "minecraft:rarity": "uncommon",
             "!minecraft:consumable": {},
             "!minecraft:food": {},
             "minecraft:custom_data": {
@@ -27,17 +25,14 @@
                 "id": "monarch_butterfly",
                 "bug": {
                   "rarity": "uncommon",
-                  "virtue": "desire",
+                  "virtue": "ambition",
                   "diet": "pollinator"
                 }
               }
             }
           }
         },
-        "thorax:tooltip/main",
-        "thorax:tooltip/rarity/uncommon",
-        "thorax:tooltip/virtue/desire",
-        "thorax:tooltip/diet/pollinator"
+        "thorax:tooltip"
       ]
     }
   ]

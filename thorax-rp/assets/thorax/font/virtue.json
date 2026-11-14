@@ -2,7 +2,7 @@
     "providers": [
         {
             "type": "bitmap",
-            "file": "thorax:gui/virtue.png",
+            "file": "thorax:gui/sprites/virtue.png",
             "height": 9,
             "ascent": 8,
             "chars": [

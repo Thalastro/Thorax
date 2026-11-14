@@ -40,13 +40,12 @@
               }
             },
             "minecraft:item_model": "thorax:scrapbook",
-            "minecraft:tooltip_style": "thorax:main",
             "minecraft:rarity": "common",
             "!minecraft:written_book_content": {},
             "enchantment_glint_override": false
           }
         },
-        "thorax:tooltip/main"
+        "thorax:tooltip"
       ]
     }
   ]

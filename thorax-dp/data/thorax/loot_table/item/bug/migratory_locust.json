@@ -14,19 +14,17 @@
           "type": "minecraft:set_components",
           "components": {
             "minecraft:item_name": {
-              "translate": "item.thorax.cicada",
-              "fallback": "Cicada"
+              "translate": "item.thorax.migratory_locust",
+              "fallback": "Migratory Locust"
             },
-            "minecraft:item_model": "thorax:bug/cicada",
-            "minecraft:tooltip_style": "thorax:main",
-            "minecraft:rarity": "common",
+            "minecraft:item_model": "thorax:bug/migratory_locust",
             "!minecraft:consumable": {},
             "!minecraft:food": {},
             "minecraft:custom_data": {
               "thorax": {
-                "id": "cicada",
+                "id": "migratory_locust",
                 "bug": {
-                  "rarity": "common",
+                  "rarity": "uncommon",
                   "virtue": "chaos",
                   "diet": "herbivore"
                 }
@@ -34,10 +32,7 @@
             }
           }
         },
-        "thorax:tooltip/main",
-        "thorax:tooltip/rarity/common",
-        "thorax:tooltip/virtue/chaos",
-        "thorax:tooltip/diet/herbivore"
+        "thorax:tooltip"
       ]
     }
   ]

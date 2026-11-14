@@ -18,8 +18,6 @@
               "fallback": "Ladybug"
             },
             "minecraft:item_model": "thorax:bug/ladybug",
-            "minecraft:tooltip_style": "thorax:main",
-            "minecraft:rarity": "uncommon",
             "!minecraft:consumable": {},
             "!minecraft:food": {},
             "minecraft:custom_data": {
@@ -34,10 +32,7 @@
             }
           }
         },
-        "thorax:tooltip/main",
-        "thorax:tooltip/rarity/uncommon",
-        "thorax:tooltip/virtue/harmony",
-        "thorax:tooltip/diet/carnivore"
+        "thorax:tooltip"
       ]
     }
   ]

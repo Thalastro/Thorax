@@ -18,8 +18,6 @@
               "fallback": "Luna Moth"
             },
             "minecraft:item_model": "thorax:bug/luna_moth",
-            "minecraft:tooltip_style": "thorax:main",
-            "minecraft:rarity": "uncommon",
             "!minecraft:consumable": {},
             "!minecraft:food": {},
             "minecraft:custom_data": {
@@ -27,17 +25,14 @@
                 "id": "luna_moth",
                 "bug": {
                   "rarity": "uncommon",
-                  "virtue": "chaos",
+                  "virtue": "memory",
                   "diet": "pollinator"
                 }
               }
             }
           }
         },
-        "thorax:tooltip/main",
-        "thorax:tooltip/rarity/uncommon",
-        "thorax:tooltip/virtue/chaos",
-        "thorax:tooltip/diet/pollinator"
+        "thorax:tooltip"
       ]
     }
   ]

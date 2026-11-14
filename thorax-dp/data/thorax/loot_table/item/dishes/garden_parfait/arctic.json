@@ -42,7 +42,7 @@
                     "type": "apply_effects",
                     "effects": [
                         {
-                            "id": "minecraft:slow_falling",
+                            "id": "minecraft:fire_resistance",
                             "duration": 300
                         }
                     ]
@@ -56,7 +56,7 @@
             }
           }
         },
-        "thorax:tooltip/main"
+        "thorax:tooltip"
       ]
     }
   ]

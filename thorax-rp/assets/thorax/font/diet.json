@@ -2,11 +2,11 @@
     "providers": [
         {
             "type": "bitmap",
-            "file": "thorax:gui/diet.png",
+            "file": "thorax:gui/sprites/diet.png",
             "height": 9,
             "ascent": 8,
             "chars": [
-                "ABC"
+                "ABCD"
             ]
         },
 		{
