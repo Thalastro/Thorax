@@ -22,6 +22,9 @@
                 "id": "glazed_gutloaf"
               },
               "cnk": {
+                "ingredient": {
+                  "feasts": true
+                },
                 "placeable": {
                   "model": "thorax:dishes/placeable/glazed_gutloaf"
                 }
