@@ -28,8 +28,10 @@
     "contributor.thorax.toasteddragon.description": "Artysta",
     "contributor.pam_womsacz": "Pam_Womsacz",
     "contributor.thorax.pam_womsacz.description": "Polskie tłumaczenie",
+
     "ui.thorax.credits": "Twórcy",
     "ui.thorax.credits_text": "Dziękuję wszystkim którzy pomagali w tworzeniu %s, To nie byłoby możliwe bez was! ",
+    "ui.thorax.links": "Linki do projektu",
     
     "item.thorax.bug_net": "Siatka na robaki",
     "subtitles.thorax.bug_net.charge": "Siatka na robaki ładuje się",

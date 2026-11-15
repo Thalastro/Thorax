@@ -62,7 +62,12 @@
         { "translate": "ui.thorax.hyphen",
           "with": [ { "translate": "contributor.toasteddragon", "color": "#4aec80", "font": "thorax:5" }, { "translate": "contributor.thorax.toasteddragon.description", "font": "thorax:5" } ],
           "click_event": { "action": "open_url", "url": "https://modrinth.com/user/toasteddragon" },
-          "hover_event": { "action": "show_text", "value": { "text": "ToastedDragon's Modrinth" } } }
+          "hover_event": { "action": "show_text", "value": { "text": "ToastedDragon's Modrinth" } } },
+          "\n", "\n",
+        { "translate": "ui.thorax.hyphen",
+          "with": [ { "translate": "contributor.pam_womsacz", "color": "#ff2323", "font": "thorax:5" }, { "translate": "contributor.thorax.pam_womsacz.description", "font": "thorax:5" } ],
+          "click_event": { "action": "open_url", "url": "https://modrinth.com/user/PanWomsacz" },
+          "hover_event": { "action": "show_text", "value": { "text": "Pam_Womsacz's Modrinth" } } }
       ],
       "width": 250
     },
@@ -71,10 +76,11 @@
       "width": 250,
       "contents": [
         {
-        "text": "Project Links\n\n",
+        "translate": "ui.thorax.links",
         "font": "thorax:5",
         "underlined": true
         },
+        "\n","\n",
         {
           "text": "A ",
           "font": "thorax:socials",

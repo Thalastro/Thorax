@@ -28,8 +28,10 @@
     "contributor.thorax.toasteddragon.description": "Artist",
     "contributor.pam_womsacz": "Pam_Womsacz",
     "contributor.thorax.pam_womsacz.description": "Polish Translation",
+
     "ui.thorax.credits": "Credits",
-    "ui.thorax.credits_text": "Thank you to everyone that contributed to %s, It wouldn't have been possible without you! ",
+    "ui.thorax.credits_text": "Thank you to everyone that contributed to %s, it wouldn't be possible without you! ",
+    "ui.thorax.links": "Project Links",
     
     "item.thorax.bug_net": "Bug Net",
     "subtitles.thorax.bug_net.charge": "Bug Net charges",
