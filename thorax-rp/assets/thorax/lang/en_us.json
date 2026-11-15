@@ -1,6 +1,6 @@
 {
     "ui.thorax.title": "Thorax",
-    "ui.thorax.version": "V1.0.1",
+    "ui.thorax.version": "V1.0.2",
     "ui.thorax.update": "\"Field Trip\"",
 
     "ui.thorax.menu": "Menu",
@@ -26,6 +26,8 @@
     "contributor.thorax.fracturedflux.description": "Artist",
     "contributor.toasteddragon": "ToastedDragon",
     "contributor.thorax.toasteddragon.description": "Artist",
+    "contributor.pam_womsacz": "Pam_Womsacz",
+    "contributor.thorax.pam_womsacz.description": "Polish Translation",
     "ui.thorax.credits": "Credits",
     "ui.thorax.credits_text": "Thank you to everyone that contributed to %s, It wouldn't have been possible without you! ",
     
