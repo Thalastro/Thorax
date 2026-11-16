@@ -23,7 +23,7 @@ A large datapack that adds 20+ insects to your world! Exploration is highly ince
 
 [Thalastro](https://modrinth.com/user/Thalastro) - Lead Developer & Artist
 
-## Contributing Artists
+## Contributors
 
 [ninesnow](https://modrinth.com/user/ninesnow) - Various Textures, Scorpions
 
@@ -32,5 +32,7 @@ A large datapack that adds 20+ insects to your world! Exploration is highly ince
 [FracturedFlux](https://modrinth.com/user/FracturedFlux) - Ladybugs
 
 [ToastedDragon](https://modrinth.com/user/ToastedDragon) - Water Striders
+
+[Pan_Womsacz](https://modrinth.com/user/PanWomsacz) - Polish Translation
 
 Thank you to everyone in my Discord and all my friends who have been following my datapack development! It's been a long road, but we made it! This wouldn't be possible without you!
